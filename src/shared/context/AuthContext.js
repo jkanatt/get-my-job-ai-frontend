@@ -39,6 +39,10 @@ export function AuthProvider({ children }) {
         if (url.includes('/api/jobs')) mockData = MOCKS.MOCK_JOBS;
         else if (url.includes('/api/applications') && url.includes('/tracking')) mockData = MOCKS.MOCK_TRACKING_EVENTS;
         else if (url.includes('/api/applications')) mockData = MOCKS.MOCK_APPLICATIONS;
+        else if (url.includes('/documents')) mockData = MOCKS.MOCK_DOCUMENTS;
+        else if (url.includes('/api/intelligence/fundings')) mockData = MOCKS.MOCK_FUNDINGS;
+        else if (url.includes('/api/intelligence/news')) mockData = MOCKS.MOCK_NEWS;
+        else if (url.includes('/api/portals/credentials')) mockData = MOCKS.MOCK_PORTALS;
         else if (url.includes('/api/emails/counts')) mockData = MOCKS.MOCK_EMAIL_COUNTS;
         else if (url.includes('/api/emails')) mockData = MOCKS.MOCK_EMAILS;
         else if (url.includes('/api/calendar')) mockData = MOCKS.MOCK_CALENDAR;
