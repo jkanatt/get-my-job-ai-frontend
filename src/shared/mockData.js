@@ -22,7 +22,7 @@ export const MOCK_APPLICATIONS = {
     job_id: `job-${i}`,
     job_title: ['Senior Product Manager', 'Frontend Engineer', 'Full Stack Developer', 'Data Scientist', 'UX Designer'][i % 5],
     company: ['Google', 'Meta', 'Amazon', 'Netflix', 'Stripe', 'Vercel', 'OpenAI'][i % 7],
-    status: ['saved', 'applied', 'interviewing', 'offer', 'rejected'][i % 5],
+    status: ['Sent', 'Viewed', 'Responded', 'Interview', 'Rejected', 'Offer'][i % 6],
     applied_date: new Date(Date.now() - (i + 2) * 86400000).toISOString(),
     resume_version: `joshua_resume_v${i % 4 + 1}.pdf`,
     notes: 'Great culture, need to prepare for system design round.',
