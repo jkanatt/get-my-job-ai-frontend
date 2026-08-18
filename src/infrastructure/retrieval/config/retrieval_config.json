@@ -1,0 +1,39 @@
+{
+  "version": "4.0",
+  "scoring": {
+    "default_formula": "bm25",
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "ngram_levels": [1, 2, 3],
+    "min_score_threshold": 0.1
+  },
+  "preprocessing": {
+    "stemmer": "porter",
+    "stopwords": "domain_aware",
+    "acronym_expansion": true,
+    "spelling_correction": "queries_only",
+    "language": "en"
+  },
+  "ranking": {
+    "weight_profile": "auto",
+    "freshness_enabled": true,
+    "freshness_halflife_days": 180,
+    "authority_enabled": true,
+    "rlhf_enabled": true,
+    "domain_boost_factor": 3.0
+  },
+  "retrieval": {
+    "stages": ["tfidf", "multidim", "vector", "llm"],
+    "fallback_chain": true,
+    "max_candidates_per_stage": [20, 10, 5, 4]
+  },
+  "cache": {
+    "enabled": true,
+    "max_entries": 500,
+    "ttl_seconds": 3600
+  },
+  "debug": {
+    "trace_enabled": false,
+    "log_level": "info"
+  }
+}

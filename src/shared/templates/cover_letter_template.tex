@@ -1,0 +1,39 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[left=0.65in,right=0.65in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tgadventor}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+
+\definecolor{headerbg}{HTML}{1A2B4A}
+\definecolor{linkcolor}{HTML}{1A4F8A}
+\definecolor{sectionrule}{HTML}{B0BEC5}
+\definecolor{textdark}{HTML}{1A1A2E}
+\definecolor{textgray}{HTML}{3D3D3D}
+
+\hypersetup{colorlinks=true, urlcolor=linkcolor, pdfborder={0 0 0}}
+
+\pagestyle{empty}
+\setlength{\parskip}{10pt}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% ── HEADER REMOVED PER USER REQUEST ──
+\vspace{8pt}
+
+% ── DATE AND TARGET ──
+{\fontsize{10pt}{12pt}\selectfont\color{textgray}
+\today\\[4pt]
+\textbf{Subject: Application for {{role_title}} at {{company_name}}}
+}
+\vspace{8pt}
+
+% ── BODY ──
+{\fontsize{11pt}{14.5pt}\selectfont\color{textdark}
+\noindent
+{{body}}
+}
+
+\end{document}

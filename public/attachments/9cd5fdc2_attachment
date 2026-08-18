@@ -1,0 +1,49 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1783611126; x=1784215926; darn=javentechnoloiges.com;
+        h=content-type:mime-version:date:message-id:subject:to:from:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=QJFOoo1TI7HmfvFT7Sc2JPBPN09T3B1hz8Cgxm1+gco=;
+        b=rJT+fgz0E7Qb96PIKgYooFJMDO7nm9UlKzIrptBcErdr9usvzWa+z8pMZLBJFu+6K0
+         5qYqKYI68XwGNmAYvXYl+3EaL/hup2FWGQR9KPLWcStdSmg4qPBpUB0cq0ko9iGu6iqO
+         TVoY8vhbeXj5drd+jBbBN0s5FNZE6giOIvgge/Mrq1bGO78mp56jd1rFTdvQOPw3luZu
+         WgHJqkIMpk8oD7C/ZMzAHZ+eIcEbYddu7Vj8q+NOZBPKJ8u9whvpGHIpnUNrG9Ym0agt
+         MF9FwqC7avEtFf9CwMgj754Zcx3R8GRM7CsMS14MLf0kqd1jhVshVqY1L8H9Q7tlpuPY
+         m5+Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1783611126; x=1784215926;
+        h=content-type:mime-version:date:message-id:subject:to:from:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=QJFOoo1TI7HmfvFT7Sc2JPBPN09T3B1hz8Cgxm1+gco=;
+        b=OtBx+5Va8giUYbIKUnTcNCv9qElYbTzP+nO1z1in9YsfSO2nKYlrsu7XVZ6xFMXnim
+         tbMyUWP8dU3uL4EsnusmdJuls2AAQR1XroGtUHseGt88Bhps7VvR++lUgkwND5y8ONMf
+         pKCcUAHJrn6Wv9gaQtBHoeUJOkOII1UmIb/eST3sDL9vhSViuJ0tk3czxx9zT6OKnizy
+         n9MgZfPWIpetcHdrTXDpYLMr0ayQCt6NAPzne5dQj3UhSZoEVhInzpneYizdqZwSR2AK
+         M0keM5YK583PNKFtcP6WRakUGFFPD22XYY26oWrl822KG/syMMWBvJ8AWYAxxPKGTgQw
+         Hbxw==
+X-Gm-Message-State: AOJu0Ywev5iqoHbdJ1HdD31hRUUJrO+bG6SfZZ+ePNyjajYp3X0K+rGT
+	pwgE1w9Ov5q802X08f8fjiOU/9ne6ZU3iqHkRRkHob6vrbTLLuFpCm+UGPFeZw==
+X-Gm-Gg: AfdE7cno9pBN+g9nzxrohz+QXcgKPmmbNPeBbtEl0iphJXY5RuciwisBGUOSK7Fn0MT
+	ETSmkmq9aEbxCZGFYes1slzV41WRXY2lGU3PJqBMWW0KJsb0Pfe4RYUB4wBBQYDxaHAjPiHiRR7
+	G1/GLJJ/bNqa9U49yDEAC2nDiJp9qUHL2SMKRKOhhuLdlJEmEQIXrYPxk6gJfRGfaEaL8FREv/A
+	sBxJrVufuOiVvpntG8fZdA8LBRFKVeKetLt2PqhyEWHdukC1Q+GXV52Kr4BP+MGvIAuKM08XjlZ
+	IH/Iwso/GdVrFz0INhDmVkOFUe22/3v9j7mxLCeUBrcJr8gm/CV251bEAqt01zvy7k3AZi8VXUi
+	1ynpmmWwPyYnVIv/z2P727DwoGrtS4w6QPmmWrmRWqOXxEpgg/GFY7RIN55ZwvoYIKw5xU3o9Qe
+	ewLkyYgHGPyBdFFXbLE8y0A9Y+rna3VolVKaGqsjIU06W9xPNwRDiD
+X-Received: by 2002:a17:903:41cc:b0:2c0:b5c1:8e22 with SMTP id d9443c01a7336-2ccea3738a6mr84340215ad.12.1783611125470;
+        Thu, 09 Jul 2026 08:32:05 -0700 (PDT)
+Return-Path: <joshuakanatt201@gmail.com>
+Received: from apples-MacBook-Pro.local ([49.207.196.181])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-2ccc9bfb7aesm46413225ad.29.2026.07.09.08.32.03
+        for <rajeev@javentechnoloiges.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 09 Jul 2026 08:32:04 -0700 (PDT)
+From: Joshua <joshuakanatt201@gmail.com>
+To: rajeev@javentechnoloiges.com
+Subject: Applying for IT Product Manager (Fully Remote) | Ex Founder & CPO
+ | Top Product Builder in India | Immediate Joiner
+Message-ID: <6f9cbb4f-e438-77a4-dd37-7ed0a439d8c3@gmail.com>
+Date: Thu, 09 Jul 2026 15:32:02 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="--_NmP-fd680e1e8aef6016-Part_1"
+
