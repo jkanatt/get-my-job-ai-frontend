@@ -1,5 +1,5 @@
 
-export const MOCK_JOBS = [
+export const MOCK_JOBS = { jobs: [
   {
     "id": "job-0",
     "title": "Machine Learning Engineer",
@@ -750,7 +750,7 @@ export const MOCK_JOBS = [
       "Figma"
     ]
   }
-];
+], total: 50, hasMore: false };
 export const MOCK_APPLICATIONS = { applications: [
   {
     "id": "app-0",
@@ -763,6 +763,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-29T07:28:22.969Z",
     "ats_score": 73,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":72,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_1.pdf\",\"coverLetter\":\"output/CoverLetter_Company_1.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.66,\"readability_score\":84,\"formatting_score\":91,\"recruiter_readiness_score\":88,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":72,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":83,\"formatting_score\":94,\"action_verb_score\":62}}",
     "metrics": {
       "improvement": 9
     },
@@ -787,6 +788,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-28T07:28:22.970Z",
     "ats_score": 71,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":56,\"modifiedScore\":66,\"pdfUrl\":\"output/Resume_Company_2.pdf\",\"coverLetter\":\"output/CoverLetter_Company_2.pdf\",\"tailorData\":{\"ats_score\":66,\"validation\":{\"keyword_coverage\":0.77,\"readability_score\":84,\"formatting_score\":88,\"recruiter_readiness_score\":81,\"action_verb_score\":84},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":56,\"keyword_coverage\":0.58,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":81,\"formatting_score\":93,\"action_verb_score\":68}}",
     "metrics": {
       "improvement": 10
     },
@@ -811,6 +813,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-05T07:28:22.970Z",
     "ats_score": 98,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":48,\"modifiedScore\":55,\"pdfUrl\":\"output/Resume_Company_3.pdf\",\"coverLetter\":\"output/CoverLetter_Company_3.pdf\",\"tailorData\":{\"ats_score\":55,\"validation\":{\"keyword_coverage\":0.75,\"readability_score\":79,\"formatting_score\":91,\"recruiter_readiness_score\":87,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":48,\"keyword_coverage\":0.54,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":79,\"formatting_score\":80,\"action_verb_score\":75}}",
     "metrics": {
       "improvement": 7
     },
@@ -835,6 +838,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-14T07:28:22.970Z",
     "ats_score": 79,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":66,\"modifiedScore\":90,\"pdfUrl\":\"output/Resume_Company_4.pdf\",\"coverLetter\":\"output/CoverLetter_Company_4.pdf\",\"tailorData\":{\"ats_score\":90,\"validation\":{\"keyword_coverage\":0.87,\"readability_score\":90,\"formatting_score\":85,\"recruiter_readiness_score\":71,\"action_verb_score\":68},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":66,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":86,\"formatting_score\":86,\"action_verb_score\":73}}",
     "metrics": {
       "improvement": 24
     },
@@ -859,6 +863,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-06T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":58,\"modifiedScore\":79,\"pdfUrl\":\"output/Resume_Company_5.pdf\",\"coverLetter\":\"output/CoverLetter_Company_5.pdf\",\"tailorData\":{\"ats_score\":79,\"validation\":{\"keyword_coverage\":0.73,\"readability_score\":75,\"formatting_score\":81,\"recruiter_readiness_score\":83,\"action_verb_score\":71},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":58,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":82,\"formatting_score\":95,\"action_verb_score\":80}}",
     "metrics": {
       "improvement": 21
     },
@@ -883,6 +888,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-12T07:28:22.970Z",
     "ats_score": 62,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":67,\"modifiedScore\":89,\"pdfUrl\":\"output/Resume_Company_6.pdf\",\"coverLetter\":\"output/CoverLetter_Company_6.pdf\",\"tailorData\":{\"ats_score\":89,\"validation\":{\"keyword_coverage\":0.82,\"readability_score\":81,\"formatting_score\":86,\"recruiter_readiness_score\":76,\"action_verb_score\":88},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":67,\"keyword_coverage\":0.61,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":81,\"formatting_score\":92,\"action_verb_score\":81}}",
     "metrics": {
       "improvement": 22
     },
@@ -907,6 +913,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-04T07:28:22.970Z",
     "ats_score": 90,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":50,\"modifiedScore\":70,\"pdfUrl\":\"output/Resume_Company_7.pdf\",\"coverLetter\":\"output/CoverLetter_Company_7.pdf\",\"tailorData\":{\"ats_score\":70,\"validation\":{\"keyword_coverage\":0.91,\"readability_score\":77,\"formatting_score\":83,\"recruiter_readiness_score\":92,\"action_verb_score\":76},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":50,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":82,\"formatting_score\":75,\"action_verb_score\":76}}",
     "metrics": {
       "improvement": 20
     },
@@ -931,6 +938,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-04T07:28:22.970Z",
     "ats_score": 83,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":64,\"modifiedScore\":69,\"pdfUrl\":\"output/Resume_Company_8.pdf\",\"coverLetter\":\"output/CoverLetter_Company_8.pdf\",\"tailorData\":{\"ats_score\":69,\"validation\":{\"keyword_coverage\":0.94,\"readability_score\":82,\"formatting_score\":87,\"recruiter_readiness_score\":72,\"action_verb_score\":74},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":64,\"keyword_coverage\":0.6,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":74,\"formatting_score\":86,\"action_verb_score\":80}}",
     "metrics": {
       "improvement": 5
     },
@@ -955,6 +963,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-05T07:28:22.970Z",
     "ats_score": 86,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":80,\"pdfUrl\":\"output/Resume_Company_9.pdf\",\"coverLetter\":\"output/CoverLetter_Company_9.pdf\",\"tailorData\":{\"ats_score\":80,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":84,\"formatting_score\":84,\"recruiter_readiness_score\":83,\"action_verb_score\":93},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.63,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":82,\"formatting_score\":89,\"action_verb_score\":68}}",
     "metrics": {
       "improvement": 12
     },
@@ -979,6 +988,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-13T07:28:22.970Z",
     "ats_score": 87,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":62,\"modifiedScore\":86,\"pdfUrl\":\"output/Resume_Company_10.pdf\",\"coverLetter\":\"output/CoverLetter_Company_10.pdf\",\"tailorData\":{\"ats_score\":86,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":78,\"formatting_score\":84,\"recruiter_readiness_score\":78,\"action_verb_score\":88},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":62,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":81,\"formatting_score\":86,\"action_verb_score\":87}}",
     "metrics": {
       "improvement": 24
     },
@@ -1003,6 +1013,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-23T07:28:22.970Z",
     "ats_score": 66,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":65,\"modifiedScore\":86,\"pdfUrl\":\"output/Resume_Company_11.pdf\",\"coverLetter\":\"output/CoverLetter_Company_11.pdf\",\"tailorData\":{\"ats_score\":86,\"validation\":{\"keyword_coverage\":0.77,\"readability_score\":94,\"formatting_score\":89,\"recruiter_readiness_score\":80,\"action_verb_score\":72},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":65,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":90,\"formatting_score\":78,\"action_verb_score\":71}}",
     "metrics": {
       "improvement": 21
     },
@@ -1027,6 +1038,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-06T07:28:22.970Z",
     "ats_score": 62,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":71,\"modifiedScore\":83,\"pdfUrl\":\"output/Resume_Company_12.pdf\",\"coverLetter\":\"output/CoverLetter_Company_12.pdf\",\"tailorData\":{\"ats_score\":83,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":88,\"formatting_score\":86,\"recruiter_readiness_score\":82,\"action_verb_score\":90},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":71,\"keyword_coverage\":0.59,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":85,\"formatting_score\":91,\"action_verb_score\":86}}",
     "metrics": {
       "improvement": 12
     },
@@ -1051,6 +1063,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-03T07:28:22.970Z",
     "ats_score": 81,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":46,\"modifiedScore\":57,\"pdfUrl\":\"output/Resume_Company_13.pdf\",\"coverLetter\":\"output/CoverLetter_Company_13.pdf\",\"tailorData\":{\"ats_score\":57,\"validation\":{\"keyword_coverage\":0.67,\"readability_score\":76,\"formatting_score\":91,\"recruiter_readiness_score\":92,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":46,\"keyword_coverage\":0.67,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":70,\"formatting_score\":85,\"action_verb_score\":75}}",
     "metrics": {
       "improvement": 11
     },
@@ -1075,6 +1088,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-12T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":61,\"modifiedScore\":78,\"pdfUrl\":\"output/Resume_Company_14.pdf\",\"coverLetter\":\"output/CoverLetter_Company_14.pdf\",\"tailorData\":{\"ats_score\":78,\"validation\":{\"keyword_coverage\":0.92,\"readability_score\":81,\"formatting_score\":94,\"recruiter_readiness_score\":92,\"action_verb_score\":69},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":61,\"keyword_coverage\":0.53,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":79,\"formatting_score\":90,\"action_verb_score\":87}}",
     "metrics": {
       "improvement": 17
     },
@@ -1099,6 +1113,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-15T07:28:22.970Z",
     "ats_score": 61,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":51,\"modifiedScore\":75,\"pdfUrl\":\"output/Resume_Company_15.pdf\",\"coverLetter\":\"output/CoverLetter_Company_15.pdf\",\"tailorData\":{\"ats_score\":75,\"validation\":{\"keyword_coverage\":0.88,\"readability_score\":82,\"formatting_score\":85,\"recruiter_readiness_score\":93,\"action_verb_score\":76},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":51,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":88,\"formatting_score\":79,\"action_verb_score\":75}}",
     "metrics": {
       "improvement": 24
     },
@@ -1123,6 +1138,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-17T07:28:22.970Z",
     "ats_score": 70,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":59,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_16.pdf\",\"coverLetter\":\"output/CoverLetter_Company_16.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.74,\"readability_score\":94,\"formatting_score\":83,\"recruiter_readiness_score\":76,\"action_verb_score\":74},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":59,\"keyword_coverage\":0.56,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":74,\"formatting_score\":82,\"action_verb_score\":88}}",
     "metrics": {
       "improvement": 22
     },
@@ -1147,6 +1163,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-31T07:28:22.970Z",
     "ats_score": 73,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":65,\"modifiedScore\":73,\"pdfUrl\":\"output/Resume_Company_17.pdf\",\"coverLetter\":\"output/CoverLetter_Company_17.pdf\",\"tailorData\":{\"ats_score\":73,\"validation\":{\"keyword_coverage\":0.65,\"readability_score\":76,\"formatting_score\":88,\"recruiter_readiness_score\":90,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":65,\"keyword_coverage\":0.64,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":74,\"formatting_score\":88,\"action_verb_score\":81}}",
     "metrics": {
       "improvement": 8
     },
@@ -1171,6 +1188,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-27T07:28:22.970Z",
     "ats_score": 78,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":82,\"pdfUrl\":\"output/Resume_Company_18.pdf\",\"coverLetter\":\"output/CoverLetter_Company_18.pdf\",\"tailorData\":{\"ats_score\":82,\"validation\":{\"keyword_coverage\":0.65,\"readability_score\":79,\"formatting_score\":84,\"recruiter_readiness_score\":95,\"action_verb_score\":93},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.65,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":89,\"formatting_score\":94,\"action_verb_score\":60}}",
     "metrics": {
       "improvement": 14
     },
@@ -1195,6 +1213,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-21T07:28:22.970Z",
     "ats_score": 71,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":55,\"modifiedScore\":79,\"pdfUrl\":\"output/Resume_Company_19.pdf\",\"coverLetter\":\"output/CoverLetter_Company_19.pdf\",\"tailorData\":{\"ats_score\":79,\"validation\":{\"keyword_coverage\":0.81,\"readability_score\":79,\"formatting_score\":84,\"recruiter_readiness_score\":71,\"action_verb_score\":78},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":55,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":77,\"formatting_score\":85,\"action_verb_score\":72}}",
     "metrics": {
       "improvement": 24
     },
@@ -1219,6 +1238,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-15T07:28:22.970Z",
     "ats_score": 98,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":58,\"modifiedScore\":69,\"pdfUrl\":\"output/Resume_Company_20.pdf\",\"coverLetter\":\"output/CoverLetter_Company_20.pdf\",\"tailorData\":{\"ats_score\":69,\"validation\":{\"keyword_coverage\":0.81,\"readability_score\":76,\"formatting_score\":96,\"recruiter_readiness_score\":83,\"action_verb_score\":74},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":58,\"keyword_coverage\":0.55,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":87,\"formatting_score\":90,\"action_verb_score\":81}}",
     "metrics": {
       "improvement": 11
     },
@@ -1243,6 +1263,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-22T07:28:22.970Z",
     "ats_score": 91,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":56,\"modifiedScore\":78,\"pdfUrl\":\"output/Resume_Company_21.pdf\",\"coverLetter\":\"output/CoverLetter_Company_21.pdf\",\"tailorData\":{\"ats_score\":78,\"validation\":{\"keyword_coverage\":0.76,\"readability_score\":85,\"formatting_score\":94,\"recruiter_readiness_score\":72,\"action_verb_score\":75},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":56,\"keyword_coverage\":0.69,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":73,\"formatting_score\":91,\"action_verb_score\":75}}",
     "metrics": {
       "improvement": 22
     },
@@ -1267,6 +1288,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-22T07:28:22.970Z",
     "ats_score": 61,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":47,\"modifiedScore\":59,\"pdfUrl\":\"output/Resume_Company_22.pdf\",\"coverLetter\":\"output/CoverLetter_Company_22.pdf\",\"tailorData\":{\"ats_score\":59,\"validation\":{\"keyword_coverage\":0.79,\"readability_score\":86,\"formatting_score\":81,\"recruiter_readiness_score\":73,\"action_verb_score\":83},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":47,\"keyword_coverage\":0.64,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":84,\"formatting_score\":75,\"action_verb_score\":78}}",
     "metrics": {
       "improvement": 12
     },
@@ -1291,6 +1313,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-10T07:28:22.970Z",
     "ats_score": 66,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":48,\"modifiedScore\":73,\"pdfUrl\":\"output/Resume_Company_23.pdf\",\"coverLetter\":\"output/CoverLetter_Company_23.pdf\",\"tailorData\":{\"ats_score\":73,\"validation\":{\"keyword_coverage\":0.79,\"readability_score\":86,\"formatting_score\":93,\"recruiter_readiness_score\":80,\"action_verb_score\":65},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":48,\"keyword_coverage\":0.59,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":84,\"formatting_score\":86,\"action_verb_score\":84}}",
     "metrics": {
       "improvement": 25
     },
@@ -1315,6 +1338,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-14T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":60,\"modifiedScore\":66,\"pdfUrl\":\"output/Resume_Company_24.pdf\",\"coverLetter\":\"output/CoverLetter_Company_24.pdf\",\"tailorData\":{\"ats_score\":66,\"validation\":{\"keyword_coverage\":0.68,\"readability_score\":80,\"formatting_score\":81,\"recruiter_readiness_score\":82,\"action_verb_score\":92},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":60,\"keyword_coverage\":0.66,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":89,\"formatting_score\":95,\"action_verb_score\":69}}",
     "metrics": {
       "improvement": 6
     },
@@ -1339,6 +1363,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-26T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":59,\"modifiedScore\":69,\"pdfUrl\":\"output/Resume_Company_25.pdf\",\"coverLetter\":\"output/CoverLetter_Company_25.pdf\",\"tailorData\":{\"ats_score\":69,\"validation\":{\"keyword_coverage\":0.87,\"readability_score\":80,\"formatting_score\":96,\"recruiter_readiness_score\":76,\"action_verb_score\":87},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":59,\"keyword_coverage\":0.6,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":84,\"formatting_score\":83,\"action_verb_score\":73}}",
     "metrics": {
       "improvement": 10
     },
@@ -1363,6 +1388,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-13T07:28:22.970Z",
     "ats_score": 63,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":58,\"modifiedScore\":79,\"pdfUrl\":\"output/Resume_Company_26.pdf\",\"coverLetter\":\"output/CoverLetter_Company_26.pdf\",\"tailorData\":{\"ats_score\":79,\"validation\":{\"keyword_coverage\":0.68,\"readability_score\":92,\"formatting_score\":92,\"recruiter_readiness_score\":95,\"action_verb_score\":78},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":58,\"keyword_coverage\":0.65,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":87,\"formatting_score\":83,\"action_verb_score\":62}}",
     "metrics": {
       "improvement": 21
     },
@@ -1387,6 +1413,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-05T07:28:22.970Z",
     "ats_score": 94,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":65,\"modifiedScore\":88,\"pdfUrl\":\"output/Resume_Company_27.pdf\",\"coverLetter\":\"output/CoverLetter_Company_27.pdf\",\"tailorData\":{\"ats_score\":88,\"validation\":{\"keyword_coverage\":0.74,\"readability_score\":94,\"formatting_score\":89,\"recruiter_readiness_score\":74,\"action_verb_score\":73},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":65,\"keyword_coverage\":0.6,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":79,\"formatting_score\":86,\"action_verb_score\":73}}",
     "metrics": {
       "improvement": 23
     },
@@ -1411,6 +1438,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-04T07:28:22.970Z",
     "ats_score": 95,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":66,\"modifiedScore\":74,\"pdfUrl\":\"output/Resume_Company_28.pdf\",\"coverLetter\":\"output/CoverLetter_Company_28.pdf\",\"tailorData\":{\"ats_score\":74,\"validation\":{\"keyword_coverage\":0.69,\"readability_score\":78,\"formatting_score\":97,\"recruiter_readiness_score\":90,\"action_verb_score\":93},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":66,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":75,\"formatting_score\":93,\"action_verb_score\":81}}",
     "metrics": {
       "improvement": 8
     },
@@ -1435,6 +1463,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-22T07:28:22.970Z",
     "ats_score": 65,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":63,\"modifiedScore\":85,\"pdfUrl\":\"output/Resume_Company_29.pdf\",\"coverLetter\":\"output/CoverLetter_Company_29.pdf\",\"tailorData\":{\"ats_score\":85,\"validation\":{\"keyword_coverage\":0.66,\"readability_score\":89,\"formatting_score\":88,\"recruiter_readiness_score\":73,\"action_verb_score\":71},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":63,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":87,\"formatting_score\":95,\"action_verb_score\":88}}",
     "metrics": {
       "improvement": 22
     },
@@ -1459,6 +1488,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-23T07:28:22.970Z",
     "ats_score": 88,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":58,\"modifiedScore\":66,\"pdfUrl\":\"output/Resume_Company_30.pdf\",\"coverLetter\":\"output/CoverLetter_Company_30.pdf\",\"tailorData\":{\"ats_score\":66,\"validation\":{\"keyword_coverage\":0.87,\"readability_score\":92,\"formatting_score\":82,\"recruiter_readiness_score\":89,\"action_verb_score\":80},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":58,\"keyword_coverage\":0.69,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":83,\"formatting_score\":77,\"action_verb_score\":78}}",
     "metrics": {
       "improvement": 8
     },
@@ -1483,6 +1513,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-10T07:28:22.970Z",
     "ats_score": 62,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":45,\"modifiedScore\":57,\"pdfUrl\":\"output/Resume_Company_31.pdf\",\"coverLetter\":\"output/CoverLetter_Company_31.pdf\",\"tailorData\":{\"ats_score\":57,\"validation\":{\"keyword_coverage\":0.71,\"readability_score\":87,\"formatting_score\":80,\"recruiter_readiness_score\":72,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":45,\"keyword_coverage\":0.59,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":90,\"formatting_score\":77,\"action_verb_score\":61}}",
     "metrics": {
       "improvement": 12
     },
@@ -1507,6 +1538,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-14T07:28:22.970Z",
     "ats_score": 69,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":57,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_32.pdf\",\"coverLetter\":\"output/CoverLetter_Company_32.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.86,\"readability_score\":83,\"formatting_score\":87,\"recruiter_readiness_score\":78,\"action_verb_score\":75},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":57,\"keyword_coverage\":0.58,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":90,\"formatting_score\":89,\"action_verb_score\":89}}",
     "metrics": {
       "improvement": 24
     },
@@ -1531,6 +1563,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-02T07:28:22.970Z",
     "ats_score": 79,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":71,\"modifiedScore\":92,\"pdfUrl\":\"output/Resume_Company_33.pdf\",\"coverLetter\":\"output/CoverLetter_Company_33.pdf\",\"tailorData\":{\"ats_score\":92,\"validation\":{\"keyword_coverage\":0.74,\"readability_score\":81,\"formatting_score\":89,\"recruiter_readiness_score\":94,\"action_verb_score\":84},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":71,\"keyword_coverage\":0.58,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":78,\"formatting_score\":89,\"action_verb_score\":60}}",
     "metrics": {
       "improvement": 21
     },
@@ -1555,6 +1588,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-06T07:28:22.970Z",
     "ats_score": 89,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":55,\"modifiedScore\":80,\"pdfUrl\":\"output/Resume_Company_34.pdf\",\"coverLetter\":\"output/CoverLetter_Company_34.pdf\",\"tailorData\":{\"ats_score\":80,\"validation\":{\"keyword_coverage\":0.83,\"readability_score\":77,\"formatting_score\":85,\"recruiter_readiness_score\":92,\"action_verb_score\":70},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":55,\"keyword_coverage\":0.54,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":83,\"formatting_score\":95,\"action_verb_score\":60}}",
     "metrics": {
       "improvement": 25
     },
@@ -1579,6 +1613,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-24T07:28:22.970Z",
     "ats_score": 67,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":55,\"modifiedScore\":80,\"pdfUrl\":\"output/Resume_Company_35.pdf\",\"coverLetter\":\"output/CoverLetter_Company_35.pdf\",\"tailorData\":{\"ats_score\":80,\"validation\":{\"keyword_coverage\":0.95,\"readability_score\":91,\"formatting_score\":92,\"recruiter_readiness_score\":75,\"action_verb_score\":67},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":55,\"keyword_coverage\":0.61,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":73,\"formatting_score\":93,\"action_verb_score\":64}}",
     "metrics": {
       "improvement": 25
     },
@@ -1603,6 +1638,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-03T07:28:22.970Z",
     "ats_score": 72,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":53,\"modifiedScore\":75,\"pdfUrl\":\"output/Resume_Company_36.pdf\",\"coverLetter\":\"output/CoverLetter_Company_36.pdf\",\"tailorData\":{\"ats_score\":75,\"validation\":{\"keyword_coverage\":0.7,\"readability_score\":88,\"formatting_score\":96,\"recruiter_readiness_score\":74,\"action_verb_score\":88},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":53,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":81,\"formatting_score\":95,\"action_verb_score\":60}}",
     "metrics": {
       "improvement": 22
     },
@@ -1627,6 +1663,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-07T07:28:22.970Z",
     "ats_score": 68,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":53,\"modifiedScore\":75,\"pdfUrl\":\"output/Resume_Company_37.pdf\",\"coverLetter\":\"output/CoverLetter_Company_37.pdf\",\"tailorData\":{\"ats_score\":75,\"validation\":{\"keyword_coverage\":0.86,\"readability_score\":75,\"formatting_score\":95,\"recruiter_readiness_score\":82,\"action_verb_score\":94},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":53,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":82,\"formatting_score\":76,\"action_verb_score\":88}}",
     "metrics": {
       "improvement": 22
     },
@@ -1651,6 +1688,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-21T07:28:22.970Z",
     "ats_score": 99,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":72,\"modifiedScore\":93,\"pdfUrl\":\"output/Resume_Company_38.pdf\",\"coverLetter\":\"output/CoverLetter_Company_38.pdf\",\"tailorData\":{\"ats_score\":93,\"validation\":{\"keyword_coverage\":0.71,\"readability_score\":88,\"formatting_score\":83,\"recruiter_readiness_score\":81,\"action_verb_score\":76},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":72,\"keyword_coverage\":0.69,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":75,\"formatting_score\":89,\"action_verb_score\":72}}",
     "metrics": {
       "improvement": 21
     },
@@ -1675,6 +1713,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-13T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":71,\"modifiedScore\":82,\"pdfUrl\":\"output/Resume_Company_39.pdf\",\"coverLetter\":\"output/CoverLetter_Company_39.pdf\",\"tailorData\":{\"ats_score\":82,\"validation\":{\"keyword_coverage\":0.86,\"readability_score\":77,\"formatting_score\":94,\"recruiter_readiness_score\":93,\"action_verb_score\":82},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":71,\"keyword_coverage\":0.56,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":90,\"formatting_score\":79,\"action_verb_score\":79}}",
     "metrics": {
       "improvement": 11
     },
@@ -1699,6 +1738,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-08T07:28:22.970Z",
     "ats_score": 65,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":56,\"modifiedScore\":63,\"pdfUrl\":\"output/Resume_Company_40.pdf\",\"coverLetter\":\"output/CoverLetter_Company_40.pdf\",\"tailorData\":{\"ats_score\":63,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":78,\"formatting_score\":93,\"recruiter_readiness_score\":75,\"action_verb_score\":78},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":56,\"keyword_coverage\":0.59,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":79,\"formatting_score\":82,\"action_verb_score\":83}}",
     "metrics": {
       "improvement": 7
     },
@@ -1723,6 +1763,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-28T07:28:22.970Z",
     "ats_score": 63,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":53,\"modifiedScore\":67,\"pdfUrl\":\"output/Resume_Company_41.pdf\",\"coverLetter\":\"output/CoverLetter_Company_41.pdf\",\"tailorData\":{\"ats_score\":67,\"validation\":{\"keyword_coverage\":0.86,\"readability_score\":93,\"formatting_score\":88,\"recruiter_readiness_score\":70,\"action_verb_score\":87},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":53,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":83,\"formatting_score\":81,\"action_verb_score\":60}}",
     "metrics": {
       "improvement": 14
     },
@@ -1747,6 +1788,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-23T07:28:22.970Z",
     "ats_score": 95,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":50,\"modifiedScore\":72,\"pdfUrl\":\"output/Resume_Company_42.pdf\",\"coverLetter\":\"output/CoverLetter_Company_42.pdf\",\"tailorData\":{\"ats_score\":72,\"validation\":{\"keyword_coverage\":0.67,\"readability_score\":94,\"formatting_score\":85,\"recruiter_readiness_score\":71,\"action_verb_score\":85},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":50,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":81,\"formatting_score\":78,\"action_verb_score\":87}}",
     "metrics": {
       "improvement": 22
     },
@@ -1771,6 +1813,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-09T07:28:22.970Z",
     "ats_score": 76,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":63,\"modifiedScore\":82,\"pdfUrl\":\"output/Resume_Company_43.pdf\",\"coverLetter\":\"output/CoverLetter_Company_43.pdf\",\"tailorData\":{\"ats_score\":82,\"validation\":{\"keyword_coverage\":0.94,\"readability_score\":77,\"formatting_score\":85,\"recruiter_readiness_score\":90,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":63,\"keyword_coverage\":0.63,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":71,\"formatting_score\":81,\"action_verb_score\":66}}",
     "metrics": {
       "improvement": 19
     },
@@ -1795,6 +1838,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-09T07:28:22.970Z",
     "ats_score": 78,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":58,\"modifiedScore\":76,\"pdfUrl\":\"output/Resume_Company_44.pdf\",\"coverLetter\":\"output/CoverLetter_Company_44.pdf\",\"tailorData\":{\"ats_score\":76,\"validation\":{\"keyword_coverage\":0.82,\"readability_score\":94,\"formatting_score\":95,\"recruiter_readiness_score\":71,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":58,\"keyword_coverage\":0.67,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":78,\"formatting_score\":95,\"action_verb_score\":78}}",
     "metrics": {
       "improvement": 18
     },
@@ -1819,6 +1863,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-19T07:28:22.970Z",
     "ats_score": 78,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":45,\"modifiedScore\":64,\"pdfUrl\":\"output/Resume_Company_45.pdf\",\"coverLetter\":\"output/CoverLetter_Company_45.pdf\",\"tailorData\":{\"ats_score\":64,\"validation\":{\"keyword_coverage\":0.85,\"readability_score\":89,\"formatting_score\":84,\"recruiter_readiness_score\":72,\"action_verb_score\":91},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":45,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":77,\"formatting_score\":77,\"action_verb_score\":61}}",
     "metrics": {
       "improvement": 19
     },
@@ -1843,6 +1888,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-30T07:28:22.970Z",
     "ats_score": 63,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":57,\"modifiedScore\":82,\"pdfUrl\":\"output/Resume_Company_46.pdf\",\"coverLetter\":\"output/CoverLetter_Company_46.pdf\",\"tailorData\":{\"ats_score\":82,\"validation\":{\"keyword_coverage\":0.9,\"readability_score\":90,\"formatting_score\":95,\"recruiter_readiness_score\":82,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":57,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":71,\"formatting_score\":93,\"action_verb_score\":70}}",
     "metrics": {
       "improvement": 25
     },
@@ -1867,6 +1913,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-17T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":72,\"modifiedScore\":77,\"pdfUrl\":\"output/Resume_Company_47.pdf\",\"coverLetter\":\"output/CoverLetter_Company_47.pdf\",\"tailorData\":{\"ats_score\":77,\"validation\":{\"keyword_coverage\":0.69,\"readability_score\":78,\"formatting_score\":90,\"recruiter_readiness_score\":84,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":72,\"keyword_coverage\":0.58,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":72,\"formatting_score\":88,\"action_verb_score\":67}}",
     "metrics": {
       "improvement": 5
     },
@@ -1891,6 +1938,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-22T07:28:22.970Z",
     "ats_score": 63,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":61,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_48.pdf\",\"coverLetter\":\"output/CoverLetter_Company_48.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.95,\"readability_score\":94,\"formatting_score\":89,\"recruiter_readiness_score\":71,\"action_verb_score\":89},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":61,\"keyword_coverage\":0.53,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":82,\"formatting_score\":87,\"action_verb_score\":83}}",
     "metrics": {
       "improvement": 20
     },
@@ -1915,6 +1963,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-28T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":45,\"modifiedScore\":67,\"pdfUrl\":\"output/Resume_Company_49.pdf\",\"coverLetter\":\"output/CoverLetter_Company_49.pdf\",\"tailorData\":{\"ats_score\":67,\"validation\":{\"keyword_coverage\":0.71,\"readability_score\":82,\"formatting_score\":89,\"recruiter_readiness_score\":83,\"action_verb_score\":66},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":45,\"keyword_coverage\":0.62,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":83,\"formatting_score\":83,\"action_verb_score\":79}}",
     "metrics": {
       "improvement": 22
     },
@@ -1939,6 +1988,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-09T07:28:22.970Z",
     "ats_score": 95,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":59,\"modifiedScore\":67,\"pdfUrl\":\"output/Resume_Company_50.pdf\",\"coverLetter\":\"output/CoverLetter_Company_50.pdf\",\"tailorData\":{\"ats_score\":67,\"validation\":{\"keyword_coverage\":0.74,\"readability_score\":90,\"formatting_score\":98,\"recruiter_readiness_score\":89,\"action_verb_score\":76},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":59,\"keyword_coverage\":0.7,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":73,\"formatting_score\":88,\"action_verb_score\":66}}",
     "metrics": {
       "improvement": 8
     },
@@ -1963,6 +2013,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-15T07:28:22.970Z",
     "ats_score": 84,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":63,\"modifiedScore\":68,\"pdfUrl\":\"output/Resume_Company_51.pdf\",\"coverLetter\":\"output/CoverLetter_Company_51.pdf\",\"tailorData\":{\"ats_score\":68,\"validation\":{\"keyword_coverage\":0.88,\"readability_score\":80,\"formatting_score\":86,\"recruiter_readiness_score\":83,\"action_verb_score\":78},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":63,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":86,\"formatting_score\":88,\"action_verb_score\":72}}",
     "metrics": {
       "improvement": 5
     },
@@ -1987,6 +2038,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-24T07:28:22.970Z",
     "ats_score": 70,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":65,\"modifiedScore\":79,\"pdfUrl\":\"output/Resume_Company_52.pdf\",\"coverLetter\":\"output/CoverLetter_Company_52.pdf\",\"tailorData\":{\"ats_score\":79,\"validation\":{\"keyword_coverage\":0.79,\"readability_score\":81,\"formatting_score\":91,\"recruiter_readiness_score\":93,\"action_verb_score\":79},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":65,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":87,\"formatting_score\":83,\"action_verb_score\":87}}",
     "metrics": {
       "improvement": 14
     },
@@ -2011,6 +2063,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-31T07:28:22.970Z",
     "ats_score": 76,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":53,\"modifiedScore\":59,\"pdfUrl\":\"output/Resume_Company_53.pdf\",\"coverLetter\":\"output/CoverLetter_Company_53.pdf\",\"tailorData\":{\"ats_score\":59,\"validation\":{\"keyword_coverage\":0.88,\"readability_score\":87,\"formatting_score\":91,\"recruiter_readiness_score\":91,\"action_verb_score\":85},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":53,\"keyword_coverage\":0.54,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":70,\"formatting_score\":76,\"action_verb_score\":89}}",
     "metrics": {
       "improvement": 6
     },
@@ -2035,6 +2088,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-19T07:28:22.970Z",
     "ats_score": 81,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":69,\"modifiedScore\":87,\"pdfUrl\":\"output/Resume_Company_54.pdf\",\"coverLetter\":\"output/CoverLetter_Company_54.pdf\",\"tailorData\":{\"ats_score\":87,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":90,\"formatting_score\":84,\"recruiter_readiness_score\":82,\"action_verb_score\":72},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":69,\"keyword_coverage\":0.58,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":84,\"formatting_score\":82,\"action_verb_score\":74}}",
     "metrics": {
       "improvement": 18
     },
@@ -2059,6 +2113,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-19T07:28:22.970Z",
     "ats_score": 80,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":47,\"modifiedScore\":71,\"pdfUrl\":\"output/Resume_Company_55.pdf\",\"coverLetter\":\"output/CoverLetter_Company_55.pdf\",\"tailorData\":{\"ats_score\":71,\"validation\":{\"keyword_coverage\":0.77,\"readability_score\":92,\"formatting_score\":95,\"recruiter_readiness_score\":83,\"action_verb_score\":89},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":47,\"keyword_coverage\":0.61,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":78,\"formatting_score\":90,\"action_verb_score\":90}}",
     "metrics": {
       "improvement": 24
     },
@@ -2083,6 +2138,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-24T07:28:22.970Z",
     "ats_score": 85,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":63,\"modifiedScore\":71,\"pdfUrl\":\"output/Resume_Company_56.pdf\",\"coverLetter\":\"output/CoverLetter_Company_56.pdf\",\"tailorData\":{\"ats_score\":71,\"validation\":{\"keyword_coverage\":0.81,\"readability_score\":80,\"formatting_score\":92,\"recruiter_readiness_score\":81,\"action_verb_score\":68},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":63,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":80,\"formatting_score\":89,\"action_verb_score\":90}}",
     "metrics": {
       "improvement": 8
     },
@@ -2107,6 +2163,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-23T07:28:22.970Z",
     "ats_score": 82,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":46,\"modifiedScore\":71,\"pdfUrl\":\"output/Resume_Company_57.pdf\",\"coverLetter\":\"output/CoverLetter_Company_57.pdf\",\"tailorData\":{\"ats_score\":71,\"validation\":{\"keyword_coverage\":0.71,\"readability_score\":90,\"formatting_score\":93,\"recruiter_readiness_score\":86,\"action_verb_score\":83},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":46,\"keyword_coverage\":0.67,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":74,\"formatting_score\":92,\"action_verb_score\":84}}",
     "metrics": {
       "improvement": 25
     },
@@ -2131,6 +2188,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-26T07:28:22.970Z",
     "ats_score": 95,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":48,\"modifiedScore\":65,\"pdfUrl\":\"output/Resume_Company_58.pdf\",\"coverLetter\":\"output/CoverLetter_Company_58.pdf\",\"tailorData\":{\"ats_score\":65,\"validation\":{\"keyword_coverage\":0.71,\"readability_score\":83,\"formatting_score\":94,\"recruiter_readiness_score\":80,\"action_verb_score\":66},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":48,\"keyword_coverage\":0.6,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":82,\"formatting_score\":93,\"action_verb_score\":79}}",
     "metrics": {
       "improvement": 17
     },
@@ -2155,6 +2213,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-02T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":51,\"modifiedScore\":58,\"pdfUrl\":\"output/Resume_Company_59.pdf\",\"coverLetter\":\"output/CoverLetter_Company_59.pdf\",\"tailorData\":{\"ats_score\":58,\"validation\":{\"keyword_coverage\":0.94,\"readability_score\":89,\"formatting_score\":80,\"recruiter_readiness_score\":85,\"action_verb_score\":78},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":51,\"keyword_coverage\":0.62,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":76,\"formatting_score\":86,\"action_verb_score\":68}}",
     "metrics": {
       "improvement": 7
     },
@@ -2179,6 +2238,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-19T07:28:22.970Z",
     "ats_score": 91,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":70,\"modifiedScore\":78,\"pdfUrl\":\"output/Resume_Company_60.pdf\",\"coverLetter\":\"output/CoverLetter_Company_60.pdf\",\"tailorData\":{\"ats_score\":78,\"validation\":{\"keyword_coverage\":0.9,\"readability_score\":91,\"formatting_score\":80,\"recruiter_readiness_score\":86,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":70,\"keyword_coverage\":0.66,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":77,\"formatting_score\":84,\"action_verb_score\":63}}",
     "metrics": {
       "improvement": 8
     },
@@ -2203,6 +2263,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-21T07:28:22.970Z",
     "ats_score": 96,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":57,\"modifiedScore\":62,\"pdfUrl\":\"output/Resume_Company_61.pdf\",\"coverLetter\":\"output/CoverLetter_Company_61.pdf\",\"tailorData\":{\"ats_score\":62,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":81,\"formatting_score\":97,\"recruiter_readiness_score\":83,\"action_verb_score\":94},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":57,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":84,\"formatting_score\":75,\"action_verb_score\":65}}",
     "metrics": {
       "improvement": 5
     },
@@ -2227,6 +2288,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-19T07:28:22.970Z",
     "ats_score": 77,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":72,\"modifiedScore\":80,\"pdfUrl\":\"output/Resume_Company_62.pdf\",\"coverLetter\":\"output/CoverLetter_Company_62.pdf\",\"tailorData\":{\"ats_score\":80,\"validation\":{\"keyword_coverage\":0.84,\"readability_score\":78,\"formatting_score\":95,\"recruiter_readiness_score\":75,\"action_verb_score\":73},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":72,\"keyword_coverage\":0.54,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":78,\"formatting_score\":87,\"action_verb_score\":76}}",
     "metrics": {
       "improvement": 8
     },
@@ -2251,6 +2313,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-21T07:28:22.970Z",
     "ats_score": 78,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":66,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_63.pdf\",\"coverLetter\":\"output/CoverLetter_Company_63.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.89,\"readability_score\":87,\"formatting_score\":94,\"recruiter_readiness_score\":70,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":66,\"keyword_coverage\":0.7,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":83,\"formatting_score\":78,\"action_verb_score\":80}}",
     "metrics": {
       "improvement": 15
     },
@@ -2275,6 +2338,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-25T07:28:22.970Z",
     "ats_score": 78,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":60,\"modifiedScore\":70,\"pdfUrl\":\"output/Resume_Company_64.pdf\",\"coverLetter\":\"output/CoverLetter_Company_64.pdf\",\"tailorData\":{\"ats_score\":70,\"validation\":{\"keyword_coverage\":0.78,\"readability_score\":86,\"formatting_score\":89,\"recruiter_readiness_score\":86,\"action_verb_score\":85},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":60,\"keyword_coverage\":0.7,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":71,\"formatting_score\":76,\"action_verb_score\":78}}",
     "metrics": {
       "improvement": 10
     },
@@ -2299,6 +2363,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-29T07:28:22.970Z",
     "ats_score": 90,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":45,\"modifiedScore\":53,\"pdfUrl\":\"output/Resume_Company_65.pdf\",\"coverLetter\":\"output/CoverLetter_Company_65.pdf\",\"tailorData\":{\"ats_score\":53,\"validation\":{\"keyword_coverage\":0.77,\"readability_score\":92,\"formatting_score\":86,\"recruiter_readiness_score\":77,\"action_verb_score\":68},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":45,\"keyword_coverage\":0.6,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":74,\"formatting_score\":79,\"action_verb_score\":74}}",
     "metrics": {
       "improvement": 8
     },
@@ -2323,6 +2388,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-30T07:28:22.970Z",
     "ats_score": 61,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":48,\"modifiedScore\":58,\"pdfUrl\":\"output/Resume_Company_66.pdf\",\"coverLetter\":\"output/CoverLetter_Company_66.pdf\",\"tailorData\":{\"ats_score\":58,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":75,\"formatting_score\":88,\"recruiter_readiness_score\":77,\"action_verb_score\":70},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":48,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":71,\"formatting_score\":87,\"action_verb_score\":75}}",
     "metrics": {
       "improvement": 10
     },
@@ -2347,6 +2413,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-30T07:28:22.970Z",
     "ats_score": 78,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":67,\"modifiedScore\":85,\"pdfUrl\":\"output/Resume_Company_67.pdf\",\"coverLetter\":\"output/CoverLetter_Company_67.pdf\",\"tailorData\":{\"ats_score\":85,\"validation\":{\"keyword_coverage\":0.71,\"readability_score\":94,\"formatting_score\":98,\"recruiter_readiness_score\":85,\"action_verb_score\":83},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":67,\"keyword_coverage\":0.54,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":87,\"formatting_score\":83,\"action_verb_score\":73}}",
     "metrics": {
       "improvement": 18
     },
@@ -2371,6 +2438,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-07T07:28:22.970Z",
     "ats_score": 62,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":51,\"modifiedScore\":68,\"pdfUrl\":\"output/Resume_Company_68.pdf\",\"coverLetter\":\"output/CoverLetter_Company_68.pdf\",\"tailorData\":{\"ats_score\":68,\"validation\":{\"keyword_coverage\":0.95,\"readability_score\":89,\"formatting_score\":97,\"recruiter_readiness_score\":82,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":51,\"keyword_coverage\":0.56,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":71,\"formatting_score\":79,\"action_verb_score\":89}}",
     "metrics": {
       "improvement": 17
     },
@@ -2395,6 +2463,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-25T07:28:22.970Z",
     "ats_score": 99,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":70,\"modifiedScore\":93,\"pdfUrl\":\"output/Resume_Company_69.pdf\",\"coverLetter\":\"output/CoverLetter_Company_69.pdf\",\"tailorData\":{\"ats_score\":93,\"validation\":{\"keyword_coverage\":0.87,\"readability_score\":88,\"formatting_score\":98,\"recruiter_readiness_score\":84,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":70,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":80,\"formatting_score\":80,\"action_verb_score\":76}}",
     "metrics": {
       "improvement": 23
     },
@@ -2419,6 +2488,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-04T07:28:22.970Z",
     "ats_score": 61,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":45,\"modifiedScore\":58,\"pdfUrl\":\"output/Resume_Company_70.pdf\",\"coverLetter\":\"output/CoverLetter_Company_70.pdf\",\"tailorData\":{\"ats_score\":58,\"validation\":{\"keyword_coverage\":0.7,\"readability_score\":80,\"formatting_score\":95,\"recruiter_readiness_score\":72,\"action_verb_score\":80},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":45,\"keyword_coverage\":0.69,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":85,\"formatting_score\":94,\"action_verb_score\":83}}",
     "metrics": {
       "improvement": 13
     },
@@ -2443,6 +2513,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-01T07:28:22.970Z",
     "ats_score": 95,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":62,\"modifiedScore\":70,\"pdfUrl\":\"output/Resume_Company_71.pdf\",\"coverLetter\":\"output/CoverLetter_Company_71.pdf\",\"tailorData\":{\"ats_score\":70,\"validation\":{\"keyword_coverage\":0.86,\"readability_score\":86,\"formatting_score\":93,\"recruiter_readiness_score\":81,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":62,\"keyword_coverage\":0.55,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":82,\"formatting_score\":95,\"action_verb_score\":82}}",
     "metrics": {
       "improvement": 8
     },
@@ -2467,6 +2538,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-13T07:28:22.970Z",
     "ats_score": 81,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":53,\"modifiedScore\":65,\"pdfUrl\":\"output/Resume_Company_72.pdf\",\"coverLetter\":\"output/CoverLetter_Company_72.pdf\",\"tailorData\":{\"ats_score\":65,\"validation\":{\"keyword_coverage\":0.83,\"readability_score\":80,\"formatting_score\":94,\"recruiter_readiness_score\":81,\"action_verb_score\":88},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":53,\"keyword_coverage\":0.5,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":82,\"formatting_score\":86,\"action_verb_score\":85}}",
     "metrics": {
       "improvement": 12
     },
@@ -2491,6 +2563,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-15T07:28:22.970Z",
     "ats_score": 83,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":51,\"modifiedScore\":67,\"pdfUrl\":\"output/Resume_Company_73.pdf\",\"coverLetter\":\"output/CoverLetter_Company_73.pdf\",\"tailorData\":{\"ats_score\":67,\"validation\":{\"keyword_coverage\":0.66,\"readability_score\":90,\"formatting_score\":81,\"recruiter_readiness_score\":91,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":51,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":78,\"formatting_score\":84,\"action_verb_score\":63}}",
     "metrics": {
       "improvement": 16
     },
@@ -2515,6 +2588,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-19T07:28:22.970Z",
     "ats_score": 69,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":54,\"modifiedScore\":70,\"pdfUrl\":\"output/Resume_Company_74.pdf\",\"coverLetter\":\"output/CoverLetter_Company_74.pdf\",\"tailorData\":{\"ats_score\":70,\"validation\":{\"keyword_coverage\":0.67,\"readability_score\":84,\"formatting_score\":95,\"recruiter_readiness_score\":70,\"action_verb_score\":69},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":54,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":86,\"formatting_score\":89,\"action_verb_score\":81}}",
     "metrics": {
       "improvement": 16
     },
@@ -2539,6 +2613,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-07T07:28:22.970Z",
     "ats_score": 66,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":70,\"modifiedScore\":86,\"pdfUrl\":\"output/Resume_Company_75.pdf\",\"coverLetter\":\"output/CoverLetter_Company_75.pdf\",\"tailorData\":{\"ats_score\":86,\"validation\":{\"keyword_coverage\":0.71,\"readability_score\":83,\"formatting_score\":83,\"recruiter_readiness_score\":85,\"action_verb_score\":81},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":70,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":83,\"formatting_score\":80,\"action_verb_score\":71}}",
     "metrics": {
       "improvement": 16
     },
@@ -2563,6 +2638,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-10T07:28:22.970Z",
     "ats_score": 87,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":67,\"modifiedScore\":91,\"pdfUrl\":\"output/Resume_Company_76.pdf\",\"coverLetter\":\"output/CoverLetter_Company_76.pdf\",\"tailorData\":{\"ats_score\":91,\"validation\":{\"keyword_coverage\":0.66,\"readability_score\":84,\"formatting_score\":81,\"recruiter_readiness_score\":95,\"action_verb_score\":92},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":67,\"keyword_coverage\":0.54,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":70,\"formatting_score\":86,\"action_verb_score\":81}}",
     "metrics": {
       "improvement": 24
     },
@@ -2587,6 +2663,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-10T07:28:22.970Z",
     "ats_score": 71,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":78,\"pdfUrl\":\"output/Resume_Company_77.pdf\",\"coverLetter\":\"output/CoverLetter_Company_77.pdf\",\"tailorData\":{\"ats_score\":78,\"validation\":{\"keyword_coverage\":0.69,\"readability_score\":87,\"formatting_score\":94,\"recruiter_readiness_score\":85,\"action_verb_score\":91},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":71,\"formatting_score\":82,\"action_verb_score\":66}}",
     "metrics": {
       "improvement": 10
     },
@@ -2611,6 +2688,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-12T07:28:22.970Z",
     "ats_score": 72,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":59,\"modifiedScore\":69,\"pdfUrl\":\"output/Resume_Company_78.pdf\",\"coverLetter\":\"output/CoverLetter_Company_78.pdf\",\"tailorData\":{\"ats_score\":69,\"validation\":{\"keyword_coverage\":0.83,\"readability_score\":89,\"formatting_score\":87,\"recruiter_readiness_score\":90,\"action_verb_score\":87},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":59,\"keyword_coverage\":0.62,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":89,\"formatting_score\":75,\"action_verb_score\":80}}",
     "metrics": {
       "improvement": 10
     },
@@ -2635,6 +2713,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-06T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":69,\"modifiedScore\":84,\"pdfUrl\":\"output/Resume_Company_79.pdf\",\"coverLetter\":\"output/CoverLetter_Company_79.pdf\",\"tailorData\":{\"ats_score\":84,\"validation\":{\"keyword_coverage\":0.76,\"readability_score\":83,\"formatting_score\":81,\"recruiter_readiness_score\":85,\"action_verb_score\":83},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":69,\"keyword_coverage\":0.66,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":88,\"formatting_score\":90,\"action_verb_score\":74}}",
     "metrics": {
       "improvement": 15
     },
@@ -2659,6 +2738,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-10T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":55,\"modifiedScore\":60,\"pdfUrl\":\"output/Resume_Company_80.pdf\",\"coverLetter\":\"output/CoverLetter_Company_80.pdf\",\"tailorData\":{\"ats_score\":60,\"validation\":{\"keyword_coverage\":0.79,\"readability_score\":76,\"formatting_score\":81,\"recruiter_readiness_score\":72,\"action_verb_score\":73},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":55,\"keyword_coverage\":0.7,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":89,\"formatting_score\":80,\"action_verb_score\":80}}",
     "metrics": {
       "improvement": 5
     },
@@ -2683,6 +2763,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-27T07:28:22.970Z",
     "ats_score": 62,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":78,\"pdfUrl\":\"output/Resume_Company_81.pdf\",\"coverLetter\":\"output/CoverLetter_Company_81.pdf\",\"tailorData\":{\"ats_score\":78,\"validation\":{\"keyword_coverage\":0.85,\"readability_score\":83,\"formatting_score\":80,\"recruiter_readiness_score\":77,\"action_verb_score\":65},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":82,\"formatting_score\":86,\"action_verb_score\":67}}",
     "metrics": {
       "improvement": 10
     },
@@ -2707,6 +2788,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-14T07:28:22.970Z",
     "ats_score": 74,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":49,\"modifiedScore\":70,\"pdfUrl\":\"output/Resume_Company_82.pdf\",\"coverLetter\":\"output/CoverLetter_Company_82.pdf\",\"tailorData\":{\"ats_score\":70,\"validation\":{\"keyword_coverage\":0.79,\"readability_score\":92,\"formatting_score\":85,\"recruiter_readiness_score\":77,\"action_verb_score\":94},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":49,\"keyword_coverage\":0.63,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":77,\"formatting_score\":81,\"action_verb_score\":72}}",
     "metrics": {
       "improvement": 21
     },
@@ -2731,6 +2813,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-23T07:28:22.970Z",
     "ats_score": 81,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":53,\"modifiedScore\":64,\"pdfUrl\":\"output/Resume_Company_83.pdf\",\"coverLetter\":\"output/CoverLetter_Company_83.pdf\",\"tailorData\":{\"ats_score\":64,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":93,\"formatting_score\":98,\"recruiter_readiness_score\":90,\"action_verb_score\":88},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":53,\"keyword_coverage\":0.5,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":89,\"formatting_score\":94,\"action_verb_score\":71}}",
     "metrics": {
       "improvement": 11
     },
@@ -2755,6 +2838,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-12T07:28:22.970Z",
     "ats_score": 65,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":90,\"pdfUrl\":\"output/Resume_Company_84.pdf\",\"coverLetter\":\"output/CoverLetter_Company_84.pdf\",\"tailorData\":{\"ats_score\":90,\"validation\":{\"keyword_coverage\":0.78,\"readability_score\":90,\"formatting_score\":92,\"recruiter_readiness_score\":92,\"action_verb_score\":72},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":79,\"formatting_score\":75,\"action_verb_score\":75}}",
     "metrics": {
       "improvement": 22
     },
@@ -2779,6 +2863,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-18T07:28:22.970Z",
     "ats_score": 76,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":72,\"modifiedScore\":79,\"pdfUrl\":\"output/Resume_Company_85.pdf\",\"coverLetter\":\"output/CoverLetter_Company_85.pdf\",\"tailorData\":{\"ats_score\":79,\"validation\":{\"keyword_coverage\":0.73,\"readability_score\":78,\"formatting_score\":93,\"recruiter_readiness_score\":89,\"action_verb_score\":85},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":72,\"keyword_coverage\":0.55,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":80,\"formatting_score\":82,\"action_verb_score\":73}}",
     "metrics": {
       "improvement": 7
     },
@@ -2803,6 +2888,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-08T07:28:22.970Z",
     "ats_score": 78,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":65,\"modifiedScore\":75,\"pdfUrl\":\"output/Resume_Company_86.pdf\",\"coverLetter\":\"output/CoverLetter_Company_86.pdf\",\"tailorData\":{\"ats_score\":75,\"validation\":{\"keyword_coverage\":0.72,\"readability_score\":78,\"formatting_score\":88,\"recruiter_readiness_score\":89,\"action_verb_score\":82},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":65,\"keyword_coverage\":0.66,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":90,\"formatting_score\":91,\"action_verb_score\":82}}",
     "metrics": {
       "improvement": 10
     },
@@ -2827,6 +2913,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-08T07:28:22.970Z",
     "ats_score": 99,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":93,\"pdfUrl\":\"output/Resume_Company_87.pdf\",\"coverLetter\":\"output/CoverLetter_Company_87.pdf\",\"tailorData\":{\"ats_score\":93,\"validation\":{\"keyword_coverage\":0.77,\"readability_score\":80,\"formatting_score\":94,\"recruiter_readiness_score\":76,\"action_verb_score\":70},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.53,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":71,\"formatting_score\":89,\"action_verb_score\":83}}",
     "metrics": {
       "improvement": 25
     },
@@ -2851,6 +2938,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-03T07:28:22.970Z",
     "ats_score": 99,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":69,\"modifiedScore\":94,\"pdfUrl\":\"output/Resume_Company_88.pdf\",\"coverLetter\":\"output/CoverLetter_Company_88.pdf\",\"tailorData\":{\"ats_score\":94,\"validation\":{\"keyword_coverage\":0.9,\"readability_score\":90,\"formatting_score\":91,\"recruiter_readiness_score\":83,\"action_verb_score\":72},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":69,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":85,\"formatting_score\":95,\"action_verb_score\":77}}",
     "metrics": {
       "improvement": 25
     },
@@ -2875,6 +2963,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-29T07:28:22.970Z",
     "ats_score": 60,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":53,\"modifiedScore\":62,\"pdfUrl\":\"output/Resume_Company_89.pdf\",\"coverLetter\":\"output/CoverLetter_Company_89.pdf\",\"tailorData\":{\"ats_score\":62,\"validation\":{\"keyword_coverage\":0.84,\"readability_score\":83,\"formatting_score\":83,\"recruiter_readiness_score\":77,\"action_verb_score\":93},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":53,\"keyword_coverage\":0.67,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":85,\"formatting_score\":80,\"action_verb_score\":76}}",
     "metrics": {
       "improvement": 9
     },
@@ -2899,6 +2988,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-25T07:28:22.970Z",
     "ats_score": 66,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":76,\"pdfUrl\":\"output/Resume_Company_90.pdf\",\"coverLetter\":\"output/CoverLetter_Company_90.pdf\",\"tailorData\":{\"ats_score\":76,\"validation\":{\"keyword_coverage\":0.88,\"readability_score\":80,\"formatting_score\":97,\"recruiter_readiness_score\":86,\"action_verb_score\":78},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.64,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":90,\"formatting_score\":80,\"action_verb_score\":71}}",
     "metrics": {
       "improvement": 8
     },
@@ -2923,6 +3013,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-19T07:28:22.970Z",
     "ats_score": 98,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":55,\"modifiedScore\":61,\"pdfUrl\":\"output/Resume_Company_91.pdf\",\"coverLetter\":\"output/CoverLetter_Company_91.pdf\",\"tailorData\":{\"ats_score\":61,\"validation\":{\"keyword_coverage\":0.68,\"readability_score\":82,\"formatting_score\":86,\"recruiter_readiness_score\":88,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":55,\"keyword_coverage\":0.62,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":75,\"formatting_score\":84,\"action_verb_score\":86}}",
     "metrics": {
       "improvement": 6
     },
@@ -2947,6 +3038,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-15T07:28:22.970Z",
     "ats_score": 77,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":51,\"modifiedScore\":63,\"pdfUrl\":\"output/Resume_Company_92.pdf\",\"coverLetter\":\"output/CoverLetter_Company_92.pdf\",\"tailorData\":{\"ats_score\":63,\"validation\":{\"keyword_coverage\":0.66,\"readability_score\":91,\"formatting_score\":98,\"recruiter_readiness_score\":84,\"action_verb_score\":72},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":51,\"keyword_coverage\":0.59,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":72,\"formatting_score\":90,\"action_verb_score\":75}}",
     "metrics": {
       "improvement": 12
     },
@@ -2971,6 +3063,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-02T07:28:22.970Z",
     "ats_score": 68,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":48,\"modifiedScore\":63,\"pdfUrl\":\"output/Resume_Company_93.pdf\",\"coverLetter\":\"output/CoverLetter_Company_93.pdf\",\"tailorData\":{\"ats_score\":63,\"validation\":{\"keyword_coverage\":0.72,\"readability_score\":95,\"formatting_score\":81,\"recruiter_readiness_score\":76,\"action_verb_score\":95},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":48,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":85,\"formatting_score\":93,\"action_verb_score\":70}}",
     "metrics": {
       "improvement": 15
     },
@@ -2995,6 +3088,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-03T07:28:22.970Z",
     "ats_score": 89,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":58,\"modifiedScore\":75,\"pdfUrl\":\"output/Resume_Company_94.pdf\",\"coverLetter\":\"output/CoverLetter_Company_94.pdf\",\"tailorData\":{\"ats_score\":75,\"validation\":{\"keyword_coverage\":0.75,\"readability_score\":75,\"formatting_score\":98,\"recruiter_readiness_score\":92,\"action_verb_score\":78},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":58,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":81,\"formatting_score\":95,\"action_verb_score\":64}}",
     "metrics": {
       "improvement": 17
     },
@@ -3019,6 +3113,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-02T07:28:22.970Z",
     "ats_score": 97,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":60,\"modifiedScore\":76,\"pdfUrl\":\"output/Resume_Company_95.pdf\",\"coverLetter\":\"output/CoverLetter_Company_95.pdf\",\"tailorData\":{\"ats_score\":76,\"validation\":{\"keyword_coverage\":0.69,\"readability_score\":80,\"formatting_score\":97,\"recruiter_readiness_score\":76,\"action_verb_score\":78},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":60,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":78,\"formatting_score\":85,\"action_verb_score\":60}}",
     "metrics": {
       "improvement": 16
     },
@@ -3043,6 +3138,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-02T07:28:22.970Z",
     "ats_score": 89,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":62,\"modifiedScore\":85,\"pdfUrl\":\"output/Resume_Company_96.pdf\",\"coverLetter\":\"output/CoverLetter_Company_96.pdf\",\"tailorData\":{\"ats_score\":85,\"validation\":{\"keyword_coverage\":0.7,\"readability_score\":78,\"formatting_score\":83,\"recruiter_readiness_score\":78,\"action_verb_score\":89},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":62,\"keyword_coverage\":0.6,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":89,\"formatting_score\":75,\"action_verb_score\":67}}",
     "metrics": {
       "improvement": 23
     },
@@ -3067,6 +3163,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-29T07:28:22.970Z",
     "ats_score": 65,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":46,\"modifiedScore\":61,\"pdfUrl\":\"output/Resume_Company_97.pdf\",\"coverLetter\":\"output/CoverLetter_Company_97.pdf\",\"tailorData\":{\"ats_score\":61,\"validation\":{\"keyword_coverage\":0.65,\"readability_score\":78,\"formatting_score\":93,\"recruiter_readiness_score\":94,\"action_verb_score\":71},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":46,\"keyword_coverage\":0.61,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":78,\"formatting_score\":88,\"action_verb_score\":70}}",
     "metrics": {
       "improvement": 15
     },
@@ -3091,6 +3188,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-15T07:28:22.970Z",
     "ats_score": 96,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":55,\"modifiedScore\":68,\"pdfUrl\":\"output/Resume_Company_98.pdf\",\"coverLetter\":\"output/CoverLetter_Company_98.pdf\",\"tailorData\":{\"ats_score\":68,\"validation\":{\"keyword_coverage\":0.9,\"readability_score\":80,\"formatting_score\":95,\"recruiter_readiness_score\":83,\"action_verb_score\":71},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":55,\"keyword_coverage\":0.62,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":74,\"formatting_score\":76,\"action_verb_score\":88}}",
     "metrics": {
       "improvement": 13
     },
@@ -3115,6 +3213,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-09T07:28:22.970Z",
     "ats_score": 60,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":67,\"modifiedScore\":74,\"pdfUrl\":\"output/Resume_Company_99.pdf\",\"coverLetter\":\"output/CoverLetter_Company_99.pdf\",\"tailorData\":{\"ats_score\":74,\"validation\":{\"keyword_coverage\":0.66,\"readability_score\":82,\"formatting_score\":83,\"recruiter_readiness_score\":88,\"action_verb_score\":88},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":67,\"keyword_coverage\":0.56,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":82,\"formatting_score\":78,\"action_verb_score\":76}}",
     "metrics": {
       "improvement": 7
     },
@@ -3139,6 +3238,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-23T07:28:22.970Z",
     "ats_score": 61,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":57,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_100.pdf\",\"coverLetter\":\"output/CoverLetter_Company_100.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.92,\"readability_score\":81,\"formatting_score\":87,\"recruiter_readiness_score\":80,\"action_verb_score\":91},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":57,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":87,\"formatting_score\":91,\"action_verb_score\":83}}",
     "metrics": {
       "improvement": 24
     },
@@ -3163,6 +3263,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-12T07:28:22.970Z",
     "ats_score": 97,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":65,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_101.pdf\",\"coverLetter\":\"output/CoverLetter_Company_101.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.93,\"readability_score\":80,\"formatting_score\":96,\"recruiter_readiness_score\":94,\"action_verb_score\":80},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":65,\"keyword_coverage\":0.56,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":75,\"formatting_score\":94,\"action_verb_score\":76}}",
     "metrics": {
       "improvement": 16
     },
@@ -3187,6 +3288,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-28T07:28:22.970Z",
     "ats_score": 81,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":55,\"modifiedScore\":72,\"pdfUrl\":\"output/Resume_Company_102.pdf\",\"coverLetter\":\"output/CoverLetter_Company_102.pdf\",\"tailorData\":{\"ats_score\":72,\"validation\":{\"keyword_coverage\":0.91,\"readability_score\":75,\"formatting_score\":81,\"recruiter_readiness_score\":81,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":55,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":76,\"formatting_score\":89,\"action_verb_score\":85}}",
     "metrics": {
       "improvement": 17
     },
@@ -3211,6 +3313,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-20T07:28:22.970Z",
     "ats_score": 71,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":53,\"modifiedScore\":74,\"pdfUrl\":\"output/Resume_Company_103.pdf\",\"coverLetter\":\"output/CoverLetter_Company_103.pdf\",\"tailorData\":{\"ats_score\":74,\"validation\":{\"keyword_coverage\":0.85,\"readability_score\":75,\"formatting_score\":95,\"recruiter_readiness_score\":84,\"action_verb_score\":77},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":53,\"keyword_coverage\":0.63,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":90,\"formatting_score\":87,\"action_verb_score\":71}}",
     "metrics": {
       "improvement": 21
     },
@@ -3235,6 +3338,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-01T07:28:22.970Z",
     "ats_score": 64,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":57,\"modifiedScore\":75,\"pdfUrl\":\"output/Resume_Company_104.pdf\",\"coverLetter\":\"output/CoverLetter_Company_104.pdf\",\"tailorData\":{\"ats_score\":75,\"validation\":{\"keyword_coverage\":0.73,\"readability_score\":93,\"formatting_score\":95,\"recruiter_readiness_score\":78,\"action_verb_score\":66},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":57,\"keyword_coverage\":0.66,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":80,\"formatting_score\":94,\"action_verb_score\":81}}",
     "metrics": {
       "improvement": 18
     },
@@ -3259,6 +3363,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-25T07:28:22.970Z",
     "ats_score": 96,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":47,\"modifiedScore\":71,\"pdfUrl\":\"output/Resume_Company_105.pdf\",\"coverLetter\":\"output/CoverLetter_Company_105.pdf\",\"tailorData\":{\"ats_score\":71,\"validation\":{\"keyword_coverage\":0.8,\"readability_score\":76,\"formatting_score\":93,\"recruiter_readiness_score\":73,\"action_verb_score\":84},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":47,\"keyword_coverage\":0.6,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":88,\"formatting_score\":81,\"action_verb_score\":74}}",
     "metrics": {
       "improvement": 24
     },
@@ -3283,6 +3388,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-09T07:28:22.970Z",
     "ats_score": 81,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":91,\"pdfUrl\":\"output/Resume_Company_106.pdf\",\"coverLetter\":\"output/CoverLetter_Company_106.pdf\",\"tailorData\":{\"ats_score\":91,\"validation\":{\"keyword_coverage\":0.87,\"readability_score\":77,\"formatting_score\":82,\"recruiter_readiness_score\":72,\"action_verb_score\":72},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.65,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":76,\"formatting_score\":80,\"action_verb_score\":89}}",
     "metrics": {
       "improvement": 23
     },
@@ -3307,6 +3413,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-01T07:28:22.970Z",
     "ats_score": 81,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":58,\"modifiedScore\":75,\"pdfUrl\":\"output/Resume_Company_107.pdf\",\"coverLetter\":\"output/CoverLetter_Company_107.pdf\",\"tailorData\":{\"ats_score\":75,\"validation\":{\"keyword_coverage\":0.9,\"readability_score\":79,\"formatting_score\":80,\"recruiter_readiness_score\":90,\"action_verb_score\":79},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":58,\"keyword_coverage\":0.64,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":77,\"formatting_score\":79,\"action_verb_score\":85}}",
     "metrics": {
       "improvement": 17
     },
@@ -3331,6 +3438,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-30T07:28:22.970Z",
     "ats_score": 91,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":62,\"modifiedScore\":74,\"pdfUrl\":\"output/Resume_Company_108.pdf\",\"coverLetter\":\"output/CoverLetter_Company_108.pdf\",\"tailorData\":{\"ats_score\":74,\"validation\":{\"keyword_coverage\":0.68,\"readability_score\":87,\"formatting_score\":83,\"recruiter_readiness_score\":87,\"action_verb_score\":84},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":62,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":87,\"formatting_score\":77,\"action_verb_score\":82}}",
     "metrics": {
       "improvement": 12
     },
@@ -3355,6 +3463,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-25T07:28:22.970Z",
     "ats_score": 84,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":45,\"modifiedScore\":56,\"pdfUrl\":\"output/Resume_Company_109.pdf\",\"coverLetter\":\"output/CoverLetter_Company_109.pdf\",\"tailorData\":{\"ats_score\":56,\"validation\":{\"keyword_coverage\":0.75,\"readability_score\":78,\"formatting_score\":81,\"recruiter_readiness_score\":87,\"action_verb_score\":95},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":45,\"keyword_coverage\":0.57,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":87,\"formatting_score\":85,\"action_verb_score\":66}}",
     "metrics": {
       "improvement": 11
     },
@@ -3379,6 +3488,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-01T07:28:22.970Z",
     "ats_score": 97,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":57,\"modifiedScore\":76,\"pdfUrl\":\"output/Resume_Company_110.pdf\",\"coverLetter\":\"output/CoverLetter_Company_110.pdf\",\"tailorData\":{\"ats_score\":76,\"validation\":{\"keyword_coverage\":0.89,\"readability_score\":92,\"formatting_score\":88,\"recruiter_readiness_score\":71,\"action_verb_score\":76},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":57,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":82,\"formatting_score\":81,\"action_verb_score\":69}}",
     "metrics": {
       "improvement": 19
     },
@@ -3403,6 +3513,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-29T07:28:22.970Z",
     "ats_score": 82,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":63,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_111.pdf\",\"coverLetter\":\"output/CoverLetter_Company_111.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.88,\"readability_score\":92,\"formatting_score\":86,\"recruiter_readiness_score\":83,\"action_verb_score\":73},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":63,\"keyword_coverage\":0.6,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":90,\"formatting_score\":75,\"action_verb_score\":70}}",
     "metrics": {
       "improvement": 18
     },
@@ -3427,6 +3538,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-06-28T07:28:22.970Z",
     "ats_score": 93,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":69,\"modifiedScore\":83,\"pdfUrl\":\"output/Resume_Company_112.pdf\",\"coverLetter\":\"output/CoverLetter_Company_112.pdf\",\"tailorData\":{\"ats_score\":83,\"validation\":{\"keyword_coverage\":0.94,\"readability_score\":91,\"formatting_score\":90,\"recruiter_readiness_score\":80,\"action_verb_score\":72},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":69,\"keyword_coverage\":0.66,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":86,\"formatting_score\":87,\"action_verb_score\":60}}",
     "metrics": {
       "improvement": 14
     },
@@ -3451,6 +3563,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-02T07:28:22.970Z",
     "ats_score": 84,
     "recruiter_name": "Louis Litt",
+    "notes": "{\"masterScore\":55,\"modifiedScore\":76,\"pdfUrl\":\"output/Resume_Company_113.pdf\",\"coverLetter\":\"output/CoverLetter_Company_113.pdf\",\"tailorData\":{\"ats_score\":76,\"validation\":{\"keyword_coverage\":0.66,\"readability_score\":95,\"formatting_score\":93,\"recruiter_readiness_score\":81,\"action_verb_score\":75},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":55,\"keyword_coverage\":0.65,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":80,\"formatting_score\":77,\"action_verb_score\":90}}",
     "metrics": {
       "improvement": 21
     },
@@ -3475,6 +3588,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-14T07:28:22.970Z",
     "ats_score": 87,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":81,\"pdfUrl\":\"output/Resume_Company_114.pdf\",\"coverLetter\":\"output/CoverLetter_Company_114.pdf\",\"tailorData\":{\"ats_score\":81,\"validation\":{\"keyword_coverage\":0.76,\"readability_score\":91,\"formatting_score\":97,\"recruiter_readiness_score\":79,\"action_verb_score\":91},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":76,\"formatting_score\":91,\"action_verb_score\":86}}",
     "metrics": {
       "improvement": 13
     },
@@ -3499,6 +3613,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-30T07:28:22.970Z",
     "ats_score": 63,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":90,\"pdfUrl\":\"output/Resume_Company_115.pdf\",\"coverLetter\":\"output/CoverLetter_Company_115.pdf\",\"tailorData\":{\"ats_score\":90,\"validation\":{\"keyword_coverage\":0.9,\"readability_score\":90,\"formatting_score\":81,\"recruiter_readiness_score\":73,\"action_verb_score\":86},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.68,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":83,\"formatting_score\":92,\"action_verb_score\":66}}",
     "metrics": {
       "improvement": 22
     },
@@ -3523,6 +3638,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-27T07:28:22.970Z",
     "ats_score": 90,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":54,\"modifiedScore\":76,\"pdfUrl\":\"output/Resume_Company_116.pdf\",\"coverLetter\":\"output/CoverLetter_Company_116.pdf\",\"tailorData\":{\"ats_score\":76,\"validation\":{\"keyword_coverage\":0.68,\"readability_score\":81,\"formatting_score\":88,\"recruiter_readiness_score\":73,\"action_verb_score\":94},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":54,\"keyword_coverage\":0.59,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\",\"stakeholder management\"],\"readability_score\":89,\"formatting_score\":95,\"action_verb_score\":61}}",
     "metrics": {
       "improvement": 22
     },
@@ -3547,6 +3663,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-10T07:28:22.970Z",
     "ats_score": 68,
     "recruiter_name": "Harvey Specter",
+    "notes": "{\"masterScore\":56,\"modifiedScore\":64,\"pdfUrl\":\"output/Resume_Company_117.pdf\",\"coverLetter\":\"output/CoverLetter_Company_117.pdf\",\"tailorData\":{\"ats_score\":64,\"validation\":{\"keyword_coverage\":0.74,\"readability_score\":75,\"formatting_score\":84,\"recruiter_readiness_score\":92,\"action_verb_score\":87},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":56,\"keyword_coverage\":0.51,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":85,\"formatting_score\":79,\"action_verb_score\":85}}",
     "metrics": {
       "improvement": 8
     },
@@ -3571,6 +3688,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-08-16T07:28:22.970Z",
     "ats_score": 69,
     "recruiter_name": "Jessica Pearson",
+    "notes": "{\"masterScore\":68,\"modifiedScore\":78,\"pdfUrl\":\"output/Resume_Company_118.pdf\",\"coverLetter\":\"output/CoverLetter_Company_118.pdf\",\"tailorData\":{\"ats_score\":78,\"validation\":{\"keyword_coverage\":0.92,\"readability_score\":95,\"formatting_score\":85,\"recruiter_readiness_score\":92,\"action_verb_score\":76},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":68,\"keyword_coverage\":0.54,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":81,\"formatting_score\":89,\"action_verb_score\":80}}",
     "metrics": {
       "improvement": 10
     },
@@ -3595,6 +3713,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-24T07:28:22.970Z",
     "ats_score": 99,
     "recruiter_name": "Mike Ross",
+    "notes": "{\"masterScore\":48,\"modifiedScore\":66,\"pdfUrl\":\"output/Resume_Company_119.pdf\",\"coverLetter\":\"output/CoverLetter_Company_119.pdf\",\"tailorData\":{\"ats_score\":66,\"validation\":{\"keyword_coverage\":0.73,\"readability_score\":85,\"formatting_score\":83,\"recruiter_readiness_score\":87,\"action_verb_score\":72},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":48,\"keyword_coverage\":0.52,\"missing_keywords\":[\"microservices\",\"CI/CD\",\"agile\"],\"readability_score\":78,\"formatting_score\":91,\"action_verb_score\":74}}",
     "metrics": {
       "improvement": 18
     },
@@ -3619,6 +3738,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "created_at": "2026-07-29T07:28:22.970Z",
     "ats_score": 62,
     "recruiter_name": "Sarah Jenkins",
+    "notes": "{\"masterScore\":56,\"modifiedScore\":62,\"pdfUrl\":\"output/Resume_Company_120.pdf\",\"coverLetter\":\"output/CoverLetter_Company_120.pdf\",\"tailorData\":{\"ats_score\":62,\"validation\":{\"keyword_coverage\":0.79,\"readability_score\":87,\"formatting_score\":95,\"recruiter_readiness_score\":88,\"action_verb_score\":92},\"selected_projects\":[\"AI Resume Optimizer\",\"Real-time Chat Platform\",\"E-commerce Dashboard\"],\"swaps\":[{\"section\":\"Professional Summary\",\"added\":\"Added domain-specific keywords\",\"removed\":null},{\"section\":\"Core Competencies\",\"added\":\"Reordered skills by JD relevance\",\"removed\":\"Removed generic skills\"}]},\"atsData\":{\"score\":56,\"keyword_coverage\":0.65,\"missing_keywords\":[\"microservices\",\"CI/CD\"],\"readability_score\":88,\"formatting_score\":88,\"action_verb_score\":82}}",
     "metrics": {
       "improvement": 6
     },
@@ -6055,7 +6175,7 @@ export const MOCK_EMAILS = { emails: [
     "company": "Notion"
   }
 ], total: 150 };
-export const MOCK_CALENDAR = [
+export const MOCK_CALENDAR = { events: [
   {
     "id": "cal-0",
     "title": "Interview with Ramp for Director of Engineering",
@@ -6206,7 +6326,7 @@ export const MOCK_CALENDAR = [
     "interviewer": "Jessica Pearson",
     "link": "https://meet.google.com/abc-defg-hij"
   }
-];
+] };
 export const MOCK_DASHBOARD_STATS = {
   "metrics": {
     "totalApps": 120,
@@ -7572,7 +7692,7 @@ export const MOCK_NEWS = { news: [
     "source": "TechCrunch"
   }
 ], total: 40 };
-export const MOCK_PORTALS = [
+export const MOCK_PORTALS = { credentials: [
   {
     "id": "portal-0",
     "company": "Notion",
@@ -7693,10 +7813,36 @@ export const MOCK_PORTALS = [
     "password_hint": "••••••••",
     "last_login": "2026-08-15T07:28:22.970Z"
   }
-];
+] };
 export const MOCK_DOCUMENTS = { success: true, documents: { sentEmail: { bodyHtml: "<p>Mock Email sent!</p>", subject: "Mock Subject" } } };
 
-export const MOCK_EMAIL_COUNTS = { unread: 12, total: 150 };
-export const MOCK_PROFILE = { name: "Jane Doe", title: "Senior Software Engineer", skills: ["React", "Node.js"] };
-export const MOCK_SETTINGS = { sender_name: "Jane Doe", email_signature: "Best,\nJane" };
-export const MOCK_EMAIL_TEMPLATES = [{ id: '1', name: 'Follow up', subject: 'Following up', body: 'Hi,' }];
+export const MOCK_EMAIL_COUNTS = { inbox: 87, sent: 45, draft: 3, scheduled: 2, trash: 8, starred: 12, unread: 12, total: 150 };
+export const MOCK_PROFILE = {
+  name: "Jane Doe",
+  email: "jane.doe@gmail.com",
+  phone: "+1 (555) 123-4567",
+  title: "Senior Software Engineer",
+  location: "San Francisco, CA",
+  bio: "Passionate full-stack engineer with 6+ years of experience building scalable web applications.",
+  skills: ["React", "Node.js", "TypeScript", "Python", "PostgreSQL", "AWS", "GraphQL", "Next.js"],
+  experience: [
+    { company: "Google", role: "Senior Software Engineer", start: "2023-01", end: "Present", description: "Led frontend architecture for Cloud Console." },
+    { company: "Meta", role: "Software Engineer", start: "2020-06", end: "2022-12", description: "Built React components for Messenger." }
+  ],
+  education: [
+    { school: "Stanford University", degree: "M.S. Computer Science", year: "2020" },
+    { school: "UC Berkeley", degree: "B.S. EECS", year: "2018" }
+  ],
+  projects: [
+    { name: "AI Resume Optimizer", description: "Built an AI-powered resume tailoring engine." },
+    { name: "Real-time Chat", description: "WebSocket-based chat application." }
+  ],
+  portfolio_links: ["https://janedoe.dev", "https://github.com/janedoe"]
+};
+export const MOCK_SETTINGS = { gmail_user: "jane.doe@gmail.com", sender_name: "Jane Doe", resume_prefix: "Resume", build_path: "/builds", linkedin_keywords: "product manager, frontend engineer", max_posts_per_scan: 200, auto_scan_interval: "daily", min_ats_threshold: 40, headless_mode: true, auto_date_naming: true, auto_apply: false, sync_enabled: true, email_signature: "Best regards,\nJane Doe\nSenior Software Engineer", is_onboarded: true };
+export const MOCK_EMAIL_TEMPLATES = [
+  { id: '1', name: 'Follow Up', subject: 'Following Up on My Application', body: 'Hi {{recruiter_name}},\n\nI wanted to follow up on my application for the {{role}} position. I remain very interested in this opportunity.\n\nBest regards,\nJane Doe' },
+  { id: '2', name: 'Thank You', subject: 'Thank You for the Interview', body: 'Hi {{recruiter_name}},\n\nThank you for taking the time to interview me for the {{role}} position. I enjoyed learning more about the team.\n\nBest regards,\nJane Doe' },
+  { id: '3', name: 'Cold Outreach', subject: 'Interested in {{company}} - {{role}}', body: 'Hi {{recruiter_name}},\n\nI came across the {{role}} position at {{company}} and I believe my experience aligns well with your needs.\n\nBest regards,\nJane Doe' },
+  { id: '4', name: 'Negotiation', subject: 'Re: Offer Discussion - {{role}}', body: 'Hi {{recruiter_name}},\n\nThank you for extending the offer. I am very excited about this opportunity and would like to discuss the compensation package.\n\nBest regards,\nJane Doe' }
+];
