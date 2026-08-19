@@ -3755,19 +3755,76 @@ export const MOCK_APPLICATIONS = { applications: [
 ], total: 120 };
 export const MOCK_TRACKING_EVENTS = { success: true, events: [
   {
-    "type": "SENT",
-    "timestamp": "2026-08-08T09:54:31.576Z",
-    "details": "Email delivered successfully"
+    "id": "evt-1",
+    "event_type": "SENT",
+    "created_at": "2026-08-15T09:00:00Z",
+    "email_id": "email-0-1",
+    "metadata": {
+      "ip": "192.168.1.1",
+      "os": "macOS",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "timezone": "PST"
+    },
+    "engine_metadata": {
+      "rules": { "confidence": 1.0, "flags": [] }
+    }
   },
   {
-    "type": "CLICK",
-    "timestamp": "2026-08-14T09:54:31.576Z",
-    "details": "Resume PDF opened"
+    "id": "evt-2",
+    "event_type": "OPENED",
+    "created_at": "2026-08-15T10:15:00Z",
+    "email_id": "email-0-1",
+    "metadata": {
+      "ip": "104.28.192.1",
+      "os": "iOS",
+      "device": "iPhone",
+      "browser": "Safari",
+      "city": "Menlo Park",
+      "region": "CA",
+      "country": "USA",
+      "timezone": "PST",
+      "open_number": 1,
+      "is_apple_privacy_relay": true
+    },
+    "engine_metadata": {
+      "algorithmic": { "confidence": 0.9, "features": { "is_mobile": 1, "is_apple_relay": 1 } }
+    }
   },
   {
-    "type": "REPLY_RECEIVED",
-    "timestamp": "2026-08-18T09:54:31.576Z",
-    "details": "Recruiter replied"
+    "id": "evt-3",
+    "event_type": "LINK_CLICKED",
+    "created_at": "2026-08-15T10:16:30Z",
+    "email_id": "email-0-1",
+    "metadata": {
+      "ip": "104.28.192.1",
+      "os": "iOS",
+      "device": "iPhone",
+      "browser": "Safari",
+      "city": "Menlo Park",
+      "region": "CA",
+      "country": "USA",
+      "timezone": "PST",
+      "click_number": 1,
+      "url": "https://getmyjob.ai/r/resume_jane_doe.pdf"
+    },
+    "engine_metadata": {
+      "rules": { "confidence": 1.0, "flags": [] }
+    }
+  },
+  {
+    "id": "evt-4",
+    "event_type": "REPLY_RECEIVED",
+    "created_at": "2026-08-16T14:30:00Z",
+    "email_id": "email-0-1",
+    "metadata": {},
+    "engine_metadata": {
+      "ai": { "confidence": 0.98, "intent": "INTERVIEW_INVITE" }
+    },
+    "ai_confidence_score": 0.98
   }
 ] };
 export const MOCK_EMAILS = { emails: [
