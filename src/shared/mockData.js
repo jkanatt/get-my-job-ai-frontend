@@ -6477,8 +6477,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-0",
     "title": "Interview with Notion for Full Stack Developer",
     "company": "Notion",
-    "date": "2026-08-19",
-    "time": "10:00 PM",
+    "start_time": "2026-08-19T10:00:00.000Z",
+    "end_time": "2026-08-19T11:00:00.000Z",
+    
     "type": "Hiring Manager Interview",
     "interviewer": "Sarah Jenkins",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6487,8 +6488,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-1",
     "title": "Interview with OpenAI for Backend Engineer",
     "company": "OpenAI",
-    "date": "2026-08-29",
-    "time": "14:00 PM",
+    "start_time": "2026-08-29T10:00:00.000Z",
+    "end_time": "2026-08-29T11:00:00.000Z",
+    
     "type": "Technical Screen",
     "interviewer": "Mike Ross",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6497,8 +6499,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-2",
     "title": "Interview with OpenAI for Frontend Engineer",
     "company": "OpenAI",
-    "date": "2026-08-27",
-    "time": "13:00 PM",
+    "start_time": "2026-08-27T10:00:00.000Z",
+    "end_time": "2026-08-27T11:00:00.000Z",
+    
     "type": "Recruiter Call",
     "interviewer": "Sarah Jenkins",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6507,8 +6510,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-3",
     "title": "Interview with Supabase for Director of Engineering",
     "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "date": "2026-08-21",
-    "time": "12:00 PM",
+    "start_time": "2026-08-21T10:00:00.000Z",
+    "end_time": "2026-08-21T11:00:00.000Z",
+    
     "type": "Onsite",
     "interviewer": "Louis Litt",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6517,8 +6521,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-4",
     "title": "Interview with Anthropic for Data Scientist",
     "company": "Anthropic",
-    "date": "2026-08-23",
-    "time": "10:00 PM",
+    "start_time": "2026-08-23T10:00:00.000Z",
+    "end_time": "2026-08-23T11:00:00.000Z",
+    
     "type": "Technical Screen",
     "interviewer": "Jessica Pearson",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6527,8 +6532,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-5",
     "title": "Interview with Apple for Backend Engineer",
     "company": "Apple",
-    "date": "2026-08-21",
-    "time": "13:00 PM",
+    "start_time": "2026-08-21T10:00:00.000Z",
+    "end_time": "2026-08-21T11:00:00.000Z",
+    
     "type": "Technical Screen",
     "interviewer": "Mike Ross",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6537,8 +6543,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-6",
     "title": "Interview with Supabase for Senior Product Manager",
     "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "date": "2026-08-31",
-    "time": "15:00 PM",
+    "start_time": "2026-08-31T10:00:00.000Z",
+    "end_time": "2026-08-31T11:00:00.000Z",
+    
     "type": "Onsite",
     "interviewer": "Jessica Pearson",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6547,8 +6554,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-7",
     "title": "Interview with Netflix for Frontend Engineer",
     "company": "Netflix",
-    "date": "2026-08-24",
-    "time": "10:00 PM",
+    "start_time": "2026-08-24T10:00:00.000Z",
+    "end_time": "2026-08-24T11:00:00.000Z",
+    
     "type": "Recruiter Call",
     "interviewer": "Mike Ross",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6557,8 +6565,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-8",
     "title": "Interview with Ramp for UX Designer",
     "company": "Greenhouse", "domain": "boards.greenhouse.io",
-    "date": "2026-08-27",
-    "time": "14:00 PM",
+    "start_time": "2026-08-27T10:00:00.000Z",
+    "end_time": "2026-08-27T11:00:00.000Z",
+    
     "type": "Recruiter Call",
     "interviewer": "Mike Ross",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6567,8 +6576,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-9",
     "title": "Interview with OpenAI for Full Stack Developer",
     "company": "OpenAI",
-    "date": "2026-08-25",
-    "time": "15:00 PM",
+    "start_time": "2026-08-25T10:00:00.000Z",
+    "end_time": "2026-08-25T11:00:00.000Z",
+    
     "type": "Onsite",
     "interviewer": "Mike Ross",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6577,8 +6587,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-10",
     "title": "Interview with Stripe for Data Scientist",
     "company": "Stripe",
-    "date": "2026-08-19",
-    "time": "12:00 PM",
+    "start_time": "2026-08-19T10:00:00.000Z",
+    "end_time": "2026-08-19T11:00:00.000Z",
+    
     "type": "Onsite",
     "interviewer": "Harvey Specter",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6587,8 +6598,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-11",
     "title": "Interview with Notion for Backend Engineer",
     "company": "Notion",
-    "date": "2026-08-20",
-    "time": "10:00 PM",
+    "start_time": "2026-08-20T10:00:00.000Z",
+    "end_time": "2026-08-20T11:00:00.000Z",
+    
     "type": "Onsite",
     "interviewer": "Jessica Pearson",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6597,8 +6609,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-12",
     "title": "Interview with Anthropic for Data Scientist",
     "company": "Anthropic",
-    "date": "2026-08-22",
-    "time": "12:00 PM",
+    "start_time": "2026-08-22T10:00:00.000Z",
+    "end_time": "2026-08-22T11:00:00.000Z",
+    
     "type": "Recruiter Call",
     "interviewer": "Jessica Pearson",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6607,8 +6620,9 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-13",
     "title": "Interview with Anthropic for Backend Engineer",
     "company": "Anthropic",
-    "date": "2026-08-28",
-    "time": "12:00 PM",
+    "start_time": "2026-08-28T10:00:00.000Z",
+    "end_time": "2026-08-28T11:00:00.000Z",
+    
     "type": "Recruiter Call",
     "interviewer": "Louis Litt",
     "link": "https://meet.google.com/abc-defg-hij"
@@ -6617,7 +6631,8 @@ export const MOCK_CALENDAR = { events: [
     "id": "cal-14",
     "title": "Interview with OpenAI for Backend Engineer",
     "company": "OpenAI",
-    "date": "2026-09-01",
+    "start_time": "2026-09-01T10:00:00.000Z",
+    "end_time": "2026-09-01T11:00:00.000Z",
     "time": "11:00 PM",
     "type": "Hiring Manager Interview",
     "interviewer": "Mike Ross",
