@@ -34,6 +34,73 @@ export function AuthProvider({ children }) {
         const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
         await delay(300); // Simulate network latency
 
+        const method = (init && init.method) ? init.method.toUpperCase() : 'GET';
+        if (method !== 'GET') {
+          let reqBody = {};
+          try { if (init.body) reqBody = JSON.parse(init.body); } catch (e) {}
+          
+          const newId = 'mock-' + Math.random().toString(36).substr(2, 9);
+          const newItem = { id: newId, created_at: new Date().toISOString(), date: new Date().toISOString(), ...reqBody };
+
+          if (method === 'POST') {
+             if (url.includes('/api/applications') && !url.includes('/tracking')) {
+                if (MOCKS.MOCK_APPLICATIONS && MOCKS.MOCK_APPLICATIONS.applications) {
+                  MOCKS.MOCK_APPLICATIONS.applications.unshift(newItem);
+                  MOCKS.MOCK_APPLICATIONS.total += 1;
+                }
+             } else if (url.includes('/api/calendar')) {
+                if (MOCKS.MOCK_CALENDAR && MOCKS.MOCK_CALENDAR.events) {
+                  MOCKS.MOCK_CALENDAR.events.unshift(newItem);
+                }
+             } else if (url.includes('/api/emails') && !url.includes('/counts')) {
+                if (MOCKS.MOCK_EMAILS && MOCKS.MOCK_EMAILS.emails) {
+                  MOCKS.MOCK_EMAILS.emails.unshift(newItem);
+                }
+             } else if (url.includes('/api/contacts')) {
+                if (MOCKS.MOCK_CONTACTS && MOCKS.MOCK_CONTACTS.contacts) {
+                  MOCKS.MOCK_CONTACTS.contacts.unshift(newItem);
+                }
+             } else if (url.includes('/api/email-templates')) {
+                if (Array.isArray(MOCKS.MOCK_EMAIL_TEMPLATES)) {
+                  MOCKS.MOCK_EMAIL_TEMPLATES.unshift(newItem);
+                }
+             }
+          } else if (method === 'PUT' || method === 'PATCH') {
+             if (url.includes('/api/applications') && !url.includes('/tracking')) {
+                if (MOCKS.MOCK_APPLICATIONS && MOCKS.MOCK_APPLICATIONS.applications) {
+                   const index = MOCKS.MOCK_APPLICATIONS.applications.findIndex(a => url.includes(a.id));
+                   if (index !== -1) MOCKS.MOCK_APPLICATIONS.applications[index] = { ...MOCKS.MOCK_APPLICATIONS.applications[index], ...reqBody };
+                }
+             }
+             if (url.includes('/api/profile')) {
+                Object.assign(MOCKS.MOCK_PROFILE, reqBody);
+             }
+             if (url.includes('/api/settings')) {
+                Object.assign(MOCKS.MOCK_SETTINGS, reqBody);
+             }
+          } else if (method === 'DELETE') {
+             if (url.includes('/api/applications') && !url.includes('/tracking')) {
+                if (MOCKS.MOCK_APPLICATIONS && MOCKS.MOCK_APPLICATIONS.applications) {
+                   MOCKS.MOCK_APPLICATIONS.applications = MOCKS.MOCK_APPLICATIONS.applications.filter(a => !url.includes(a.id));
+                   MOCKS.MOCK_APPLICATIONS.total -= 1;
+                }
+             } else if (url.includes('/api/calendar')) {
+                if (MOCKS.MOCK_CALENDAR && MOCKS.MOCK_CALENDAR.events) {
+                  MOCKS.MOCK_CALENDAR.events = MOCKS.MOCK_CALENDAR.events.filter(e => !url.includes(e.id));
+                }
+             }
+          }
+          
+          return new Response(JSON.stringify({ 
+            success: true, 
+            id: newId,
+            event: { id: newId } 
+          }), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' }
+          });
+        }
+
         let mockData = {};
 
         if (url.includes('/api/jobs')) mockData = MOCKS.MOCK_JOBS;
