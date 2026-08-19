@@ -3830,16 +3830,52 @@ export const MOCK_TRACKING_EVENTS = { success: true, events: [
 export const MOCK_EMAILS = { emails: [
   {
     "id": "email-full-0",
-    "thread_id": "thread-0",
-    "application_id": "app-108",
-    "subject": "Regarding your application for Machine Learning Engineer at Vercel",
-    "from_name": "Mike Ross",
-    "from_email": "mike@vercel.com",
+    "thread_id": "thread-11",
+    "application_id": "app-23",
+    "subject": "Offer Letter from Linear",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@linear.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
+    "snippet": "Hello!We are thrilled to extend an offer for the UX Designer...",
+    "body_html": "<p>Hello!</p><p>We are thrilled to extend an offer for the UX Designer position at Linear! Please review the attached document outlining your compensation package, equity details, and benefits.</p><p>We are super excited to have you join the team.</p><p>Cheers,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-07-24T22:32:29.133Z",
+    "date": "2026-07-03T10:16:34.866Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Linear"
+  },
+  {
+    "id": "email-full-1",
+    "thread_id": "thread-91",
+    "application_id": "app-5",
+    "subject": "Following up on your application to Linear",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@linear.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,I wanted to personally reach out regarding your applicati...",
+    "body_html": "<p>Hi,</p><p>I wanted to personally reach out regarding your application for the Director of Engineering position. Your profile looks incredible and I'd love to jump on a quick sync this Thursday.</p><p>Does 2 PM PST work for you?</p><p>Thanks,<br/>Jessica Pearson</p>",
+    "created_at": "2026-06-08T12:58:34.326Z",
+    "date": "2026-05-17T05:30:33.624Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Linear"
+  },
+  {
+    "id": "email-full-2",
+    "thread_id": "thread-91",
+    "application_id": "app-61",
+    "subject": "Interview Invitation: Backend Engineer at Vercel",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@vercel.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi there,Thank you for applying to the Backend Engineer posi...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Backend Engineer position at Vercel. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Jessica Pearson</p>",
+    "created_at": "2026-06-06T03:54:21.473Z",
+    "date": "2026-05-06T11:42:07.836Z",
     "is_read": true,
     "labels": [
       "INBOX"
@@ -3847,107 +3883,71 @@ export const MOCK_EMAILS = { emails: [
     "company": "Vercel"
   },
   {
-    "id": "email-full-1",
-    "thread_id": "thread-1",
-    "application_id": "app-89",
-    "subject": "Regarding your application for Director of Engineering at Microsoft",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@microsoft.com",
+    "id": "email-full-3",
+    "thread_id": "thread-73",
+    "application_id": "app-31",
+    "subject": "Update on your application for UX Designer at Google",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@google.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the UX Designer role at Google. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-06-21T07:20:11.267Z",
+    "date": "2026-07-17T07:09:18.051Z",
     "is_read": true,
     "labels": [
       "INBOX"
     ],
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
-  },
-  {
-    "id": "email-full-2",
-    "thread_id": "thread-2",
-    "application_id": "app-94",
-    "subject": "Regarding your application for Full Stack Developer at Google",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@google.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "BambooHR", "domain": "bamboohr.com"
-  },
-  {
-    "id": "email-full-3",
-    "thread_id": "thread-3",
-    "application_id": "app-103",
-    "subject": "Regarding your application for Data Scientist at Notion",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
+    "company": "Google"
   },
   {
     "id": "email-full-4",
-    "thread_id": "thread-4",
-    "application_id": "app-89",
-    "subject": "Regarding your application for Director of Engineering at Microsoft",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@microsoft.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
-  },
-  {
-    "id": "email-full-5",
-    "thread_id": "thread-5",
-    "application_id": "app-13",
-    "subject": "Regarding your application for Full Stack Developer at Stripe",
-    "from_name": "Louis Litt",
-    "from_email": "louis@stripe.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Stripe"
-  },
-  {
-    "id": "email-full-6",
-    "thread_id": "thread-6",
-    "application_id": "app-52",
-    "subject": "Regarding your application for Data Scientist at OpenAI",
+    "thread_id": "thread-23",
+    "application_id": "app-72",
+    "subject": "Following up on your application to OpenAI",
     "from_name": "Harvey Specter",
     "from_email": "harvey@openai.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
+    "snippet": "Hi,I wanted to personally reach out regarding your applicati...",
+    "body_html": "<p>Hi,</p><p>I wanted to personally reach out regarding your application for the Frontend Engineer position. Your profile looks incredible and I'd love to jump on a quick sync this Thursday.</p><p>Does 2 PM PST work for you?</p><p>Thanks,<br/>Harvey Specter</p>",
+    "created_at": "2026-08-10T17:21:40.984Z",
+    "date": "2026-07-12T05:54:38.633Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "OpenAI"
+  },
+  {
+    "id": "email-full-5",
+    "thread_id": "thread-34",
+    "application_id": "app-24",
+    "subject": "Update on your application for Machine Learning Engineer at Meta",
+    "from_name": "Harvey Specter",
+    "from_email": "harvey@meta.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Machine Learning Engineer role at Meta. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-05-16T18:07:25.340Z",
+    "date": "2026-07-23T06:38:29.424Z",
+    "is_read": false,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Meta"
+  },
+  {
+    "id": "email-full-6",
+    "thread_id": "thread-52",
+    "application_id": "app-2",
+    "subject": "Update on your application for Backend Engineer at OpenAI",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@openai.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Backend Engineer role at OpenAI. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-05-30T23:31:43.268Z",
+    "date": "2026-07-05T05:33:30.474Z",
     "is_read": true,
     "labels": [
       "INBOX"
@@ -3956,35 +3956,35 @@ export const MOCK_EMAILS = { emails: [
   },
   {
     "id": "email-full-7",
-    "thread_id": "thread-7",
-    "application_id": "app-17",
-    "subject": "Regarding your application for Frontend Engineer at Figma",
-    "from_name": "Louis Litt",
-    "from_email": "louis@figma.com",
+    "thread_id": "thread-70",
+    "application_id": "app-38",
+    "subject": "Interview Invitation: Frontend Engineer at Google",
+    "from_name": "Mike Ross",
+    "from_email": "mike@google.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": false,
+    "snippet": "Hi there,Thank you for applying to the Frontend Engineer pos...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Frontend Engineer position at Google. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Mike Ross</p>",
+    "created_at": "2026-07-14T23:19:33.480Z",
+    "date": "2026-05-24T08:54:16.525Z",
+    "is_read": true,
     "labels": [
       "INBOX"
     ],
-    "company": "Figma"
+    "company": "Google"
   },
   {
     "id": "email-full-8",
-    "thread_id": "thread-8",
-    "application_id": "app-63",
-    "subject": "Regarding your application for Machine Learning Engineer at Stripe",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@stripe.com",
+    "thread_id": "thread-13",
+    "application_id": "app-8",
+    "subject": "Following up on your application to Stripe",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@stripe.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": true,
+    "snippet": "Hi,I wanted to personally reach out regarding your applicati...",
+    "body_html": "<p>Hi,</p><p>I wanted to personally reach out regarding your application for the Product Manager position. Your profile looks incredible and I'd love to jump on a quick sync this Thursday.</p><p>Does 2 PM PST work for you?</p><p>Thanks,<br/>Jessica Pearson</p>",
+    "created_at": "2026-07-23T06:10:00.910Z",
+    "date": "2026-08-06T01:23:39.040Z",
+    "is_read": false,
     "labels": [
       "INBOX"
     ],
@@ -3992,106 +3992,34 @@ export const MOCK_EMAILS = { emails: [
   },
   {
     "id": "email-full-9",
-    "thread_id": "thread-9",
-    "application_id": "app-92",
-    "subject": "Regarding your application for Director of Engineering at Figma",
-    "from_name": "Mike Ross",
-    "from_email": "mike@figma.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Figma"
-  },
-  {
-    "id": "email-full-10",
-    "thread_id": "thread-10",
-    "application_id": "app-43",
-    "subject": "Regarding your application for Senior Product Manager at OpenAI",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@openai.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "OpenAI"
-  },
-  {
-    "id": "email-full-11",
-    "thread_id": "thread-11",
-    "application_id": "app-56",
-    "subject": "Regarding your application for Director of Engineering at Linear",
+    "thread_id": "thread-30",
+    "application_id": "app-23",
+    "subject": "Interview Invitation: Backend Engineer at Linear",
     "from_name": "Sarah Jenkins",
     "from_email": "sarah@linear.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
+    "snippet": "Hi there,Thank you for applying to the Backend Engineer posi...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Backend Engineer position at Linear. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-08-03T11:05:24.224Z",
+    "date": "2026-07-09T12:19:21.673Z",
     "is_read": true,
     "labels": [
       "INBOX"
     ],
-    "company": "Lever", "domain": "jobs.lever.co"
+    "company": "Linear"
   },
   {
-    "id": "email-full-12",
-    "thread_id": "thread-12",
-    "application_id": "app-98",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
+    "id": "email-full-10",
+    "thread_id": "thread-56",
+    "application_id": "app-3",
+    "subject": "Update on your application for Frontend Engineer at Apple",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@apple.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-13",
-    "thread_id": "thread-13",
-    "application_id": "app-78",
-    "subject": "Regarding your application for Data Scientist at Meta",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@meta.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-10T09:54:31.576Z",
-    "date": "2026-08-10T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-14",
-    "thread_id": "thread-14",
-    "application_id": "app-102",
-    "subject": "Regarding your application for UX Designer at Apple",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Frontend Engineer role at Apple. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-07-03T18:26:33.592Z",
+    "date": "2026-06-28T15:08:30.485Z",
     "is_read": true,
     "labels": [
       "INBOX"
@@ -4099,17 +4027,143 @@ export const MOCK_EMAILS = { emails: [
     "company": "Apple"
   },
   {
-    "id": "email-full-15",
-    "thread_id": "thread-15",
-    "application_id": "app-80",
-    "subject": "Regarding your application for Director of Engineering at Stripe",
+    "id": "email-full-11",
+    "thread_id": "thread-27",
+    "application_id": "app-65",
+    "subject": "Offer Letter from Apple",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@apple.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hello!We are thrilled to extend an offer for the Product Man...",
+    "body_html": "<p>Hello!</p><p>We are thrilled to extend an offer for the Product Manager position at Apple! Please review the attached document outlining your compensation package, equity details, and benefits.</p><p>We are super excited to have you join the team.</p><p>Cheers,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-06-27T20:36:41.615Z",
+    "date": "2026-06-03T23:06:59.625Z",
+    "is_read": false,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Apple"
+  },
+  {
+    "id": "email-full-12",
+    "thread_id": "thread-47",
+    "application_id": "app-91",
+    "subject": "Action Required: Take Home Assignment for Machine Learning Engineer",
     "from_name": "Jessica Pearson",
     "from_email": "jessica@stripe.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
+    "snippet": "Hi,As the next step in our interview process for the Machine...",
+    "body_html": "<p>Hi,</p><p>As the next step in our interview process for the Machine Learning Engineer position at Stripe, we would like you to complete a brief take-home assignment.</p><p>You have 48 hours to complete it. Let us know if you have any questions.</p><p>Best,<br/>Jessica Pearson</p>",
+    "created_at": "2026-07-17T02:40:44.147Z",
+    "date": "2026-06-18T19:33:15.952Z",
+    "is_read": false,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Stripe"
+  },
+  {
+    "id": "email-full-13",
+    "thread_id": "thread-29",
+    "application_id": "app-32",
+    "subject": "Following up on your application to Vercel",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@vercel.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,I wanted to personally reach out regarding your applicati...",
+    "body_html": "<p>Hi,</p><p>I wanted to personally reach out regarding your application for the Frontend Engineer position. Your profile looks incredible and I'd love to jump on a quick sync this Thursday.</p><p>Does 2 PM PST work for you?</p><p>Thanks,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-05-13T23:11:06.038Z",
+    "date": "2026-07-29T22:55:29.071Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Vercel"
+  },
+  {
+    "id": "email-full-14",
+    "thread_id": "thread-27",
+    "application_id": "app-86",
+    "subject": "Offer Letter from Linear",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@linear.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hello!We are thrilled to extend an offer for the Director of...",
+    "body_html": "<p>Hello!</p><p>We are thrilled to extend an offer for the Director of Engineering position at Linear! Please review the attached document outlining your compensation package, equity details, and benefits.</p><p>We are super excited to have you join the team.</p><p>Cheers,<br/>Jessica Pearson</p>",
+    "created_at": "2026-05-23T06:06:18.752Z",
+    "date": "2026-08-02T04:12:50.038Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Linear"
+  },
+  {
+    "id": "email-full-15",
+    "thread_id": "thread-22",
+    "application_id": "app-96",
+    "subject": "Interview Invitation: Machine Learning Engineer at Anthropic",
+    "from_name": "Mike Ross",
+    "from_email": "mike@anthropic.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi there,Thank you for applying to the Machine Learning Engi...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Machine Learning Engineer position at Anthropic. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Mike Ross</p>",
+    "created_at": "2026-05-04T10:12:03.884Z",
+    "date": "2026-06-11T08:04:17.336Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Anthropic"
+  },
+  {
+    "id": "email-full-16",
+    "thread_id": "thread-41",
+    "application_id": "app-22",
+    "subject": "Following up on your application to OpenAI",
+    "from_name": "Harvey Specter",
+    "from_email": "harvey@openai.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,I wanted to personally reach out regarding your applicati...",
+    "body_html": "<p>Hi,</p><p>I wanted to personally reach out regarding your application for the Director of Engineering position. Your profile looks incredible and I'd love to jump on a quick sync this Thursday.</p><p>Does 2 PM PST work for you?</p><p>Thanks,<br/>Harvey Specter</p>",
+    "created_at": "2026-08-08T09:33:02.399Z",
+    "date": "2026-06-28T13:33:29.659Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "OpenAI"
+  },
+  {
+    "id": "email-full-17",
+    "thread_id": "thread-43",
+    "application_id": "app-29",
+    "subject": "Action Required: Take Home Assignment for Director of Engineering",
+    "from_name": "Harvey Specter",
+    "from_email": "harvey@openai.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,As the next step in our interview process for the Directo...",
+    "body_html": "<p>Hi,</p><p>As the next step in our interview process for the Director of Engineering position at OpenAI, we would like you to complete a brief take-home assignment.</p><p>You have 48 hours to complete it. Let us know if you have any questions.</p><p>Best,<br/>Harvey Specter</p>",
+    "created_at": "2026-06-26T03:09:22.572Z",
+    "date": "2026-06-07T00:28:25.054Z",
+    "is_read": false,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "OpenAI"
+  },
+  {
+    "id": "email-full-18",
+    "thread_id": "thread-33",
+    "application_id": "app-54",
+    "subject": "Interview Invitation: Backend Engineer at Stripe",
+    "from_name": "Mike Ross",
+    "from_email": "mike@stripe.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi there,Thank you for applying to the Backend Engineer posi...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Backend Engineer position at Stripe. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Mike Ross</p>",
+    "created_at": "2026-06-13T05:16:34.981Z",
+    "date": "2026-04-28T05:34:58.566Z",
     "is_read": true,
     "labels": [
       "INBOX"
@@ -4117,341 +4171,287 @@ export const MOCK_EMAILS = { emails: [
     "company": "Stripe"
   },
   {
-    "id": "email-full-16",
-    "thread_id": "thread-16",
-    "application_id": "app-119",
-    "subject": "Regarding your application for Director of Engineering at Amazon",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-17",
-    "thread_id": "thread-17",
-    "application_id": "app-30",
-    "subject": "Regarding your application for Data Scientist at Anthropic",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@anthropic.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Anthropic"
-  },
-  {
-    "id": "email-full-18",
-    "thread_id": "thread-18",
-    "application_id": "app-83",
-    "subject": "Regarding your application for Director of Engineering at Google",
-    "from_name": "Louis Litt",
-    "from_email": "louis@google.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "BambooHR", "domain": "bamboohr.com"
-  },
-  {
     "id": "email-full-19",
-    "thread_id": "thread-19",
-    "application_id": "app-104",
-    "subject": "Regarding your application for Senior Product Manager at Linear",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-20",
-    "thread_id": "thread-20",
-    "application_id": "app-64",
-    "subject": "Regarding your application for Backend Engineer at Figma",
-    "from_name": "Louis Litt",
-    "from_email": "louis@figma.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Figma"
-  },
-  {
-    "id": "email-full-21",
-    "thread_id": "thread-21",
-    "application_id": "app-34",
-    "subject": "Regarding your application for UX Designer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-22",
-    "thread_id": "thread-22",
-    "application_id": "app-69",
-    "subject": "Regarding your application for Machine Learning Engineer at Figma",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@figma.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Figma"
-  },
-  {
-    "id": "email-full-23",
-    "thread_id": "thread-23",
-    "application_id": "app-58",
-    "subject": "Regarding your application for Frontend Engineer at Notion",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-24",
-    "thread_id": "thread-24",
-    "application_id": "app-4",
-    "subject": "Regarding your application for UX Designer at Vercel",
-    "from_name": "Louis Litt",
-    "from_email": "louis@vercel.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-10T09:54:31.576Z",
-    "date": "2026-08-10T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Vercel"
-  },
-  {
-    "id": "email-full-25",
-    "thread_id": "thread-25",
-    "application_id": "app-34",
-    "subject": "Regarding your application for UX Designer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-26",
-    "thread_id": "thread-26",
-    "application_id": "app-9",
-    "subject": "Regarding your application for Machine Learning Engineer at Supabase",
-    "from_name": "Mike Ross",
-    "from_email": "mike@supabase.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-10T09:54:31.576Z",
-    "date": "2026-08-10T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Ashby", "domain": "jobs.ashbyhq.com"
-  },
-  {
-    "id": "email-full-27",
-    "thread_id": "thread-27",
-    "application_id": "app-46",
-    "subject": "Regarding your application for Senior Product Manager at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-28",
-    "thread_id": "thread-28",
-    "application_id": "app-6",
-    "subject": "Regarding your application for Director of Engineering at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-29",
-    "thread_id": "thread-29",
-    "application_id": "app-93",
-    "subject": "Regarding your application for Full Stack Developer at Ramp",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-30",
-    "thread_id": "thread-30",
-    "application_id": "app-36",
-    "subject": "Regarding your application for UX Designer at Microsoft",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@microsoft.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
-  },
-  {
-    "id": "email-full-31",
-    "thread_id": "thread-31",
-    "application_id": "app-18",
-    "subject": "Regarding your application for Data Scientist at Notion",
-    "from_name": "Mike Ross",
-    "from_email": "mike@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-32",
-    "thread_id": "thread-32",
-    "application_id": "app-102",
-    "subject": "Regarding your application for UX Designer at Apple",
+    "thread_id": "thread-47",
+    "application_id": "app-44",
+    "subject": "Update on your application for Machine Learning Engineer at OpenAI",
     "from_name": "Sarah Jenkins",
-    "from_email": "sarah@apple.com",
+    "from_email": "sarah@openai.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Machine Learning Engineer role at OpenAI. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-06-11T08:42:53.514Z",
+    "date": "2026-07-24T14:52:20.605Z",
     "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-33",
-    "thread_id": "thread-33",
-    "application_id": "app-43",
-    "subject": "Regarding your application for Senior Product Manager at OpenAI",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@openai.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": false,
     "labels": [
       "INBOX"
     ],
     "company": "OpenAI"
   },
   {
-    "id": "email-full-34",
-    "thread_id": "thread-34",
-    "application_id": "app-16",
-    "subject": "Regarding your application for Data Scientist at Stripe",
-    "from_name": "Louis Litt",
-    "from_email": "louis@stripe.com",
+    "id": "email-full-20",
+    "thread_id": "thread-89",
+    "application_id": "app-82",
+    "subject": "Interview Invitation: Machine Learning Engineer at Vercel",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@vercel.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
+    "snippet": "Hi there,Thank you for applying to the Machine Learning Engi...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Machine Learning Engineer position at Vercel. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Jessica Pearson</p>",
+    "created_at": "2026-06-09T12:18:32.533Z",
+    "date": "2026-06-05T07:49:03.024Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Vercel"
+  },
+  {
+    "id": "email-full-21",
+    "thread_id": "thread-44",
+    "application_id": "app-29",
+    "subject": "Action Required: Take Home Assignment for UX Designer",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@anthropic.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,As the next step in our interview process for the UX Desi...",
+    "body_html": "<p>Hi,</p><p>As the next step in our interview process for the UX Designer position at Anthropic, we would like you to complete a brief take-home assignment.</p><p>You have 48 hours to complete it. Let us know if you have any questions.</p><p>Best,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-05-06T15:14:18.188Z",
+    "date": "2026-07-09T22:33:37.945Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Anthropic"
+  },
+  {
+    "id": "email-full-22",
+    "thread_id": "thread-87",
+    "application_id": "app-4",
+    "subject": "Action Required: Take Home Assignment for Director of Engineering",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@linear.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,As the next step in our interview process for the Directo...",
+    "body_html": "<p>Hi,</p><p>As the next step in our interview process for the Director of Engineering position at Linear, we would like you to complete a brief take-home assignment.</p><p>You have 48 hours to complete it. Let us know if you have any questions.</p><p>Best,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-05-30T21:05:19.714Z",
+    "date": "2026-05-10T12:00:34.271Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Linear"
+  },
+  {
+    "id": "email-full-23",
+    "thread_id": "thread-53",
+    "application_id": "app-74",
+    "subject": "Following up on your application to Vercel",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@vercel.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,I wanted to personally reach out regarding your applicati...",
+    "body_html": "<p>Hi,</p><p>I wanted to personally reach out regarding your application for the Backend Engineer position. Your profile looks incredible and I'd love to jump on a quick sync this Thursday.</p><p>Does 2 PM PST work for you?</p><p>Thanks,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-05-15T15:31:26.703Z",
+    "date": "2026-07-23T15:47:37.096Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Vercel"
+  },
+  {
+    "id": "email-full-24",
+    "thread_id": "thread-95",
+    "application_id": "app-91",
+    "subject": "Interview Invitation: Frontend Engineer at Meta",
+    "from_name": "Mike Ross",
+    "from_email": "mike@meta.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi there,Thank you for applying to the Frontend Engineer pos...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Frontend Engineer position at Meta. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Mike Ross</p>",
+    "created_at": "2026-06-28T15:44:36.151Z",
+    "date": "2026-06-24T09:52:32.051Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Meta"
+  },
+  {
+    "id": "email-full-25",
+    "thread_id": "thread-14",
+    "application_id": "app-82",
+    "subject": "Action Required: Take Home Assignment for Machine Learning Engineer",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@meta.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,As the next step in our interview process for the Machine...",
+    "body_html": "<p>Hi,</p><p>As the next step in our interview process for the Machine Learning Engineer position at Meta, we would like you to complete a brief take-home assignment.</p><p>You have 48 hours to complete it. Let us know if you have any questions.</p><p>Best,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-06-27T03:51:51.575Z",
+    "date": "2026-06-12T08:54:58.050Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Meta"
+  },
+  {
+    "id": "email-full-26",
+    "thread_id": "thread-50",
+    "application_id": "app-27",
+    "subject": "Offer Letter from Stripe",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@stripe.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hello!We are thrilled to extend an offer for the Backend Eng...",
+    "body_html": "<p>Hello!</p><p>We are thrilled to extend an offer for the Backend Engineer position at Stripe! Please review the attached document outlining your compensation package, equity details, and benefits.</p><p>We are super excited to have you join the team.</p><p>Cheers,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-06-15T01:06:47.745Z",
+    "date": "2026-07-21T06:21:43.755Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Stripe"
+  },
+  {
+    "id": "email-full-27",
+    "thread_id": "thread-29",
+    "application_id": "app-79",
+    "subject": "Update on your application for Director of Engineering at Meta",
+    "from_name": "Harvey Specter",
+    "from_email": "harvey@meta.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Director of Engineering role at Meta. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-07-08T19:17:20.891Z",
+    "date": "2026-05-16T14:31:18.286Z",
+    "is_read": false,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Meta"
+  },
+  {
+    "id": "email-full-28",
+    "thread_id": "thread-2",
+    "application_id": "app-85",
+    "subject": "Update on your application for Product Manager at Vercel",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@vercel.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Product Manager role at Vercel. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-05-07T06:10:53.284Z",
+    "date": "2026-06-28T18:40:48.969Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Vercel"
+  },
+  {
+    "id": "email-full-29",
+    "thread_id": "thread-88",
+    "application_id": "app-72",
+    "subject": "Update on your application for Frontend Engineer at Stripe",
+    "from_name": "Mike Ross",
+    "from_email": "mike@stripe.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Frontend Engineer role at Stripe. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-05-23T03:18:44.336Z",
+    "date": "2026-05-19T12:41:09.148Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Stripe"
+  },
+  {
+    "id": "email-full-30",
+    "thread_id": "thread-64",
+    "application_id": "app-34",
+    "subject": "Interview Invitation: Product Manager at Stripe",
+    "from_name": "Mike Ross",
+    "from_email": "mike@stripe.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi there,Thank you for applying to the Product Manager posit...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Product Manager position at Stripe. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Mike Ross</p>",
+    "created_at": "2026-07-15T11:29:34.429Z",
+    "date": "2026-05-11T14:36:27.459Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Stripe"
+  },
+  {
+    "id": "email-full-31",
+    "thread_id": "thread-38",
+    "application_id": "app-40",
+    "subject": "Offer Letter from Linear",
+    "from_name": "Mike Ross",
+    "from_email": "mike@linear.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hello!We are thrilled to extend an offer for the Director of...",
+    "body_html": "<p>Hello!</p><p>We are thrilled to extend an offer for the Director of Engineering position at Linear! Please review the attached document outlining your compensation package, equity details, and benefits.</p><p>We are super excited to have you join the team.</p><p>Cheers,<br/>Mike Ross</p>",
+    "created_at": "2026-07-13T14:48:46.959Z",
+    "date": "2026-06-09T22:26:53.232Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Linear"
+  },
+  {
+    "id": "email-full-32",
+    "thread_id": "thread-80",
+    "application_id": "app-31",
+    "subject": "Action Required: Take Home Assignment for Product Manager",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@meta.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,As the next step in our interview process for the Product...",
+    "body_html": "<p>Hi,</p><p>As the next step in our interview process for the Product Manager position at Meta, we would like you to complete a brief take-home assignment.</p><p>You have 48 hours to complete it. Let us know if you have any questions.</p><p>Best,<br/>Jessica Pearson</p>",
+    "created_at": "2026-08-03T13:08:00.146Z",
+    "date": "2026-06-14T05:57:07.842Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Meta"
+  },
+  {
+    "id": "email-full-33",
+    "thread_id": "thread-70",
+    "application_id": "app-27",
+    "subject": "Following up on your application to Vercel",
+    "from_name": "Harvey Specter",
+    "from_email": "harvey@vercel.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,I wanted to personally reach out regarding your applicati...",
+    "body_html": "<p>Hi,</p><p>I wanted to personally reach out regarding your application for the UX Designer position. Your profile looks incredible and I'd love to jump on a quick sync this Thursday.</p><p>Does 2 PM PST work for you?</p><p>Thanks,<br/>Harvey Specter</p>",
+    "created_at": "2026-05-08T15:49:52.756Z",
+    "date": "2026-06-17T05:10:04.957Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Vercel"
+  },
+  {
+    "id": "email-full-34",
+    "thread_id": "thread-99",
+    "application_id": "app-5",
+    "subject": "Offer Letter from Stripe",
+    "from_name": "Jessica Pearson",
+    "from_email": "jessica@stripe.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hello!We are thrilled to extend an offer for the UX Designer...",
+    "body_html": "<p>Hello!</p><p>We are thrilled to extend an offer for the UX Designer position at Stripe! Please review the attached document outlining your compensation package, equity details, and benefits.</p><p>We are super excited to have you join the team.</p><p>Cheers,<br/>Jessica Pearson</p>",
+    "created_at": "2026-05-20T03:57:01.626Z",
+    "date": "2026-06-02T09:37:36.900Z",
     "is_read": false,
     "labels": [
       "INBOX"
@@ -4460,70 +4460,70 @@ export const MOCK_EMAILS = { emails: [
   },
   {
     "id": "email-full-35",
-    "thread_id": "thread-35",
-    "application_id": "app-44",
-    "subject": "Regarding your application for Senior Product Manager at Vercel",
-    "from_name": "Louis Litt",
-    "from_email": "louis@vercel.com",
+    "thread_id": "thread-28",
+    "application_id": "app-65",
+    "subject": "Update on your application for Product Manager at Linear",
+    "from_name": "Harvey Specter",
+    "from_email": "harvey@linear.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Vercel"
-  },
-  {
-    "id": "email-full-36",
-    "thread_id": "thread-36",
-    "application_id": "app-18",
-    "subject": "Regarding your application for Data Scientist at Notion",
-    "from_name": "Mike Ross",
-    "from_email": "mike@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Product Manager role at Linear. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-08-17T20:18:24.497Z",
+    "date": "2026-07-06T21:33:25.818Z",
     "is_read": true,
     "labels": [
       "INBOX"
     ],
-    "company": "Notion"
+    "company": "Linear"
   },
   {
-    "id": "email-full-37",
-    "thread_id": "thread-37",
-    "application_id": "app-25",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
+    "id": "email-full-36",
+    "thread_id": "thread-76",
+    "application_id": "app-49",
+    "subject": "Following up on your application to Anthropic",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@anthropic.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": false,
+    "snippet": "Hi,I wanted to personally reach out regarding your applicati...",
+    "body_html": "<p>Hi,</p><p>I wanted to personally reach out regarding your application for the Director of Engineering position. Your profile looks incredible and I'd love to jump on a quick sync this Thursday.</p><p>Does 2 PM PST work for you?</p><p>Thanks,<br/>Sarah Jenkins</p>",
+    "created_at": "2026-05-10T16:49:24.897Z",
+    "date": "2026-07-02T00:32:26.390Z",
+    "is_read": true,
     "labels": [
       "INBOX"
     ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
+    "company": "Anthropic"
+  },
+  {
+    "id": "email-full-37",
+    "thread_id": "thread-54",
+    "application_id": "app-78",
+    "subject": "Update on your application for Backend Engineer at Google",
+    "from_name": "Sarah Jenkins",
+    "from_email": "sarah@google.com",
+    "to_email": "demo@getmyjob.ai",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Backend Engineer role at Google. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-07-13T20:11:02.987Z",
+    "date": "2026-07-30T08:55:15.894Z",
+    "is_read": true,
+    "labels": [
+      "INBOX"
+    ],
+    "company": "Google"
   },
   {
     "id": "email-full-38",
-    "thread_id": "thread-38",
-    "application_id": "app-62",
-    "subject": "Regarding your application for Senior Product Manager at Meta",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@meta.com",
+    "thread_id": "thread-20",
+    "application_id": "app-70",
+    "subject": "Interview Invitation: Frontend Engineer at Meta",
+    "from_name": "Mike Ross",
+    "from_email": "mike@meta.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
+    "snippet": "Hi there,Thank you for applying to the Frontend Engineer pos...",
+    "body_html": "<p>Hi there,</p><p>Thank you for applying to the Frontend Engineer position at Meta. We were impressed by your background and would love to invite you for a 30-minute initial video call with our engineering team.</p><p>Please let us know your availability for next week.</p><p>Best,<br/>Mike Ross</p>",
+    "created_at": "2026-04-27T04:21:46.883Z",
+    "date": "2026-06-05T06:53:26.354Z",
     "is_read": true,
     "labels": [
       "INBOX"
@@ -4532,2003 +4532,23 @@ export const MOCK_EMAILS = { emails: [
   },
   {
     "id": "email-full-39",
-    "thread_id": "thread-39",
-    "application_id": "app-30",
-    "subject": "Regarding your application for Data Scientist at Anthropic",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@anthropic.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Anthropic"
-  },
-  {
-    "id": "email-full-40",
-    "thread_id": "thread-40",
-    "application_id": "app-73",
-    "subject": "Regarding your application for Frontend Engineer at Ramp",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-41",
-    "thread_id": "thread-41",
-    "application_id": "app-3",
-    "subject": "Regarding your application for Frontend Engineer at Netflix",
-    "from_name": "Mike Ross",
-    "from_email": "mike@netflix.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Netflix"
-  },
-  {
-    "id": "email-full-42",
-    "thread_id": "thread-42",
-    "application_id": "app-6",
-    "subject": "Regarding your application for Director of Engineering at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-43",
     "thread_id": "thread-43",
-    "application_id": "app-102",
-    "subject": "Regarding your application for UX Designer at Apple",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-44",
-    "thread_id": "thread-44",
-    "application_id": "app-58",
-    "subject": "Regarding your application for Frontend Engineer at Notion",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-45",
-    "thread_id": "thread-45",
-    "application_id": "app-35",
-    "subject": "Regarding your application for Full Stack Developer at Notion",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-46",
-    "thread_id": "thread-46",
-    "application_id": "app-20",
-    "subject": "Regarding your application for Director of Engineering at Ramp",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-47",
-    "thread_id": "thread-47",
-    "application_id": "app-82",
-    "subject": "Regarding your application for Machine Learning Engineer at Apple",
-    "from_name": "Louis Litt",
-    "from_email": "louis@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-48",
-    "thread_id": "thread-48",
-    "application_id": "app-75",
-    "subject": "Regarding your application for Machine Learning Engineer at Google",
-    "from_name": "Mike Ross",
-    "from_email": "mike@google.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "BambooHR", "domain": "bamboohr.com"
-  },
-  {
-    "id": "email-full-49",
-    "thread_id": "thread-49",
-    "application_id": "app-92",
-    "subject": "Regarding your application for Director of Engineering at Figma",
-    "from_name": "Mike Ross",
-    "from_email": "mike@figma.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Figma"
-  },
-  {
-    "id": "email-full-50",
-    "thread_id": "thread-50",
-    "application_id": "app-41",
-    "subject": "Regarding your application for Director of Engineering at Apple",
-    "from_name": "Louis Litt",
-    "from_email": "louis@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-51",
-    "thread_id": "thread-51",
-    "application_id": "app-46",
-    "subject": "Regarding your application for Senior Product Manager at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-52",
-    "thread_id": "thread-52",
-    "application_id": "app-74",
-    "subject": "Regarding your application for Full Stack Developer at Meta",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@meta.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-53",
-    "thread_id": "thread-53",
-    "application_id": "app-12",
-    "subject": "Regarding your application for Director of Engineering at Supabase",
-    "from_name": "Louis Litt",
-    "from_email": "louis@supabase.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Ashby", "domain": "jobs.ashbyhq.com"
-  },
-  {
-    "id": "email-full-54",
-    "thread_id": "thread-54",
-    "application_id": "app-59",
-    "subject": "Regarding your application for Data Scientist at Vercel",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@vercel.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Vercel"
-  },
-  {
-    "id": "email-full-55",
-    "thread_id": "thread-55",
-    "application_id": "app-25",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-56",
-    "thread_id": "thread-56",
-    "application_id": "app-82",
-    "subject": "Regarding your application for Machine Learning Engineer at Apple",
-    "from_name": "Louis Litt",
-    "from_email": "louis@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-57",
-    "thread_id": "thread-57",
-    "application_id": "app-14",
-    "subject": "Regarding your application for Backend Engineer at Linear",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-58",
-    "thread_id": "thread-58",
-    "application_id": "app-28",
-    "subject": "Regarding your application for Backend Engineer at Anthropic",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@anthropic.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Anthropic"
-  },
-  {
-    "id": "email-full-59",
-    "thread_id": "thread-59",
-    "application_id": "app-48",
-    "subject": "Regarding your application for Backend Engineer at Anthropic",
-    "from_name": "Louis Litt",
-    "from_email": "louis@anthropic.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Anthropic"
-  },
-  {
-    "id": "email-full-60",
-    "thread_id": "thread-60",
-    "application_id": "app-87",
-    "subject": "Regarding your application for Director of Engineering at Amazon",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-61",
-    "thread_id": "thread-61",
-    "application_id": "app-91",
-    "subject": "Regarding your application for UX Designer at Figma",
-    "from_name": "Mike Ross",
-    "from_email": "mike@figma.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Figma"
-  },
-  {
-    "id": "email-full-62",
-    "thread_id": "thread-62",
-    "application_id": "app-35",
-    "subject": "Regarding your application for Full Stack Developer at Notion",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-63",
-    "thread_id": "thread-63",
-    "application_id": "app-115",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Louis Litt",
-    "from_email": "louis@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-64",
-    "thread_id": "thread-64",
-    "application_id": "app-32",
-    "subject": "Regarding your application for Full Stack Developer at Apple",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-65",
-    "thread_id": "thread-65",
-    "application_id": "app-26",
-    "subject": "Regarding your application for Senior Product Manager at Apple",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-66",
-    "thread_id": "thread-66",
-    "application_id": "app-56",
-    "subject": "Regarding your application for Director of Engineering at Linear",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-67",
-    "thread_id": "thread-67",
-    "application_id": "app-14",
-    "subject": "Regarding your application for Backend Engineer at Linear",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-68",
-    "thread_id": "thread-68",
-    "application_id": "app-41",
-    "subject": "Regarding your application for Director of Engineering at Apple",
-    "from_name": "Louis Litt",
-    "from_email": "louis@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-69",
-    "thread_id": "thread-69",
-    "application_id": "app-109",
-    "subject": "Regarding your application for Full Stack Developer at Linear",
-    "from_name": "Mike Ross",
-    "from_email": "mike@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-70",
-    "thread_id": "thread-70",
-    "application_id": "app-101",
-    "subject": "Regarding your application for Senior Product Manager at Netflix",
-    "from_name": "Mike Ross",
-    "from_email": "mike@netflix.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Netflix"
-  },
-  {
-    "id": "email-full-71",
-    "thread_id": "thread-71",
     "application_id": "app-93",
-    "subject": "Regarding your application for Full Stack Developer at Ramp",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-72",
-    "thread_id": "thread-72",
-    "application_id": "app-103",
-    "subject": "Regarding your application for Data Scientist at Notion",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-73",
-    "thread_id": "thread-73",
-    "application_id": "app-25",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-74",
-    "thread_id": "thread-74",
-    "application_id": "app-98",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-75",
-    "thread_id": "thread-75",
-    "application_id": "app-78",
-    "subject": "Regarding your application for Data Scientist at Meta",
+    "subject": "Update on your application for Machine Learning Engineer at Google",
     "from_name": "Harvey Specter",
-    "from_email": "harvey@meta.com",
+    "from_email": "harvey@google.com",
     "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-76",
-    "thread_id": "thread-76",
-    "application_id": "app-87",
-    "subject": "Regarding your application for Director of Engineering at Amazon",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-77",
-    "thread_id": "thread-77",
-    "application_id": "app-96",
-    "subject": "Regarding your application for Backend Engineer at Amazon",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-10T09:54:31.576Z",
-    "date": "2026-08-10T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-78",
-    "thread_id": "thread-78",
-    "application_id": "app-79",
-    "subject": "Regarding your application for UX Designer at Anthropic",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@anthropic.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Anthropic"
-  },
-  {
-    "id": "email-full-79",
-    "thread_id": "thread-79",
-    "application_id": "app-0",
-    "subject": "Regarding your application for Director of Engineering at Meta",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@meta.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-10T09:54:31.576Z",
-    "date": "2026-08-10T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-80",
-    "thread_id": "thread-80",
-    "application_id": "app-73",
-    "subject": "Regarding your application for Frontend Engineer at Ramp",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-81",
-    "thread_id": "thread-81",
-    "application_id": "app-114",
-    "subject": "Regarding your application for UX Designer at Microsoft",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@microsoft.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
+    "snippet": "Hi,Thank you for taking the time to speak with us about the ...",
+    "body_html": "<p>Hi,</p><p>Thank you for taking the time to speak with us about the Machine Learning Engineer role at Google. While we enjoyed learning about your experience, we have decided to move forward with other candidates who more closely fit our current needs.</p><p>We wish you the best in your job search!</p><p>Thanks,<br/>The {Company} Team</p>",
+    "created_at": "2026-05-24T21:16:14.994Z",
+    "date": "2026-07-07T04:25:06.821Z",
     "is_read": true,
     "labels": [
       "INBOX"
     ],
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
-  },
-  {
-    "id": "email-full-82",
-    "thread_id": "thread-82",
-    "application_id": "app-78",
-    "subject": "Regarding your application for Data Scientist at Meta",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@meta.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-83",
-    "thread_id": "thread-83",
-    "application_id": "app-28",
-    "subject": "Regarding your application for Backend Engineer at Anthropic",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@anthropic.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Anthropic"
-  },
-  {
-    "id": "email-full-84",
-    "thread_id": "thread-84",
-    "application_id": "app-83",
-    "subject": "Regarding your application for Director of Engineering at Google",
-    "from_name": "Louis Litt",
-    "from_email": "louis@google.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "BambooHR", "domain": "bamboohr.com"
-  },
-  {
-    "id": "email-full-85",
-    "thread_id": "thread-85",
-    "application_id": "app-99",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-86",
-    "thread_id": "thread-86",
-    "application_id": "app-47",
-    "subject": "Regarding your application for Data Scientist at Stripe",
-    "from_name": "Louis Litt",
-    "from_email": "louis@stripe.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Stripe"
-  },
-  {
-    "id": "email-full-87",
-    "thread_id": "thread-87",
-    "application_id": "app-86",
-    "subject": "Regarding your application for Backend Engineer at Ramp",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-88",
-    "thread_id": "thread-88",
-    "application_id": "app-117",
-    "subject": "Regarding your application for Backend Engineer at Meta",
-    "from_name": "Louis Litt",
-    "from_email": "louis@meta.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-89",
-    "thread_id": "thread-89",
-    "application_id": "app-27",
-    "subject": "Regarding your application for Director of Engineering at Vercel",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@vercel.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Vercel"
-  },
-  {
-    "id": "email-full-90",
-    "thread_id": "thread-90",
-    "application_id": "app-41",
-    "subject": "Regarding your application for Director of Engineering at Apple",
-    "from_name": "Louis Litt",
-    "from_email": "louis@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-91",
-    "thread_id": "thread-91",
-    "application_id": "app-88",
-    "subject": "Regarding your application for Data Scientist at Stripe",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@stripe.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Stripe"
-  },
-  {
-    "id": "email-full-92",
-    "thread_id": "thread-92",
-    "application_id": "app-91",
-    "subject": "Regarding your application for UX Designer at Figma",
-    "from_name": "Mike Ross",
-    "from_email": "mike@figma.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Figma"
-  },
-  {
-    "id": "email-full-93",
-    "thread_id": "thread-93",
-    "application_id": "app-105",
-    "subject": "Regarding your application for Backend Engineer at Supabase",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@supabase.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Ashby", "domain": "jobs.ashbyhq.com"
-  },
-  {
-    "id": "email-full-94",
-    "thread_id": "thread-94",
-    "application_id": "app-86",
-    "subject": "Regarding your application for Backend Engineer at Ramp",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-95",
-    "thread_id": "thread-95",
-    "application_id": "app-112",
-    "subject": "Regarding your application for UX Designer at Meta",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@meta.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-96",
-    "thread_id": "thread-96",
-    "application_id": "app-14",
-    "subject": "Regarding your application for Backend Engineer at Linear",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-97",
-    "thread_id": "thread-97",
-    "application_id": "app-95",
-    "subject": "Regarding your application for Full Stack Developer at Google",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@google.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "BambooHR", "domain": "bamboohr.com"
-  },
-  {
-    "id": "email-full-98",
-    "thread_id": "thread-98",
-    "application_id": "app-105",
-    "subject": "Regarding your application for Backend Engineer at Supabase",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@supabase.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Ashby", "domain": "jobs.ashbyhq.com"
-  },
-  {
-    "id": "email-full-99",
-    "thread_id": "thread-99",
-    "application_id": "app-61",
-    "subject": "Regarding your application for Data Scientist at Microsoft",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@microsoft.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
-  },
-  {
-    "id": "email-full-100",
-    "thread_id": "thread-100",
-    "application_id": "app-78",
-    "subject": "Regarding your application for Data Scientist at Meta",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@meta.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-101",
-    "thread_id": "thread-101",
-    "application_id": "app-76",
-    "subject": "Regarding your application for Full Stack Developer at OpenAI",
-    "from_name": "Mike Ross",
-    "from_email": "mike@openai.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "OpenAI"
-  },
-  {
-    "id": "email-full-102",
-    "thread_id": "thread-102",
-    "application_id": "app-71",
-    "subject": "Regarding your application for Data Scientist at Linear",
-    "from_name": "Mike Ross",
-    "from_email": "mike@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-103",
-    "thread_id": "thread-103",
-    "application_id": "app-45",
-    "subject": "Regarding your application for Backend Engineer at Linear",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-104",
-    "thread_id": "thread-104",
-    "application_id": "app-74",
-    "subject": "Regarding your application for Full Stack Developer at Meta",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@meta.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Meta"
-  },
-  {
-    "id": "email-full-105",
-    "thread_id": "thread-105",
-    "application_id": "app-18",
-    "subject": "Regarding your application for Data Scientist at Notion",
-    "from_name": "Mike Ross",
-    "from_email": "mike@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-106",
-    "thread_id": "thread-106",
-    "application_id": "app-60",
-    "subject": "Regarding your application for UX Designer at Ramp",
-    "from_name": "Mike Ross",
-    "from_email": "mike@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-10T09:54:31.576Z",
-    "date": "2026-08-10T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-107",
-    "thread_id": "thread-107",
-    "application_id": "app-10",
-    "subject": "Regarding your application for UX Designer at Supabase",
-    "from_name": "Louis Litt",
-    "from_email": "louis@supabase.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Ashby", "domain": "jobs.ashbyhq.com"
-  },
-  {
-    "id": "email-full-108",
-    "thread_id": "thread-108",
-    "application_id": "app-106",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-109",
-    "thread_id": "thread-109",
-    "application_id": "app-119",
-    "subject": "Regarding your application for Director of Engineering at Amazon",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-110",
-    "thread_id": "thread-110",
-    "application_id": "app-58",
-    "subject": "Regarding your application for Frontend Engineer at Notion",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-111",
-    "thread_id": "thread-111",
-    "application_id": "app-80",
-    "subject": "Regarding your application for Director of Engineering at Stripe",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@stripe.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Stripe"
-  },
-  {
-    "id": "email-full-112",
-    "thread_id": "thread-112",
-    "application_id": "app-90",
-    "subject": "Regarding your application for Data Scientist at Ramp",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-09T09:54:31.576Z",
-    "date": "2026-08-09T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-113",
-    "thread_id": "thread-113",
-    "application_id": "app-110",
-    "subject": "Regarding your application for Machine Learning Engineer at Microsoft",
-    "from_name": "Mike Ross",
-    "from_email": "mike@microsoft.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
-  },
-  {
-    "id": "email-full-114",
-    "thread_id": "thread-114",
-    "application_id": "app-18",
-    "subject": "Regarding your application for Data Scientist at Notion",
-    "from_name": "Mike Ross",
-    "from_email": "mike@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-115",
-    "thread_id": "thread-115",
-    "application_id": "app-34",
-    "subject": "Regarding your application for UX Designer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-116",
-    "thread_id": "thread-116",
-    "application_id": "app-37",
-    "subject": "Regarding your application for Machine Learning Engineer at Apple",
-    "from_name": "Mike Ross",
-    "from_email": "mike@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-117",
-    "thread_id": "thread-117",
-    "application_id": "app-35",
-    "subject": "Regarding your application for Full Stack Developer at Notion",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
-  },
-  {
-    "id": "email-full-118",
-    "thread_id": "thread-118",
-    "application_id": "app-38",
-    "subject": "Regarding your application for Data Scientist at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-119",
-    "thread_id": "thread-119",
-    "application_id": "app-32",
-    "subject": "Regarding your application for Full Stack Developer at Apple",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-120",
-    "thread_id": "thread-120",
-    "application_id": "app-88",
-    "subject": "Regarding your application for Data Scientist at Stripe",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@stripe.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Stripe"
-  },
-  {
-    "id": "email-full-121",
-    "thread_id": "thread-121",
-    "application_id": "app-45",
-    "subject": "Regarding your application for Backend Engineer at Linear",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-122",
-    "thread_id": "thread-122",
-    "application_id": "app-110",
-    "subject": "Regarding your application for Machine Learning Engineer at Microsoft",
-    "from_name": "Mike Ross",
-    "from_email": "mike@microsoft.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
-  },
-  {
-    "id": "email-full-123",
-    "thread_id": "thread-123",
-    "application_id": "app-60",
-    "subject": "Regarding your application for UX Designer at Ramp",
-    "from_name": "Mike Ross",
-    "from_email": "mike@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-124",
-    "thread_id": "thread-124",
-    "application_id": "app-34",
-    "subject": "Regarding your application for UX Designer at Amazon",
-    "from_name": "Mike Ross",
-    "from_email": "mike@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-125",
-    "thread_id": "thread-125",
-    "application_id": "app-89",
-    "subject": "Regarding your application for Director of Engineering at Microsoft",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@microsoft.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
-  },
-  {
-    "id": "email-full-126",
-    "thread_id": "thread-126",
-    "application_id": "app-63",
-    "subject": "Regarding your application for Machine Learning Engineer at Stripe",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@stripe.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Stripe"
-  },
-  {
-    "id": "email-full-127",
-    "thread_id": "thread-127",
-    "application_id": "app-71",
-    "subject": "Regarding your application for Data Scientist at Linear",
-    "from_name": "Mike Ross",
-    "from_email": "mike@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-128",
-    "thread_id": "thread-128",
-    "application_id": "app-79",
-    "subject": "Regarding your application for UX Designer at Anthropic",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@anthropic.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Anthropic"
-  },
-  {
-    "id": "email-full-129",
-    "thread_id": "thread-129",
-    "application_id": "app-26",
-    "subject": "Regarding your application for Senior Product Manager at Apple",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@apple.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Apple"
-  },
-  {
-    "id": "email-full-130",
-    "thread_id": "thread-130",
-    "application_id": "app-15",
-    "subject": "Regarding your application for Director of Engineering at Figma",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@figma.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Figma"
-  },
-  {
-    "id": "email-full-131",
-    "thread_id": "thread-131",
-    "application_id": "app-93",
-    "subject": "Regarding your application for Full Stack Developer at Ramp",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-132",
-    "thread_id": "thread-132",
-    "application_id": "app-13",
-    "subject": "Regarding your application for Full Stack Developer at Stripe",
-    "from_name": "Louis Litt",
-    "from_email": "louis@stripe.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-12T09:54:31.576Z",
-    "date": "2026-08-12T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Stripe"
-  },
-  {
-    "id": "email-full-133",
-    "thread_id": "thread-133",
-    "application_id": "app-12",
-    "subject": "Regarding your application for Director of Engineering at Supabase",
-    "from_name": "Louis Litt",
-    "from_email": "louis@supabase.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Ashby", "domain": "jobs.ashbyhq.com"
-  },
-  {
-    "id": "email-full-134",
-    "thread_id": "thread-134",
-    "application_id": "app-101",
-    "subject": "Regarding your application for Senior Product Manager at Netflix",
-    "from_name": "Mike Ross",
-    "from_email": "mike@netflix.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Netflix"
-  },
-  {
-    "id": "email-full-135",
-    "thread_id": "thread-135",
-    "application_id": "app-99",
-    "subject": "Regarding your application for Frontend Engineer at Amazon",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@amazon.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-17T09:54:31.576Z",
-    "date": "2026-08-17T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Workday", "domain": "myworkdayjobs.com"
-  },
-  {
-    "id": "email-full-136",
-    "thread_id": "thread-136",
-    "application_id": "app-19",
-    "subject": "Regarding your application for Backend Engineer at OpenAI",
-    "from_name": "Mike Ross",
-    "from_email": "mike@openai.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "OpenAI"
-  },
-  {
-    "id": "email-full-137",
-    "thread_id": "thread-137",
-    "application_id": "app-86",
-    "subject": "Regarding your application for Backend Engineer at Ramp",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-138",
-    "thread_id": "thread-138",
-    "application_id": "app-3",
-    "subject": "Regarding your application for Frontend Engineer at Netflix",
-    "from_name": "Mike Ross",
-    "from_email": "mike@netflix.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-11T09:54:31.576Z",
-    "date": "2026-08-11T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Netflix"
-  },
-  {
-    "id": "email-full-139",
-    "thread_id": "thread-139",
-    "application_id": "app-33",
-    "subject": "Regarding your application for UX Designer at Linear",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-15T09:54:31.576Z",
-    "date": "2026-08-15T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-140",
-    "thread_id": "thread-140",
-    "application_id": "app-79",
-    "subject": "Regarding your application for UX Designer at Anthropic",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@anthropic.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-08T09:54:31.576Z",
-    "date": "2026-08-08T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Anthropic"
-  },
-  {
-    "id": "email-full-141",
-    "thread_id": "thread-141",
-    "application_id": "app-40",
-    "subject": "Regarding your application for Frontend Engineer at Ramp",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-142",
-    "thread_id": "thread-142",
-    "application_id": "app-105",
-    "subject": "Regarding your application for Backend Engineer at Supabase",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@supabase.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Ashby", "domain": "jobs.ashbyhq.com"
-  },
-  {
-    "id": "email-full-143",
-    "thread_id": "thread-143",
-    "application_id": "app-55",
-    "subject": "Regarding your application for Data Scientist at Ramp",
-    "from_name": "Louis Litt",
-    "from_email": "louis@ramp.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Greenhouse", "domain": "boards.greenhouse.io"
-  },
-  {
-    "id": "email-full-144",
-    "thread_id": "thread-144",
-    "application_id": "app-45",
-    "subject": "Regarding your application for Backend Engineer at Linear",
-    "from_name": "Sarah Jenkins",
-    "from_email": "sarah@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-14T09:54:31.576Z",
-    "date": "2026-08-14T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-145",
-    "thread_id": "thread-145",
-    "application_id": "app-109",
-    "subject": "Regarding your application for Full Stack Developer at Linear",
-    "from_name": "Mike Ross",
-    "from_email": "mike@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-146",
-    "thread_id": "thread-146",
-    "application_id": "app-64",
-    "subject": "Regarding your application for Backend Engineer at Figma",
-    "from_name": "Louis Litt",
-    "from_email": "louis@figma.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-16T09:54:31.576Z",
-    "date": "2026-08-16T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Figma"
-  },
-  {
-    "id": "email-full-147",
-    "thread_id": "thread-147",
-    "application_id": "app-33",
-    "subject": "Regarding your application for UX Designer at Linear",
-    "from_name": "Harvey Specter",
-    "from_email": "harvey@linear.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-10T09:54:31.576Z",
-    "date": "2026-08-10T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Lever", "domain": "jobs.lever.co"
-  },
-  {
-    "id": "email-full-148",
-    "thread_id": "thread-148",
-    "application_id": "app-19",
-    "subject": "Regarding your application for Backend Engineer at OpenAI",
-    "from_name": "Mike Ross",
-    "from_email": "mike@openai.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-18T09:54:31.576Z",
-    "date": "2026-08-18T09:54:31.576Z",
-    "is_read": true,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "OpenAI"
-  },
-  {
-    "id": "email-full-149",
-    "thread_id": "thread-149",
-    "application_id": "app-31",
-    "subject": "Regarding your application for Backend Engineer at Notion",
-    "from_name": "Jessica Pearson",
-    "from_email": "jessica@notion.com",
-    "to_email": "demo@getmyjob.ai",
-    "snippet": "Thanks for applying! We'd love to schedule a call...",
-    "body_html": "<p>Hi there,</p><p>Thanks for applying! We'd love to schedule a call...</p>",
-    "created_at": "2026-08-13T09:54:31.576Z",
-    "date": "2026-08-13T09:54:31.576Z",
-    "is_read": false,
-    "labels": [
-      "INBOX"
-    ],
-    "company": "Notion"
+    "company": "Google"
   }
-], total: 150 };
+], total: 40 };
 export const MOCK_CALENDAR = { events: [
   {
     "id": "cal-0",
@@ -7340,727 +5360,497 @@ export const MOCK_CONTACTS = { contacts: [
 export const MOCK_FUNDINGS = { fundings: [
   {
     "id": "funding-0",
-    "company": "OpenAI",
-    "amount": "$54M",
-    "round": "Series B",
-    "date": "2026-06-12T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Linear",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Venture Round",
+    "funding_date": "2026-08-02T11:55:44.422Z",
+    "amount_usd": 41000000,
+    "currency": "USD",
+    "lead_investor": "Benchmark",
+    "verification_status": "VERIFIED",
+    "job_count": 15
   },
   {
     "id": "funding-1",
-    "company": "Figma",
-    "amount": "$361M",
-    "round": "Series A",
-    "date": "2026-07-02T09:54:31.576Z",
-    "investor": "a16z",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Stripe",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series A",
+    "funding_date": "2026-07-22T07:31:22.045Z",
+    "amount_usd": 16000000,
+    "currency": "USD",
+    "lead_investor": "Lightspeed Venture Partners",
+    "verification_status": "VERIFIED",
+    "job_count": 9
   },
   {
     "id": "funding-2",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "amount": "$44M",
-    "round": "Series A",
-    "date": "2026-06-23T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Supabase",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series C",
+    "funding_date": "2026-08-02T15:24:54.851Z",
+    "amount_usd": 67000000,
+    "currency": "USD",
+    "lead_investor": "Lightspeed Venture Partners",
+    "verification_status": "VERIFIED",
+    "job_count": 16
   },
   {
     "id": "funding-3",
-    "company": "Stripe",
-    "amount": "$273M",
-    "round": "Series B",
-    "date": "2026-08-16T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Vercel",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series A",
+    "funding_date": "2026-06-30T00:20:10.465Z",
+    "amount_usd": 174000000,
+    "currency": "USD",
+    "lead_investor": "Lightspeed Venture Partners",
+    "verification_status": "VERIFIED",
+    "job_count": 0
   },
   {
     "id": "funding-4",
-    "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "amount": "$459M",
-    "round": "Series B",
-    "date": "2026-07-03T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Hugging Face",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Seed",
+    "funding_date": "2026-07-18T13:31:24.006Z",
+    "amount_usd": 204000000,
+    "currency": "USD",
+    "lead_investor": "Andreessen Horowitz",
+    "verification_status": "VERIFIED",
+    "job_count": 23
   },
   {
     "id": "funding-5",
-    "company": "Workday", "domain": "myworkdayjobs.com",
-    "amount": "$287M",
-    "round": "IPO",
-    "date": "2026-07-23T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Linear",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series A",
+    "funding_date": "2026-08-18T20:15:31.518Z",
+    "amount_usd": 37000000,
+    "currency": "USD",
+    "lead_investor": "Founders Fund",
+    "verification_status": "VERIFIED",
+    "job_count": 17
   },
   {
     "id": "funding-6",
-    "company": "Figma",
-    "amount": "$264M",
-    "round": "Series A",
-    "date": "2026-08-13T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Vercel",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Seed",
+    "funding_date": "2026-07-21T13:15:22.474Z",
+    "amount_usd": 5000000,
+    "currency": "USD",
+    "lead_investor": "Sequoia Capital",
+    "verification_status": "UNVERIFIED",
+    "job_count": 23
   },
   {
     "id": "funding-7",
-    "company": "Lever", "domain": "jobs.lever.co",
-    "amount": "$478M",
-    "round": "Series C",
-    "date": "2026-05-29T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Hugging Face",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series A",
+    "funding_date": "2026-06-28T09:32:47.084Z",
+    "amount_usd": 124000000,
+    "currency": "USD",
+    "lead_investor": "Founders Fund",
+    "verification_status": "VERIFIED",
+    "job_count": 17
   },
   {
     "id": "funding-8",
-    "company": "Anthropic",
-    "amount": "$351M",
-    "round": "Seed",
-    "date": "2026-08-01T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Linear",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series C",
+    "funding_date": "2026-07-26T14:51:58.525Z",
+    "amount_usd": 22000000,
+    "currency": "USD",
+    "lead_investor": "Benchmark",
+    "verification_status": "VERIFIED",
+    "job_count": 11
   },
   {
     "id": "funding-9",
-    "company": "Apple",
-    "amount": "$122M",
-    "round": "Series B",
-    "date": "2026-06-27T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Vercel",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series D",
+    "funding_date": "2026-07-02T21:00:13.821Z",
+    "amount_usd": 95000000,
+    "currency": "USD",
+    "lead_investor": "Andreessen Horowitz",
+    "verification_status": "VERIFIED",
+    "job_count": 0
   },
   {
     "id": "funding-10",
-    "company": "Stripe",
-    "amount": "$154M",
-    "round": "IPO",
-    "date": "2026-07-12T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Linear",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Seed",
+    "funding_date": "2026-07-04T09:27:29.598Z",
+    "amount_usd": 188000000,
+    "currency": "USD",
+    "lead_investor": "Sequoia Capital",
+    "verification_status": "UNVERIFIED",
+    "job_count": 45
   },
   {
     "id": "funding-11",
-    "company": "Notion",
-    "amount": "$264M",
-    "round": "Series A",
-    "date": "2026-06-27T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Linear",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Seed",
+    "funding_date": "2026-08-13T11:34:42.702Z",
+    "amount_usd": 123000000,
+    "currency": "USD",
+    "lead_investor": "Benchmark",
+    "verification_status": "VERIFIED",
+    "job_count": 18
   },
   {
     "id": "funding-12",
-    "company": "Greenhouse", "domain": "boards.greenhouse.io",
-    "amount": "$482M",
-    "round": "Seed",
-    "date": "2026-08-15T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Hugging Face",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series B",
+    "funding_date": "2026-08-17T11:23:34.924Z",
+    "amount_usd": 12000000,
+    "currency": "USD",
+    "lead_investor": "Benchmark",
+    "verification_status": "VERIFIED",
+    "job_count": 32
   },
   {
     "id": "funding-13",
-    "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "amount": "$377M",
-    "round": "IPO",
-    "date": "2026-05-21T09:54:31.576Z",
-    "investor": "a16z",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Supabase",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series C",
+    "funding_date": "2026-08-06T06:38:16.794Z",
+    "amount_usd": 69000000,
+    "currency": "USD",
+    "lead_investor": "Andreessen Horowitz",
+    "verification_status": "VERIFIED",
+    "job_count": 44
   },
   {
     "id": "funding-14",
-    "company": "Vercel",
-    "amount": "$226M",
-    "round": "Series C",
-    "date": "2026-07-23T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-15",
-    "company": "Greenhouse", "domain": "boards.greenhouse.io",
-    "amount": "$279M",
-    "round": "Series C",
-    "date": "2026-07-04T09:54:31.576Z",
-    "investor": "a16z",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-16",
-    "company": "Greenhouse", "domain": "boards.greenhouse.io",
-    "amount": "$479M",
-    "round": "Series C",
-    "date": "2026-05-21T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-17",
-    "company": "Greenhouse", "domain": "boards.greenhouse.io",
-    "amount": "$205M",
-    "round": "Series A",
-    "date": "2026-07-24T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-18",
-    "company": "Vercel",
-    "amount": "$492M",
-    "round": "Series A",
-    "date": "2026-06-14T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-19",
-    "company": "Notion",
-    "amount": "$91M",
-    "round": "Series C",
-    "date": "2026-07-01T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-20",
-    "company": "Stripe",
-    "amount": "$338M",
-    "round": "IPO",
-    "date": "2026-07-13T09:54:31.576Z",
-    "investor": "a16z",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-21",
-    "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "amount": "$357M",
-    "round": "Series A",
-    "date": "2026-07-19T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-22",
-    "company": "Anthropic",
-    "amount": "$350M",
-    "round": "IPO",
-    "date": "2026-08-06T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-23",
-    "company": "Workday", "domain": "myworkdayjobs.com",
-    "amount": "$52M",
-    "round": "IPO",
-    "date": "2026-08-16T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-24",
-    "company": "Apple",
-    "amount": "$250M",
-    "round": "IPO",
-    "date": "2026-06-02T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-25",
-    "company": "Figma",
-    "amount": "$353M",
-    "round": "Series B",
-    "date": "2026-06-12T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-26",
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
-    "amount": "$453M",
-    "round": "IPO",
-    "date": "2026-07-03T09:54:31.576Z",
-    "investor": "a16z",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-27",
-    "company": "Anthropic",
-    "amount": "$32M",
-    "round": "Series A",
-    "date": "2026-07-02T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-28",
-    "company": "Anthropic",
-    "amount": "$346M",
-    "round": "Series B",
-    "date": "2026-07-25T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-29",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "amount": "$98M",
-    "round": "Seed",
-    "date": "2026-08-18T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-30",
-    "company": "Lever", "domain": "jobs.lever.co",
-    "amount": "$226M",
-    "round": "IPO",
-    "date": "2026-08-03T09:54:31.576Z",
-    "investor": "a16z",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-31",
-    "company": "Workday", "domain": "myworkdayjobs.com",
-    "amount": "$259M",
-    "round": "Series C",
-    "date": "2026-06-22T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-32",
-    "company": "Figma",
-    "amount": "$244M",
-    "round": "Series B",
-    "date": "2026-06-28T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-33",
-    "company": "Apple",
-    "amount": "$240M",
-    "round": "Series B",
-    "date": "2026-08-18T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-34",
-    "company": "OpenAI",
-    "amount": "$481M",
-    "round": "Series B",
-    "date": "2026-08-02T09:54:31.576Z",
-    "investor": "Sequoia",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-35",
-    "company": "Apple",
-    "amount": "$269M",
-    "round": "Series B",
-    "date": "2026-07-12T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-36",
-    "company": "Anthropic",
-    "amount": "$480M",
-    "round": "Series B",
-    "date": "2026-07-01T09:54:31.576Z",
-    "investor": "Founders Fund",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-37",
-    "company": "Stripe",
-    "amount": "$452M",
-    "round": "Series B",
-    "date": "2026-05-23T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-38",
-    "company": "Greenhouse", "domain": "boards.greenhouse.io",
-    "amount": "$151M",
-    "round": "IPO",
-    "date": "2026-06-11T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
-  },
-  {
-    "id": "funding-39",
-    "company": "Stripe",
-    "amount": "$188M",
-    "round": "Series A",
-    "date": "2026-07-22T09:54:31.576Z",
-    "investor": "Y Combinator",
-    "news_link": "https://techcrunch.com"
+    "companies": {
+      "name": "Anthropic",
+      "hq_location": "San Francisco, CA"
+    },
+    "round_type": "Series D",
+    "funding_date": "2026-07-01T05:49:27.733Z",
+    "amount_usd": 168000000,
+    "currency": "USD",
+    "lead_investor": "Andreessen Horowitz",
+    "verification_status": "VERIFIED",
+    "job_count": 5
   }
-], total: 40 };
+] };
 export const MOCK_NEWS = { news: [
   {
     "id": "news-0",
-    "title": "Figma just launched a massive new AI product",
-    "company": "Figma",
-    "date": "2026-08-13T09:54:31.576Z",
-    "snippet": "The new product from Figma aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Hugging Face"
+    },
+    "category": "GROWTH",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-08-17T09:46:29.835Z",
+    "headline": "Hugging Face announces major expansion into European markets",
+    "summary": "According to recent reports, Hugging Face is making significant moves. The company announces major expansion into European markets, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "Reuters",
+    "confidence_score": 93
   },
   {
     "id": "news-1",
-    "title": "Amazon just launched a massive new AI product",
-    "company": "Workday", "domain": "myworkdayjobs.com",
-    "date": "2026-08-14T09:54:31.576Z",
-    "snippet": "The new product from Amazon aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Anthropic"
+    },
+    "category": "LEADERSHIP",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-24T23:59:21.341Z",
+    "headline": "Anthropic appoints new Chief Operating Officer",
+    "summary": "According to recent reports, Anthropic is making significant moves. The company appoints new Chief Operating Officer, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "VentureBeat",
+    "confidence_score": 89
   },
   {
     "id": "news-2",
-    "title": "Anthropic just launched a massive new AI product",
-    "company": "Anthropic",
-    "date": "2026-08-17T09:54:31.576Z",
-    "snippet": "The new product from Anthropic aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Stripe"
+    },
+    "category": "M&A",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-06-30T10:43:27.460Z",
+    "headline": "Stripe acquires rising startup to bolster infrastructure",
+    "summary": "According to recent reports, Stripe is making significant moves. The company acquires rising startup to bolster infrastructure, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "Bloomberg",
+    "confidence_score": 98
   },
   {
     "id": "news-3",
-    "title": "Google just launched a massive new AI product",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "date": "2026-08-16T09:54:31.576Z",
-    "snippet": "The new product from Google aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Glean"
+    },
+    "category": "M&A",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-08-08T11:01:07.691Z",
+    "headline": "Glean acquires rising startup to bolster infrastructure",
+    "summary": "According to recent reports, Glean is making significant moves. The company acquires rising startup to bolster infrastructure, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "Bloomberg",
+    "confidence_score": 80
   },
   {
     "id": "news-4",
-    "title": "Notion just launched a massive new AI product",
-    "company": "Notion",
-    "date": "2026-08-18T09:54:31.576Z",
-    "snippet": "The new product from Notion aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Scale AI"
+    },
+    "category": "PRODUCT",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-01T03:00:02.218Z",
+    "headline": "Scale AI launches new AI product feature to boost developer productivity",
+    "summary": "According to recent reports, Scale AI is making significant moves. The company launches new AI product feature to boost developer productivity, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "Reuters",
+    "confidence_score": 84
   },
   {
     "id": "news-5",
-    "title": "Anthropic just launched a massive new AI product",
-    "company": "Anthropic",
-    "date": "2026-08-18T09:54:31.576Z",
-    "snippet": "The new product from Anthropic aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Harvey"
+    },
+    "category": "OTHER",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-25T23:36:31.029Z",
+    "headline": "Harvey faces regulatory scrutiny over data privacy concerns",
+    "summary": "According to recent reports, Harvey is making significant moves. The company faces regulatory scrutiny over data privacy concerns, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "Bloomberg",
+    "confidence_score": 84
   },
   {
     "id": "news-6",
-    "title": "Google just launched a massive new AI product",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "date": "2026-08-15T09:54:31.576Z",
-    "snippet": "The new product from Google aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Glean"
+    },
+    "category": "PRODUCT",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-10T20:43:18.509Z",
+    "headline": "Glean launches new AI product feature to boost developer productivity",
+    "summary": "According to recent reports, Glean is making significant moves. The company launches new AI product feature to boost developer productivity, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "VentureBeat",
+    "confidence_score": 98
   },
   {
     "id": "news-7",
-    "title": "Stripe just launched a massive new AI product",
-    "company": "Stripe",
-    "date": "2026-08-17T09:54:31.576Z",
-    "snippet": "The new product from Stripe aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Scale AI"
+    },
+    "category": "PARTNERSHIP",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-08-03T08:22:36.206Z",
+    "headline": "Scale AI partners with Google Cloud for specialized AI training",
+    "summary": "According to recent reports, Scale AI is making significant moves. The company partners with Google Cloud for specialized AI training, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "TechCrunch",
+    "confidence_score": 80
   },
   {
     "id": "news-8",
-    "title": "Microsoft just launched a massive new AI product",
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
-    "date": "2026-08-08T09:54:31.576Z",
-    "snippet": "The new product from Microsoft aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Stripe"
+    },
+    "category": "GROWTH",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-08-05T07:02:53.484Z",
+    "headline": "Stripe announces major expansion into European markets",
+    "summary": "According to recent reports, Stripe is making significant moves. The company announces major expansion into European markets, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "VentureBeat",
+    "confidence_score": 95
   },
   {
     "id": "news-9",
-    "title": "Google just launched a massive new AI product",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "date": "2026-08-15T09:54:31.576Z",
-    "snippet": "The new product from Google aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Linear"
+    },
+    "category": "M&A",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-27T01:59:44.814Z",
+    "headline": "Linear acquires rising startup to bolster infrastructure",
+    "summary": "According to recent reports, Linear is making significant moves. The company acquires rising startup to bolster infrastructure, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "The Verge",
+    "confidence_score": 94
   },
   {
     "id": "news-10",
-    "title": "Stripe just launched a massive new AI product",
-    "company": "Stripe",
-    "date": "2026-08-17T09:54:31.576Z",
-    "snippet": "The new product from Stripe aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "OpenAI"
+    },
+    "category": "OTHER",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-02T10:55:26.483Z",
+    "headline": "OpenAI faces regulatory scrutiny over data privacy concerns",
+    "summary": "According to recent reports, OpenAI is making significant moves. The company faces regulatory scrutiny over data privacy concerns, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "VentureBeat",
+    "confidence_score": 92
   },
   {
     "id": "news-11",
-    "title": "Anthropic just launched a massive new AI product",
-    "company": "Anthropic",
-    "date": "2026-08-08T09:54:31.576Z",
-    "snippet": "The new product from Anthropic aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Linear"
+    },
+    "category": "PRODUCT",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-06T20:26:56.405Z",
+    "headline": "Linear launches new AI product feature to boost developer productivity",
+    "summary": "According to recent reports, Linear is making significant moves. The company launches new AI product feature to boost developer productivity, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "Reuters",
+    "confidence_score": 82
   },
   {
     "id": "news-12",
-    "title": "Google just launched a massive new AI product",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "date": "2026-08-12T09:54:31.576Z",
-    "snippet": "The new product from Google aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "OpenAI"
+    },
+    "category": "GROWTH",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-29T08:13:55.849Z",
+    "headline": "OpenAI announces major expansion into European markets",
+    "summary": "According to recent reports, OpenAI is making significant moves. The company announces major expansion into European markets, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "The Verge",
+    "confidence_score": 86
   },
   {
     "id": "news-13",
-    "title": "Amazon just launched a massive new AI product",
-    "company": "Workday", "domain": "myworkdayjobs.com",
-    "date": "2026-08-10T09:54:31.576Z",
-    "snippet": "The new product from Amazon aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Hugging Face"
+    },
+    "category": "PARTNERSHIP",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-28T16:20:56.960Z",
+    "headline": "Hugging Face partners with Google Cloud for specialized AI training",
+    "summary": "According to recent reports, Hugging Face is making significant moves. The company partners with Google Cloud for specialized AI training, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "TechCrunch",
+    "confidence_score": 97
   },
   {
     "id": "news-14",
-    "title": "Stripe just launched a massive new AI product",
-    "company": "Stripe",
-    "date": "2026-08-12T09:54:31.576Z",
-    "snippet": "The new product from Stripe aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Scale AI"
+    },
+    "category": "PRODUCT",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-08-02T16:51:52.646Z",
+    "headline": "Scale AI launches new AI product feature to boost developer productivity",
+    "summary": "According to recent reports, Scale AI is making significant moves. The company launches new AI product feature to boost developer productivity, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "VentureBeat",
+    "confidence_score": 85
   },
   {
     "id": "news-15",
-    "title": "Supabase just launched a massive new AI product",
-    "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "date": "2026-08-18T09:54:31.576Z",
-    "snippet": "The new product from Supabase aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Linear"
+    },
+    "category": "M&A",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-09T06:22:27.379Z",
+    "headline": "Linear acquires rising startup to bolster infrastructure",
+    "summary": "According to recent reports, Linear is making significant moves. The company acquires rising startup to bolster infrastructure, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "TechCrunch",
+    "confidence_score": 90
   },
   {
     "id": "news-16",
-    "title": "Vercel just launched a massive new AI product",
-    "company": "Vercel",
-    "date": "2026-08-10T09:54:31.576Z",
-    "snippet": "The new product from Vercel aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Scale AI"
+    },
+    "category": "PRODUCT",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-08-11T09:44:38.338Z",
+    "headline": "Scale AI launches new AI product feature to boost developer productivity",
+    "summary": "According to recent reports, Scale AI is making significant moves. The company launches new AI product feature to boost developer productivity, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "TechCrunch",
+    "confidence_score": 88
   },
   {
     "id": "news-17",
-    "title": "Ramp just launched a massive new AI product",
-    "company": "Greenhouse", "domain": "boards.greenhouse.io",
-    "date": "2026-08-17T09:54:31.576Z",
-    "snippet": "The new product from Ramp aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Linear"
+    },
+    "category": "OTHER",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-25T09:33:49.916Z",
+    "headline": "Linear faces regulatory scrutiny over data privacy concerns",
+    "summary": "According to recent reports, Linear is making significant moves. The company faces regulatory scrutiny over data privacy concerns, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "Reuters",
+    "confidence_score": 90
   },
   {
     "id": "news-18",
-    "title": "Meta just launched a massive new AI product",
-    "company": "Meta",
-    "date": "2026-08-08T09:54:31.576Z",
-    "snippet": "The new product from Meta aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "Anthropic"
+    },
+    "category": "PRODUCT",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-07-10T17:53:50.159Z",
+    "headline": "Anthropic releases open-source model breaking previous benchmark records",
+    "summary": "According to recent reports, Anthropic is making significant moves. The company releases open-source model breaking previous benchmark records, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "Reuters",
+    "confidence_score": 89
   },
   {
     "id": "news-19",
-    "title": "Amazon just launched a massive new AI product",
-    "company": "Workday", "domain": "myworkdayjobs.com",
-    "date": "2026-08-15T09:54:31.576Z",
-    "snippet": "The new product from Amazon aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-20",
-    "title": "Google just launched a massive new AI product",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "date": "2026-08-15T09:54:31.576Z",
-    "snippet": "The new product from Google aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-21",
-    "title": "Netflix just launched a massive new AI product",
-    "company": "Netflix",
-    "date": "2026-08-10T09:54:31.576Z",
-    "snippet": "The new product from Netflix aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-22",
-    "title": "Linear just launched a massive new AI product",
-    "company": "Lever", "domain": "jobs.lever.co",
-    "date": "2026-08-12T09:54:31.576Z",
-    "snippet": "The new product from Linear aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-23",
-    "title": "Figma just launched a massive new AI product",
-    "company": "Figma",
-    "date": "2026-08-13T09:54:31.576Z",
-    "snippet": "The new product from Figma aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-24",
-    "title": "Google just launched a massive new AI product",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "date": "2026-08-15T09:54:31.576Z",
-    "snippet": "The new product from Google aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-25",
-    "title": "Netflix just launched a massive new AI product",
-    "company": "Netflix",
-    "date": "2026-08-15T09:54:31.576Z",
-    "snippet": "The new product from Netflix aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-26",
-    "title": "Supabase just launched a massive new AI product",
-    "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "date": "2026-08-17T09:54:31.576Z",
-    "snippet": "The new product from Supabase aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-27",
-    "title": "Netflix just launched a massive new AI product",
-    "company": "Netflix",
-    "date": "2026-08-16T09:54:31.576Z",
-    "snippet": "The new product from Netflix aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-28",
-    "title": "OpenAI just launched a massive new AI product",
-    "company": "OpenAI",
-    "date": "2026-08-18T09:54:31.576Z",
-    "snippet": "The new product from OpenAI aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-29",
-    "title": "Microsoft just launched a massive new AI product",
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
-    "date": "2026-08-18T09:54:31.576Z",
-    "snippet": "The new product from Microsoft aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-30",
-    "title": "Google just launched a massive new AI product",
-    "company": "BambooHR", "domain": "bamboohr.com",
-    "date": "2026-08-09T09:54:31.576Z",
-    "snippet": "The new product from Google aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-31",
-    "title": "Supabase just launched a massive new AI product",
-    "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "date": "2026-08-17T09:54:31.576Z",
-    "snippet": "The new product from Supabase aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-32",
-    "title": "Vercel just launched a massive new AI product",
-    "company": "Vercel",
-    "date": "2026-08-13T09:54:31.576Z",
-    "snippet": "The new product from Vercel aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-33",
-    "title": "Anthropic just launched a massive new AI product",
-    "company": "Anthropic",
-    "date": "2026-08-10T09:54:31.576Z",
-    "snippet": "The new product from Anthropic aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-34",
-    "title": "Stripe just launched a massive new AI product",
-    "company": "Stripe",
-    "date": "2026-08-11T09:54:31.576Z",
-    "snippet": "The new product from Stripe aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-35",
-    "title": "Supabase just launched a massive new AI product",
-    "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "date": "2026-08-09T09:54:31.576Z",
-    "snippet": "The new product from Supabase aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-36",
-    "title": "Amazon just launched a massive new AI product",
-    "company": "Workday", "domain": "myworkdayjobs.com",
-    "date": "2026-08-09T09:54:31.576Z",
-    "snippet": "The new product from Amazon aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-37",
-    "title": "Microsoft just launched a massive new AI product",
-    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
-    "date": "2026-08-18T09:54:31.576Z",
-    "snippet": "The new product from Microsoft aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-38",
-    "title": "OpenAI just launched a massive new AI product",
-    "company": "OpenAI",
-    "date": "2026-08-14T09:54:31.576Z",
-    "snippet": "The new product from OpenAI aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
-  },
-  {
-    "id": "news-39",
-    "title": "Supabase just launched a massive new AI product",
-    "company": "Ashby", "domain": "jobs.ashbyhq.com",
-    "date": "2026-08-15T09:54:31.576Z",
-    "snippet": "The new product from Supabase aims to revolutionize...",
-    "url": "https://news.ycombinator.com",
-    "source": "TechCrunch"
+    "companies": {
+      "name": "OpenAI"
+    },
+    "category": "PARTNERSHIP",
+    "verification_status": "VERIFIED",
+    "event_date": "2026-06-24T18:20:53.654Z",
+    "headline": "OpenAI partners with Google Cloud for specialized AI training",
+    "summary": "According to recent reports, OpenAI is making significant moves. The company partners with Google Cloud for specialized AI training, which experts believe will reshape the competitive landscape.",
+    "source_url": "https://techcrunch.com",
+    "source_name": "The Verge",
+    "confidence_score": 85
   }
-], total: 40 };
+] };
 export const MOCK_PORTALS = { credentials: [
   {
     "id": "portal-0",
