@@ -43,7 +43,11 @@ if (typeof window !== 'undefined' && !window.__mockInterceptorInstalled) {
         const newItem = { id: newId, created_at: new Date().toISOString(), date: new Date().toISOString(), ...reqBody };
 
         if (method === 'POST') {
-           if (url.includes('/api/applications') && !url.includes('/tracking')) {
+           if (url.includes('/tracking')) {
+              if (MOCKS.MOCK_TRACKING_EVENTS && MOCKS.MOCK_TRACKING_EVENTS.events) {
+                MOCKS.MOCK_TRACKING_EVENTS.events.unshift(newItem);
+              }
+           } else if (url.includes('/api/applications')) {
               if (MOCKS.MOCK_APPLICATIONS && MOCKS.MOCK_APPLICATIONS.applications) {
                 MOCKS.MOCK_APPLICATIONS.applications.unshift(newItem);
                 MOCKS.MOCK_APPLICATIONS.total += 1;
