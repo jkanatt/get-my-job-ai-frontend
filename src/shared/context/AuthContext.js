@@ -53,6 +53,14 @@ export function AuthProvider({ children }) {
         else if (url.includes('/api/email-templates')) mockData = MOCKS.MOCK_EMAIL_TEMPLATES;
         else if (url.includes('/api/codegraph')) mockData = { status: 'mock' }; // Intelligence components mock
         else if (url.includes('/api/graphify')) mockData = { status: 'mock' }; 
+        else if (url.includes('/api/download-pdf')) {
+          const dummyPdfContent = "%PDF-1.4\\n1 0 obj\\n<<\\n/Title (Mock PDF)\\n>>\\nendobj\\ntrailer\\n<<\\n/Root 1 0 R\\n>>\\n%%EOF";
+          const blob = new Blob([dummyPdfContent], { type: 'application/pdf' });
+          return new Response(blob, {
+            status: 200,
+            headers: { 'Content-Type': 'application/pdf' }
+          });
+        }
         else mockData = { success: true }; // Fallback
 
         return new Response(JSON.stringify(mockData), {

@@ -68,7 +68,7 @@ export default function PortalsPage() {
 
     // Match credentials
     credentialsVault.forEach(cred => {
-       const matched = Object.values(stats).find(s => cred.domain.includes(s.domain));
+       const matched = Object.values(stats).find(s => (cred.domain || cred.url || '').includes(s.domain));
        if (matched) {
            matched.hasCredentials = true;
            matched.credentialData = cred;

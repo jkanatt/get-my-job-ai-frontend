@@ -33,7 +33,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-2",
     "title": "UX Designer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "location": "New York, NY",
     "salary": "$219k - $294k",
     "status": "New",
@@ -48,7 +48,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-3",
     "title": "Machine Learning Engineer",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "location": "New York, NY",
     "salary": "$236k - $313k",
     "status": "New",
@@ -93,7 +93,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-6",
     "title": "Senior Product Manager",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "location": "New York, NY",
     "salary": "$219k - $266k",
     "status": "Passed",
@@ -108,7 +108,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-7",
     "title": "Machine Learning Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "location": "London, UK",
     "salary": "$135k - $292k",
     "status": "Passed",
@@ -123,7 +123,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-8",
     "title": "Data Scientist",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "location": "Remote",
     "salary": "$190k - $280k",
     "status": "New",
@@ -198,7 +198,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-13",
     "title": "Data Scientist",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "location": "New York, NY",
     "salary": "$230k - $357k",
     "status": "New",
@@ -213,7 +213,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-14",
     "title": "Machine Learning Engineer",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "location": "Remote",
     "salary": "$156k - $392k",
     "status": "Saved",
@@ -243,7 +243,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-16",
     "title": "Data Scientist",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "location": "San Francisco, CA",
     "salary": "$217k - $344k",
     "status": "New",
@@ -288,7 +288,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-19",
     "title": "Backend Engineer",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "location": "London, UK",
     "salary": "$168k - $266k",
     "status": "Passed",
@@ -318,7 +318,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-21",
     "title": "Director of Engineering",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "location": "Remote",
     "salary": "$215k - $334k",
     "status": "Applied",
@@ -333,7 +333,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-22",
     "title": "Full Stack Developer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "location": "Remote",
     "salary": "$152k - $307k",
     "status": "Applied",
@@ -363,7 +363,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-24",
     "title": "Backend Engineer",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "location": "New York, NY",
     "salary": "$141k - $275k",
     "status": "Saved",
@@ -408,7 +408,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-27",
     "title": "Senior Product Manager",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "location": "San Francisco, CA",
     "salary": "$245k - $382k",
     "status": "New",
@@ -498,7 +498,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-33",
     "title": "Frontend Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "location": "New York, NY",
     "salary": "$201k - $269k",
     "status": "Applied",
@@ -558,7 +558,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-37",
     "title": "Frontend Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "location": "San Francisco, CA",
     "salary": "$130k - $273k",
     "status": "Applied",
@@ -588,7 +588,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-39",
     "title": "Data Scientist",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "location": "New York, NY",
     "salary": "$183k - $370k",
     "status": "Passed",
@@ -618,7 +618,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-41",
     "title": "Full Stack Developer",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "location": "San Francisco, CA",
     "salary": "$206k - $383k",
     "status": "Passed",
@@ -723,7 +723,7 @@ export const MOCK_JOBS = { jobs: [
   {
     "id": "job-48",
     "title": "Director of Engineering",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "location": "London, UK",
     "salary": "$128k - $375k",
     "status": "Applied",
@@ -782,7 +782,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-43",
     "job_title": "Machine Learning Engineer",
     "role": "Machine Learning Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Responded",
     "applied_at": "2026-07-13T09:54:31.575Z",
     "created_at": "2026-07-13T09:54:31.575Z",
@@ -907,7 +907,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-6",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Rejected",
     "applied_at": "2026-08-13T09:54:31.575Z",
     "created_at": "2026-08-13T09:54:31.575Z",
@@ -932,7 +932,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-34",
     "job_title": "Senior Product Manager",
     "role": "Senior Product Manager",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "status": "Offer",
     "applied_at": "2026-07-07T09:54:31.575Z",
     "created_at": "2026-07-07T09:54:31.575Z",
@@ -957,7 +957,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-18",
     "job_title": "Full Stack Developer",
     "role": "Full Stack Developer",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "status": "Viewed",
     "applied_at": "2026-07-24T09:54:31.575Z",
     "created_at": "2026-07-24T09:54:31.575Z",
@@ -982,7 +982,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-38",
     "job_title": "Machine Learning Engineer",
     "role": "Machine Learning Engineer",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "status": "Viewed",
     "applied_at": "2026-07-20T09:54:31.575Z",
     "created_at": "2026-07-20T09:54:31.575Z",
@@ -1007,7 +1007,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-24",
     "job_title": "UX Designer",
     "role": "UX Designer",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "status": "Sent",
     "applied_at": "2026-06-19T09:54:31.575Z",
     "created_at": "2026-06-19T09:54:31.575Z",
@@ -1032,7 +1032,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-40",
     "job_title": "Data Scientist",
     "role": "Data Scientist",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Sent",
     "applied_at": "2026-08-09T09:54:31.575Z",
     "created_at": "2026-08-09T09:54:31.575Z",
@@ -1057,7 +1057,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-13",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "status": "Viewed",
     "applied_at": "2026-08-08T09:54:31.575Z",
     "created_at": "2026-08-08T09:54:31.575Z",
@@ -1107,7 +1107,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-38",
     "job_title": "Backend Engineer",
     "role": "Backend Engineer",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Interview",
     "applied_at": "2026-06-23T09:54:31.575Z",
     "created_at": "2026-06-23T09:54:31.575Z",
@@ -1257,7 +1257,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-28",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Responded",
     "applied_at": "2026-08-09T09:54:31.575Z",
     "created_at": "2026-08-09T09:54:31.575Z",
@@ -1382,7 +1382,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-25",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Viewed",
     "applied_at": "2026-07-28T09:54:31.575Z",
     "created_at": "2026-07-28T09:54:31.575Z",
@@ -1582,7 +1582,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-21",
     "job_title": "UX Designer",
     "role": "UX Designer",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Offer",
     "applied_at": "2026-06-19T09:54:31.575Z",
     "created_at": "2026-06-19T09:54:31.575Z",
@@ -1607,7 +1607,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-47",
     "job_title": "UX Designer",
     "role": "UX Designer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Responded",
     "applied_at": "2026-08-10T09:54:31.575Z",
     "created_at": "2026-08-10T09:54:31.575Z",
@@ -1657,7 +1657,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-0",
     "job_title": "UX Designer",
     "role": "UX Designer",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "status": "Sent",
     "applied_at": "2026-07-07T09:54:31.575Z",
     "created_at": "2026-07-07T09:54:31.575Z",
@@ -1707,7 +1707,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-37",
     "job_title": "Data Scientist",
     "role": "Data Scientist",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Viewed",
     "applied_at": "2026-07-10T09:54:31.575Z",
     "created_at": "2026-07-10T09:54:31.575Z",
@@ -1732,7 +1732,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-28",
     "job_title": "Data Scientist",
     "role": "Data Scientist",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Interview",
     "applied_at": "2026-07-19T09:54:31.575Z",
     "created_at": "2026-07-19T09:54:31.575Z",
@@ -1757,7 +1757,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-35",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Offer",
     "applied_at": "2026-07-25T09:54:31.575Z",
     "created_at": "2026-07-25T09:54:31.575Z",
@@ -1807,7 +1807,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-47",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Interview",
     "applied_at": "2026-07-18T09:54:31.575Z",
     "created_at": "2026-07-18T09:54:31.575Z",
@@ -1882,7 +1882,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-17",
     "job_title": "Backend Engineer",
     "role": "Backend Engineer",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Responded",
     "applied_at": "2026-07-09T09:54:31.575Z",
     "created_at": "2026-07-09T09:54:31.575Z",
@@ -1907,7 +1907,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-21",
     "job_title": "Senior Product Manager",
     "role": "Senior Product Manager",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Rejected",
     "applied_at": "2026-08-12T09:54:31.575Z",
     "created_at": "2026-08-12T09:54:31.575Z",
@@ -1982,7 +1982,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-13",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "status": "Viewed",
     "applied_at": "2026-08-07T09:54:31.575Z",
     "created_at": "2026-08-07T09:54:31.575Z",
@@ -2007,7 +2007,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-40",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Responded",
     "applied_at": "2026-08-10T09:54:31.575Z",
     "created_at": "2026-08-10T09:54:31.575Z",
@@ -2032,7 +2032,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-28",
     "job_title": "Senior Product Manager",
     "role": "Senior Product Manager",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "status": "Offer",
     "applied_at": "2026-07-12T09:54:31.575Z",
     "created_at": "2026-07-12T09:54:31.575Z",
@@ -2132,7 +2132,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-45",
     "job_title": "Data Scientist",
     "role": "Data Scientist",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Viewed",
     "applied_at": "2026-07-03T09:54:31.575Z",
     "created_at": "2026-07-03T09:54:31.575Z",
@@ -2157,7 +2157,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-25",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Offer",
     "applied_at": "2026-07-11T09:54:31.575Z",
     "created_at": "2026-07-11T09:54:31.575Z",
@@ -2257,7 +2257,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-26",
     "job_title": "UX Designer",
     "role": "UX Designer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Rejected",
     "applied_at": "2026-07-28T09:54:31.575Z",
     "created_at": "2026-07-28T09:54:31.575Z",
@@ -2282,7 +2282,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-42",
     "job_title": "Data Scientist",
     "role": "Data Scientist",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "status": "Offer",
     "applied_at": "2026-07-25T09:54:31.575Z",
     "created_at": "2026-07-25T09:54:31.575Z",
@@ -2382,7 +2382,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-6",
     "job_title": "Senior Product Manager",
     "role": "Senior Product Manager",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "status": "Interview",
     "applied_at": "2026-07-13T09:54:31.576Z",
     "created_at": "2026-07-13T09:54:31.576Z",
@@ -2432,7 +2432,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-47",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Sent",
     "applied_at": "2026-07-19T09:54:31.576Z",
     "created_at": "2026-07-19T09:54:31.576Z",
@@ -2457,7 +2457,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-34",
     "job_title": "Full Stack Developer",
     "role": "Full Stack Developer",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "status": "Interview",
     "applied_at": "2026-07-21T09:54:31.576Z",
     "created_at": "2026-07-21T09:54:31.576Z",
@@ -2532,7 +2532,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-14",
     "job_title": "Data Scientist",
     "role": "Data Scientist",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Viewed",
     "applied_at": "2026-07-22T09:54:31.576Z",
     "created_at": "2026-07-22T09:54:31.576Z",
@@ -2557,7 +2557,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-4",
     "job_title": "Senior Product Manager",
     "role": "Senior Product Manager",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Viewed",
     "applied_at": "2026-06-25T09:54:31.576Z",
     "created_at": "2026-06-25T09:54:31.576Z",
@@ -2582,7 +2582,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-21",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Viewed",
     "applied_at": "2026-07-27T09:54:31.576Z",
     "created_at": "2026-07-27T09:54:31.576Z",
@@ -2632,7 +2632,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-43",
     "job_title": "Machine Learning Engineer",
     "role": "Machine Learning Engineer",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "status": "Rejected",
     "applied_at": "2026-07-23T09:54:31.576Z",
     "created_at": "2026-07-23T09:54:31.576Z",
@@ -2682,7 +2682,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-47",
     "job_title": "Full Stack Developer",
     "role": "Full Stack Developer",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "status": "Responded",
     "applied_at": "2026-07-02T09:54:31.576Z",
     "created_at": "2026-07-02T09:54:31.576Z",
@@ -2832,7 +2832,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-36",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "status": "Offer",
     "applied_at": "2026-07-02T09:54:31.576Z",
     "created_at": "2026-07-02T09:54:31.576Z",
@@ -2907,7 +2907,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-7",
     "job_title": "Backend Engineer",
     "role": "Backend Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Offer",
     "applied_at": "2026-07-15T09:54:31.576Z",
     "created_at": "2026-07-15T09:54:31.576Z",
@@ -2932,7 +2932,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-7",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Offer",
     "applied_at": "2026-08-16T09:54:31.576Z",
     "created_at": "2026-08-16T09:54:31.576Z",
@@ -2982,7 +2982,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-43",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "status": "Viewed",
     "applied_at": "2026-07-07T09:54:31.576Z",
     "created_at": "2026-07-07T09:54:31.576Z",
@@ -3007,7 +3007,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-45",
     "job_title": "Data Scientist",
     "role": "Data Scientist",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Sent",
     "applied_at": "2026-06-28T09:54:31.576Z",
     "created_at": "2026-06-28T09:54:31.576Z",
@@ -3082,7 +3082,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-4",
     "job_title": "Full Stack Developer",
     "role": "Full Stack Developer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Interview",
     "applied_at": "2026-07-28T09:54:31.576Z",
     "created_at": "2026-07-28T09:54:31.576Z",
@@ -3107,7 +3107,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-12",
     "job_title": "Full Stack Developer",
     "role": "Full Stack Developer",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "status": "Viewed",
     "applied_at": "2026-06-24T09:54:31.576Z",
     "created_at": "2026-06-24T09:54:31.576Z",
@@ -3132,7 +3132,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-25",
     "job_title": "Full Stack Developer",
     "role": "Full Stack Developer",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "status": "Offer",
     "applied_at": "2026-07-29T09:54:31.576Z",
     "created_at": "2026-07-29T09:54:31.576Z",
@@ -3157,7 +3157,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-37",
     "job_title": "Backend Engineer",
     "role": "Backend Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Interview",
     "applied_at": "2026-06-25T09:54:31.576Z",
     "created_at": "2026-06-25T09:54:31.576Z",
@@ -3182,7 +3182,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-35",
     "job_title": "Backend Engineer",
     "role": "Backend Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Sent",
     "applied_at": "2026-06-23T09:54:31.576Z",
     "created_at": "2026-06-23T09:54:31.576Z",
@@ -3207,7 +3207,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-21",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Sent",
     "applied_at": "2026-07-27T09:54:31.576Z",
     "created_at": "2026-07-27T09:54:31.576Z",
@@ -3232,7 +3232,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-28",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Responded",
     "applied_at": "2026-08-04T09:54:31.576Z",
     "created_at": "2026-08-04T09:54:31.576Z",
@@ -3257,7 +3257,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-42",
     "job_title": "Backend Engineer",
     "role": "Backend Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Responded",
     "applied_at": "2026-08-07T09:54:31.576Z",
     "created_at": "2026-08-07T09:54:31.576Z",
@@ -3357,7 +3357,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-20",
     "job_title": "Senior Product Manager",
     "role": "Senior Product Manager",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Responded",
     "applied_at": "2026-08-08T09:54:31.576Z",
     "created_at": "2026-08-08T09:54:31.576Z",
@@ -3382,7 +3382,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-19",
     "job_title": "Backend Engineer",
     "role": "Backend Engineer",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "status": "Sent",
     "applied_at": "2026-07-23T09:54:31.576Z",
     "created_at": "2026-07-23T09:54:31.576Z",
@@ -3407,7 +3407,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-37",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Offer",
     "applied_at": "2026-06-21T09:54:31.576Z",
     "created_at": "2026-06-21T09:54:31.576Z",
@@ -3432,7 +3432,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-24",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Viewed",
     "applied_at": "2026-06-20T09:54:31.576Z",
     "created_at": "2026-06-20T09:54:31.576Z",
@@ -3482,7 +3482,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-23",
     "job_title": "Full Stack Developer",
     "role": "Full Stack Developer",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "status": "Interview",
     "applied_at": "2026-08-16T09:54:31.576Z",
     "created_at": "2026-08-16T09:54:31.576Z",
@@ -3507,7 +3507,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-22",
     "job_title": "Machine Learning Engineer",
     "role": "Machine Learning Engineer",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "status": "Sent",
     "applied_at": "2026-08-16T09:54:31.576Z",
     "created_at": "2026-08-16T09:54:31.576Z",
@@ -3532,7 +3532,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-33",
     "job_title": "Senior Product Manager",
     "role": "Senior Product Manager",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "status": "Sent",
     "applied_at": "2026-08-03T09:54:31.576Z",
     "created_at": "2026-08-03T09:54:31.576Z",
@@ -3607,7 +3607,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-46",
     "job_title": "UX Designer",
     "role": "UX Designer",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "status": "Responded",
     "applied_at": "2026-07-11T09:54:31.576Z",
     "created_at": "2026-07-11T09:54:31.576Z",
@@ -3632,7 +3632,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-42",
     "job_title": "Frontend Engineer",
     "role": "Frontend Engineer",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Offer",
     "applied_at": "2026-07-07T09:54:31.576Z",
     "created_at": "2026-07-07T09:54:31.576Z",
@@ -3707,7 +3707,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-17",
     "job_title": "Machine Learning Engineer",
     "role": "Machine Learning Engineer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "status": "Interview",
     "applied_at": "2026-07-01T09:54:31.576Z",
     "created_at": "2026-07-01T09:54:31.576Z",
@@ -3732,7 +3732,7 @@ export const MOCK_APPLICATIONS = { applications: [
     "job_id": "job-3",
     "job_title": "Director of Engineering",
     "role": "Director of Engineering",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "status": "Responded",
     "applied_at": "2026-08-01T09:54:31.576Z",
     "created_at": "2026-08-01T09:54:31.576Z",
@@ -3805,7 +3805,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Microsoft"
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
   },
   {
     "id": "email-full-2",
@@ -3823,7 +3823,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Google"
+    "company": "BambooHR", "domain": "bamboohr.com"
   },
   {
     "id": "email-full-3",
@@ -3859,7 +3859,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Microsoft"
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
   },
   {
     "id": "email-full-5",
@@ -3985,7 +3985,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-12",
@@ -4003,7 +4003,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-13",
@@ -4075,7 +4075,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-17",
@@ -4111,7 +4111,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Google"
+    "company": "BambooHR", "domain": "bamboohr.com"
   },
   {
     "id": "email-full-19",
@@ -4129,7 +4129,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-20",
@@ -4165,7 +4165,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-22",
@@ -4237,7 +4237,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-26",
@@ -4255,7 +4255,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Supabase"
+    "company": "Ashby", "domain": "jobs.ashbyhq.com"
   },
   {
     "id": "email-full-27",
@@ -4273,7 +4273,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-28",
@@ -4291,7 +4291,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-29",
@@ -4309,7 +4309,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-30",
@@ -4327,7 +4327,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Microsoft"
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
   },
   {
     "id": "email-full-31",
@@ -4453,7 +4453,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-38",
@@ -4507,7 +4507,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-41",
@@ -4543,7 +4543,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-43",
@@ -4615,7 +4615,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-47",
@@ -4651,7 +4651,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Google"
+    "company": "BambooHR", "domain": "bamboohr.com"
   },
   {
     "id": "email-full-49",
@@ -4705,7 +4705,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-52",
@@ -4741,7 +4741,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Supabase"
+    "company": "Ashby", "domain": "jobs.ashbyhq.com"
   },
   {
     "id": "email-full-54",
@@ -4777,7 +4777,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-56",
@@ -4813,7 +4813,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-58",
@@ -4867,7 +4867,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-61",
@@ -4921,7 +4921,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-64",
@@ -4975,7 +4975,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-67",
@@ -4993,7 +4993,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-68",
@@ -5029,7 +5029,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-70",
@@ -5065,7 +5065,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-72",
@@ -5101,7 +5101,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-74",
@@ -5119,7 +5119,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-75",
@@ -5155,7 +5155,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-77",
@@ -5173,7 +5173,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-78",
@@ -5227,7 +5227,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-81",
@@ -5245,7 +5245,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Microsoft"
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
   },
   {
     "id": "email-full-82",
@@ -5299,7 +5299,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Google"
+    "company": "BambooHR", "domain": "bamboohr.com"
   },
   {
     "id": "email-full-85",
@@ -5317,7 +5317,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-86",
@@ -5353,7 +5353,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-88",
@@ -5461,7 +5461,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Supabase"
+    "company": "Ashby", "domain": "jobs.ashbyhq.com"
   },
   {
     "id": "email-full-94",
@@ -5479,7 +5479,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-95",
@@ -5515,7 +5515,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-97",
@@ -5533,7 +5533,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Google"
+    "company": "BambooHR", "domain": "bamboohr.com"
   },
   {
     "id": "email-full-98",
@@ -5551,7 +5551,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Supabase"
+    "company": "Ashby", "domain": "jobs.ashbyhq.com"
   },
   {
     "id": "email-full-99",
@@ -5569,7 +5569,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Microsoft"
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
   },
   {
     "id": "email-full-100",
@@ -5623,7 +5623,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-103",
@@ -5641,7 +5641,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-104",
@@ -5695,7 +5695,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-107",
@@ -5713,7 +5713,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Supabase"
+    "company": "Ashby", "domain": "jobs.ashbyhq.com"
   },
   {
     "id": "email-full-108",
@@ -5731,7 +5731,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-109",
@@ -5749,7 +5749,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-110",
@@ -5803,7 +5803,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-113",
@@ -5821,7 +5821,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Microsoft"
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
   },
   {
     "id": "email-full-114",
@@ -5857,7 +5857,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-116",
@@ -5911,7 +5911,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-119",
@@ -5965,7 +5965,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-122",
@@ -5983,7 +5983,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Microsoft"
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
   },
   {
     "id": "email-full-123",
@@ -6001,7 +6001,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-124",
@@ -6019,7 +6019,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-125",
@@ -6037,7 +6037,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Microsoft"
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com"
   },
   {
     "id": "email-full-126",
@@ -6073,7 +6073,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-128",
@@ -6145,7 +6145,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-132",
@@ -6181,7 +6181,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Supabase"
+    "company": "Ashby", "domain": "jobs.ashbyhq.com"
   },
   {
     "id": "email-full-134",
@@ -6217,7 +6217,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Amazon"
+    "company": "Workday", "domain": "myworkdayjobs.com"
   },
   {
     "id": "email-full-136",
@@ -6253,7 +6253,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-138",
@@ -6289,7 +6289,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-140",
@@ -6325,7 +6325,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-142",
@@ -6343,7 +6343,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Supabase"
+    "company": "Ashby", "domain": "jobs.ashbyhq.com"
   },
   {
     "id": "email-full-143",
@@ -6361,7 +6361,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Ramp"
+    "company": "Greenhouse", "domain": "boards.greenhouse.io"
   },
   {
     "id": "email-full-144",
@@ -6379,7 +6379,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-145",
@@ -6397,7 +6397,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-146",
@@ -6433,7 +6433,7 @@ export const MOCK_EMAILS = { emails: [
     "labels": [
       "INBOX"
     ],
-    "company": "Linear"
+    "company": "Lever", "domain": "jobs.lever.co"
   },
   {
     "id": "email-full-148",
@@ -6472,7 +6472,7 @@ export const MOCK_EMAILS = { emails: [
     "company": "Notion"
   }
 ], total: 150 };
-export const MOCK_CALENDAR = [
+export const MOCK_CALENDAR = { events: [
   {
     "id": "cal-0",
     "title": "Interview with Notion for Full Stack Developer",
@@ -6506,7 +6506,7 @@ export const MOCK_CALENDAR = [
   {
     "id": "cal-3",
     "title": "Interview with Supabase for Director of Engineering",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "date": "2026-08-21",
     "time": "12:00 PM",
     "type": "Onsite",
@@ -6536,7 +6536,7 @@ export const MOCK_CALENDAR = [
   {
     "id": "cal-6",
     "title": "Interview with Supabase for Senior Product Manager",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "date": "2026-08-31",
     "time": "15:00 PM",
     "type": "Onsite",
@@ -6556,7 +6556,7 @@ export const MOCK_CALENDAR = [
   {
     "id": "cal-8",
     "title": "Interview with Ramp for UX Designer",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "date": "2026-08-27",
     "time": "14:00 PM",
     "type": "Recruiter Call",
@@ -6623,7 +6623,7 @@ export const MOCK_CALENDAR = [
     "interviewer": "Mike Ross",
     "link": "https://meet.google.com/abc-defg-hij"
   }
-];
+] };
 export const MOCK_DASHBOARD_STATS = {
   "metrics": {
     "totalApps": 120,
@@ -6796,7 +6796,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-1",
     "name": "Frank Jones",
     "email": "frank@supabase.com",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "role": "VP of Engineering",
     "last_contact": "2026-08-03T09:54:31.576Z"
   },
@@ -6828,7 +6828,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-5",
     "name": "Bob Johnson",
     "email": "bob@ramp.com",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "role": "VP of Engineering",
     "last_contact": "2026-07-20T09:54:31.576Z"
   },
@@ -6836,7 +6836,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-6",
     "name": "Eve Williams",
     "email": "eve@linear.com",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "role": "Hiring Manager",
     "last_contact": "2026-07-25T09:54:31.576Z"
   },
@@ -6852,7 +6852,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-8",
     "name": "Frank Jones",
     "email": "frank@ramp.com",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "role": "Technical Recruiter",
     "last_contact": "2026-07-26T09:54:31.576Z"
   },
@@ -6860,7 +6860,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-9",
     "name": "Dana Williams",
     "email": "dana@microsoft.com",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "role": "VP of Engineering",
     "last_contact": "2026-07-27T09:54:31.576Z"
   },
@@ -6876,7 +6876,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-11",
     "name": "Dana Brown",
     "email": "dana@ramp.com",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "role": "Hiring Manager",
     "last_contact": "2026-08-15T09:54:31.576Z"
   },
@@ -6884,7 +6884,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-12",
     "name": "Bob Williams",
     "email": "bob@google.com",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "role": "Technical Recruiter",
     "last_contact": "2026-08-14T09:54:31.576Z"
   },
@@ -6924,7 +6924,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-17",
     "name": "Charlie Smith",
     "email": "charlie@ramp.com",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "role": "VP of Engineering",
     "last_contact": "2026-07-27T09:54:31.576Z"
   },
@@ -6956,7 +6956,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-21",
     "name": "Charlie Williams",
     "email": "charlie@google.com",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "role": "Technical Recruiter",
     "last_contact": "2026-07-21T09:54:31.576Z"
   },
@@ -6972,7 +6972,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-23",
     "name": "Charlie Brown",
     "email": "charlie@microsoft.com",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "role": "Hiring Manager",
     "last_contact": "2026-07-23T09:54:31.576Z"
   },
@@ -6988,7 +6988,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-25",
     "name": "Dana Johnson",
     "email": "dana@amazon.com",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "role": "VP of Engineering",
     "last_contact": "2026-07-19T09:54:31.576Z"
   },
@@ -6996,7 +6996,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-26",
     "name": "Frank Johnson",
     "email": "frank@google.com",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "role": "Hiring Manager",
     "last_contact": "2026-07-21T09:54:31.576Z"
   },
@@ -7004,7 +7004,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-27",
     "name": "Bob Williams",
     "email": "bob@supabase.com",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "role": "Technical Recruiter",
     "last_contact": "2026-08-15T09:54:31.576Z"
   },
@@ -7028,7 +7028,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-30",
     "name": "Eve Williams",
     "email": "eve@amazon.com",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "role": "VP of Engineering",
     "last_contact": "2026-07-22T09:54:31.576Z"
   },
@@ -7052,7 +7052,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-33",
     "name": "Charlie Smith",
     "email": "charlie@ramp.com",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "role": "VP of Engineering",
     "last_contact": "2026-07-21T09:54:31.576Z"
   },
@@ -7076,7 +7076,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-36",
     "name": "Charlie Brown",
     "email": "charlie@google.com",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "role": "Hiring Manager",
     "last_contact": "2026-07-25T09:54:31.576Z"
   },
@@ -7092,7 +7092,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-38",
     "name": "Eve Johnson",
     "email": "eve@linear.com",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "role": "Technical Recruiter",
     "last_contact": "2026-07-23T09:54:31.576Z"
   },
@@ -7100,7 +7100,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-39",
     "name": "Bob Williams",
     "email": "bob@microsoft.com",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "role": "VP of Engineering",
     "last_contact": "2026-07-26T09:54:31.576Z"
   },
@@ -7116,7 +7116,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-41",
     "name": "Charlie Jones",
     "email": "charlie@ramp.com",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "role": "VP of Engineering",
     "last_contact": "2026-07-21T09:54:31.576Z"
   },
@@ -7124,7 +7124,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-42",
     "name": "Frank Smith",
     "email": "frank@microsoft.com",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "role": "Hiring Manager",
     "last_contact": "2026-08-07T09:54:31.576Z"
   },
@@ -7140,7 +7140,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-44",
     "name": "Frank Brown",
     "email": "frank@google.com",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "role": "Technical Recruiter",
     "last_contact": "2026-08-06T09:54:31.576Z"
   },
@@ -7148,7 +7148,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-45",
     "name": "Dana Johnson",
     "email": "dana@google.com",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "role": "Hiring Manager",
     "last_contact": "2026-08-17T09:54:31.576Z"
   },
@@ -7212,7 +7212,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-53",
     "name": "Dana Johnson",
     "email": "dana@microsoft.com",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "role": "VP of Engineering",
     "last_contact": "2026-07-27T09:54:31.576Z"
   },
@@ -7236,7 +7236,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-56",
     "name": "Charlie Smith",
     "email": "charlie@supabase.com",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "role": "Technical Recruiter",
     "last_contact": "2026-07-26T09:54:31.576Z"
   },
@@ -7252,7 +7252,7 @@ export const MOCK_CONTACTS = { contacts: [
     "id": "contact-58",
     "name": "Frank Williams",
     "email": "frank@supabase.com",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "role": "VP of Engineering",
     "last_contact": "2026-08-04T09:54:31.576Z"
   },
@@ -7286,7 +7286,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-2",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "amount": "$44M",
     "round": "Series A",
     "date": "2026-06-23T09:54:31.576Z",
@@ -7304,7 +7304,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-4",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "amount": "$459M",
     "round": "Series B",
     "date": "2026-07-03T09:54:31.576Z",
@@ -7313,7 +7313,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-5",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "amount": "$287M",
     "round": "IPO",
     "date": "2026-07-23T09:54:31.576Z",
@@ -7331,7 +7331,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-7",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "amount": "$478M",
     "round": "Series C",
     "date": "2026-05-29T09:54:31.576Z",
@@ -7376,7 +7376,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-12",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "amount": "$482M",
     "round": "Seed",
     "date": "2026-08-15T09:54:31.576Z",
@@ -7385,7 +7385,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-13",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "amount": "$377M",
     "round": "IPO",
     "date": "2026-05-21T09:54:31.576Z",
@@ -7403,7 +7403,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-15",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "amount": "$279M",
     "round": "Series C",
     "date": "2026-07-04T09:54:31.576Z",
@@ -7412,7 +7412,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-16",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "amount": "$479M",
     "round": "Series C",
     "date": "2026-05-21T09:54:31.576Z",
@@ -7421,7 +7421,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-17",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "amount": "$205M",
     "round": "Series A",
     "date": "2026-07-24T09:54:31.576Z",
@@ -7457,7 +7457,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-21",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "amount": "$357M",
     "round": "Series A",
     "date": "2026-07-19T09:54:31.576Z",
@@ -7475,7 +7475,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-23",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "amount": "$52M",
     "round": "IPO",
     "date": "2026-08-16T09:54:31.576Z",
@@ -7502,7 +7502,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-26",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "amount": "$453M",
     "round": "IPO",
     "date": "2026-07-03T09:54:31.576Z",
@@ -7529,7 +7529,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-29",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "amount": "$98M",
     "round": "Seed",
     "date": "2026-08-18T09:54:31.576Z",
@@ -7538,7 +7538,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-30",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "amount": "$226M",
     "round": "IPO",
     "date": "2026-08-03T09:54:31.576Z",
@@ -7547,7 +7547,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-31",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "amount": "$259M",
     "round": "Series C",
     "date": "2026-06-22T09:54:31.576Z",
@@ -7610,7 +7610,7 @@ export const MOCK_FUNDINGS = { fundings: [
   },
   {
     "id": "funding-38",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "amount": "$151M",
     "round": "IPO",
     "date": "2026-06-11T09:54:31.576Z",
@@ -7640,7 +7640,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-1",
     "title": "Amazon just launched a massive new AI product",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "date": "2026-08-14T09:54:31.576Z",
     "snippet": "The new product from Amazon aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7658,7 +7658,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-3",
     "title": "Google just launched a massive new AI product",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "date": "2026-08-16T09:54:31.576Z",
     "snippet": "The new product from Google aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7685,7 +7685,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-6",
     "title": "Google just launched a massive new AI product",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "date": "2026-08-15T09:54:31.576Z",
     "snippet": "The new product from Google aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7703,7 +7703,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-8",
     "title": "Microsoft just launched a massive new AI product",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "date": "2026-08-08T09:54:31.576Z",
     "snippet": "The new product from Microsoft aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7712,7 +7712,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-9",
     "title": "Google just launched a massive new AI product",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "date": "2026-08-15T09:54:31.576Z",
     "snippet": "The new product from Google aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7739,7 +7739,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-12",
     "title": "Google just launched a massive new AI product",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "date": "2026-08-12T09:54:31.576Z",
     "snippet": "The new product from Google aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7748,7 +7748,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-13",
     "title": "Amazon just launched a massive new AI product",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "date": "2026-08-10T09:54:31.576Z",
     "snippet": "The new product from Amazon aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7766,7 +7766,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-15",
     "title": "Supabase just launched a massive new AI product",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "date": "2026-08-18T09:54:31.576Z",
     "snippet": "The new product from Supabase aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7784,7 +7784,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-17",
     "title": "Ramp just launched a massive new AI product",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "date": "2026-08-17T09:54:31.576Z",
     "snippet": "The new product from Ramp aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7802,7 +7802,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-19",
     "title": "Amazon just launched a massive new AI product",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "date": "2026-08-15T09:54:31.576Z",
     "snippet": "The new product from Amazon aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7811,7 +7811,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-20",
     "title": "Google just launched a massive new AI product",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "date": "2026-08-15T09:54:31.576Z",
     "snippet": "The new product from Google aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7829,7 +7829,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-22",
     "title": "Linear just launched a massive new AI product",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "date": "2026-08-12T09:54:31.576Z",
     "snippet": "The new product from Linear aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7847,7 +7847,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-24",
     "title": "Google just launched a massive new AI product",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "date": "2026-08-15T09:54:31.576Z",
     "snippet": "The new product from Google aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7865,7 +7865,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-26",
     "title": "Supabase just launched a massive new AI product",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "date": "2026-08-17T09:54:31.576Z",
     "snippet": "The new product from Supabase aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7892,7 +7892,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-29",
     "title": "Microsoft just launched a massive new AI product",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "date": "2026-08-18T09:54:31.576Z",
     "snippet": "The new product from Microsoft aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7901,7 +7901,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-30",
     "title": "Google just launched a massive new AI product",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "date": "2026-08-09T09:54:31.576Z",
     "snippet": "The new product from Google aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7910,7 +7910,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-31",
     "title": "Supabase just launched a massive new AI product",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "date": "2026-08-17T09:54:31.576Z",
     "snippet": "The new product from Supabase aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7946,7 +7946,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-35",
     "title": "Supabase just launched a massive new AI product",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "date": "2026-08-09T09:54:31.576Z",
     "snippet": "The new product from Supabase aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7955,7 +7955,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-36",
     "title": "Amazon just launched a massive new AI product",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "date": "2026-08-09T09:54:31.576Z",
     "snippet": "The new product from Amazon aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7964,7 +7964,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-37",
     "title": "Microsoft just launched a massive new AI product",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "date": "2026-08-18T09:54:31.576Z",
     "snippet": "The new product from Microsoft aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7982,7 +7982,7 @@ export const MOCK_NEWS = { news: [
   {
     "id": "news-39",
     "title": "Supabase just launched a massive new AI product",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "date": "2026-08-15T09:54:31.576Z",
     "snippet": "The new product from Supabase aims to revolutionize...",
     "url": "https://news.ycombinator.com",
@@ -7992,7 +7992,7 @@ export const MOCK_NEWS = { news: [
 export const MOCK_PORTALS = { credentials: [
   {
     "id": "portal-0",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "url": "https://jobs.amazon.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8000,7 +8000,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-1",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "url": "https://jobs.ramp.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8008,7 +8008,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-2",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "url": "https://jobs.linear.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8016,7 +8016,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-3",
-    "company": "Supabase",
+    "company": "Ashby", "domain": "jobs.ashbyhq.com",
     "url": "https://jobs.supabase.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8024,7 +8024,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-4",
-    "company": "Ramp",
+    "company": "Greenhouse", "domain": "boards.greenhouse.io",
     "url": "https://jobs.ramp.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8032,7 +8032,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-5",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "url": "https://jobs.google.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8040,7 +8040,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-6",
-    "company": "Microsoft",
+    "company": "SmartRecruiters", "domain": "smartrecruiters.com",
     "url": "https://jobs.microsoft.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8048,7 +8048,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-7",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "url": "https://jobs.linear.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8072,7 +8072,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-10",
-    "company": "Linear",
+    "company": "Lever", "domain": "jobs.lever.co",
     "url": "https://jobs.linear.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8080,7 +8080,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-11",
-    "company": "Amazon",
+    "company": "Workday", "domain": "myworkdayjobs.com",
     "url": "https://jobs.amazon.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8096,7 +8096,7 @@ export const MOCK_PORTALS = { credentials: [
   },
   {
     "id": "portal-13",
-    "company": "Google",
+    "company": "BambooHR", "domain": "bamboohr.com",
     "url": "https://jobs.google.com",
     "username": "user@example.com",
     "password_hint": "••••••••",
@@ -8127,7 +8127,7 @@ export const MOCK_PROFILE = {
   "experience": [
     {
       "title": "Product Manager",
-      "company": "Google",
+      "company": "BambooHR", "domain": "bamboohr.com",
       "duration": "2020 - 2023",
       "description": "Led search initiatives."
     },
