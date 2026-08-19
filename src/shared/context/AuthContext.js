@@ -10,17 +10,6 @@ const AuthContext = createContext({
   signOut: async () => {},
 });
 
-export function AuthProvider({ children }) {
-  // Hardcoded mock user for the dummy frontend
-  const [user] = useState({
-    uid: 'mock-frontend-user-123',
-    email: 'demo@getmyjob.ai',
-    displayName: 'Demo User',
-    photoURL: 'https://i.pravatar.cc/150?u=demo@getmyjob.ai',
-    getIdToken: async () => 'mock-token'
-  });
-  
-  const [session] = useState({ user, access_token: 'mock-token' });
 
 if (typeof window !== 'undefined' && !window.__mockInterceptorInstalled) {
   window.__mockInterceptorInstalled = true;
